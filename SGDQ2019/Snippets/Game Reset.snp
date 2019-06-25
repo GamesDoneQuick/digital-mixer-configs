@@ -1,0 +1,185 @@
+#2.1# "Game Reset" 8189 65280 0 0 1                                                                                            
+/headamp/008 +0.0 OFF
+/headamp/009 +0.0 OFF
+/headamp/010 +0.0 OFF
+/headamp/011 +0.0 OFF
+/headamp/012 +0.0 OFF
+/headamp/013 +0.0 OFF
+/headamp/014 +0.0 OFF
+/headamp/015 +0.0 OFF
+/headamp/016 +0.0 OFF
+/headamp/017 +0.0 OFF
+/headamp/018 +0.0 OFF
+/headamp/019 +0.0 OFF
+/headamp/020 +0.0 OFF
+/headamp/021 +0.0 OFF
+/headamp/022 +0.0 OFF
+/headamp/023 +0.0 OFF
+/ch/09/preamp +0.0 OFF OFF 24  20
+/ch/09/delay OFF   0.3
+/ch/09/eq OFF
+/ch/09/eq/1 LShv 124.7 +0.00 1.0
+/ch/09/eq/2 PEQ 496.6 +0.00 1.0
+/ch/09/eq/3 PEQ 1k97 +0.00 1.0
+/ch/09/eq/4 HShv 10k02 +0.00 1.0
+/ch/09/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/09/gate/filter OFF 3.0 990.9
+/ch/09/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/09/dyn/filter OFF 3.0 990.9
+/ch/09/insert OFF POST OFF
+/ch/09/grp %00000010 %000000
+/ch/09/mix/fader   0.0
+/ch/09/mix/pan -100
+/ch/09/mix/on ON
+/ch/09/mix/01 ON   -oo -100 POST
+/ch/09/mix/02 ON   -oo
+/ch/09/mix/03 ON   0.0 -100 POST
+/ch/09/mix/04 ON   0.0
+/ch/09/mix/05 ON   0.0 -100 POST
+/ch/09/mix/06 ON   0.0
+/ch/09/mix/07 ON  -5.0 -100 POST
+/ch/09/mix/08 ON  -5.0
+/ch/09/mix/09 ON   0.0 -100 IN/LC
+/ch/09/mix/10 ON   0.0
+/ch/09/mix/11 ON   0.0 -100 IN/LC
+/ch/09/mix/12 ON   0.0
+/ch/09/mix/13 ON   0.0 -100 IN/LC
+/ch/09/mix/14 ON   0.0
+/ch/09/mix/15 ON   0.0 -100 IN/LC
+/ch/09/mix/16 ON   0.0
+/ch/09/mix/mono OFF
+/ch/09/mix/mlevel -14.0
+/ch/10/mix/01 ON   -oo +100 POST
+/ch/10/mix/03 ON   0.0 +100 POST
+/ch/10/mix/05 ON   0.0 +100 POST
+/ch/10/mix/07 ON  -5.0 +100 POST
+/ch/10/mix/09 ON   0.0 +100 IN/LC
+/ch/10/mix/11 ON   0.0 +100 IN/LC
+/ch/10/mix/13 ON   0.0 +100 IN/LC
+/ch/10/mix/15 ON   0.0 +100 IN/LC
+/ch/11/preamp +0.0 OFF OFF 24  20
+/ch/11/delay OFF   0.3
+/ch/11/eq OFF
+/ch/11/eq/1 LShv 124.7 +0.00 1.0
+/ch/11/eq/2 PEQ 496.6 +0.00 1.0
+/ch/11/eq/3 PEQ 1k97 +0.00 1.0
+/ch/11/eq/4 HShv 10k02 +0.00 1.0
+/ch/11/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/11/gate/filter OFF 3.0 990.9
+/ch/11/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/11/dyn/filter OFF 3.0 990.9
+/ch/11/insert OFF POST OFF
+/ch/11/grp %00000010 %000000
+/ch/11/mix/fader   -oo
+/ch/11/mix/pan -100
+/ch/11/mix/on OFF
+/ch/11/mix/01 ON   -oo -100 POST
+/ch/11/mix/02 ON   -oo
+/ch/11/mix/03 ON   0.0 -100 POST
+/ch/11/mix/04 ON   0.0
+/ch/11/mix/05 ON   0.0 -100 POST
+/ch/11/mix/06 ON   0.0
+/ch/11/mix/07 ON  -5.0 -100 POST
+/ch/11/mix/08 ON  -5.0
+/ch/11/mix/09 ON   -oo -100 IN/LC
+/ch/11/mix/10 ON   -oo
+/ch/11/mix/11 ON   -oo -100 IN/LC
+/ch/11/mix/12 ON   -oo
+/ch/11/mix/13 ON   -oo -100 IN/LC
+/ch/11/mix/14 ON   -oo
+/ch/11/mix/15 ON   -oo -100 IN/LC
+/ch/11/mix/16 ON   -oo
+/ch/11/mix/mono OFF
+/ch/11/mix/mlevel -10.0
+/ch/12/mix/01 ON   -oo +100 POST
+/ch/12/mix/03 ON   0.0 +100 POST
+/ch/12/mix/05 ON   0.0 +100 POST
+/ch/12/mix/07 ON  -5.0 +100 POST
+/ch/12/mix/09 ON   -oo +100 IN/LC
+/ch/12/mix/11 ON   -oo +100 IN/LC
+/ch/12/mix/13 ON   -oo +100 IN/LC
+/ch/12/mix/15 ON   -oo +100 IN/LC
+/ch/13/preamp +0.0 OFF OFF 24  20
+/ch/13/delay OFF   0.3
+/ch/13/eq OFF
+/ch/13/eq/1 LShv 124.7 +0.00 1.0
+/ch/13/eq/2 PEQ 496.6 +0.00 1.0
+/ch/13/eq/3 PEQ 1k97 +0.00 1.0
+/ch/13/eq/4 HShv 10k02 +0.00 1.0
+/ch/13/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/13/gate/filter OFF 3.0 990.9
+/ch/13/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/13/dyn/filter OFF 3.0 990.9
+/ch/13/insert OFF POST OFF
+/ch/13/grp %00000010 %000000
+/ch/13/mix/fader   -oo
+/ch/13/mix/pan -100
+/ch/13/mix/on OFF
+/ch/13/mix/01 ON   -oo -100 POST
+/ch/13/mix/02 ON   -oo
+/ch/13/mix/03 ON   0.0 -100 POST
+/ch/13/mix/04 ON   0.0
+/ch/13/mix/05 ON   0.0 -100 POST
+/ch/13/mix/06 ON   0.0
+/ch/13/mix/07 ON  -5.0 -100 POST
+/ch/13/mix/08 ON  -5.0
+/ch/13/mix/09 ON   -oo -100 IN/LC
+/ch/13/mix/10 ON   -oo
+/ch/13/mix/11 ON   -oo -100 IN/LC
+/ch/13/mix/12 ON   -oo
+/ch/13/mix/13 ON   -oo -100 IN/LC
+/ch/13/mix/14 ON   -oo
+/ch/13/mix/15 ON   -oo -100 IN/LC
+/ch/13/mix/16 ON   -oo
+/ch/13/mix/mono OFF
+/ch/13/mix/mlevel -10.0
+/ch/14/mix/01 ON   -oo +100 POST
+/ch/14/mix/03 ON   0.0 +100 POST
+/ch/14/mix/05 ON   0.0 +100 POST
+/ch/14/mix/07 ON  -5.0 +100 POST
+/ch/14/mix/09 ON   -oo +100 IN/LC
+/ch/14/mix/11 ON   -oo +100 IN/LC
+/ch/14/mix/13 ON   -oo +100 IN/LC
+/ch/14/mix/15 ON   -oo +100 IN/LC
+/ch/15/preamp +0.0 OFF OFF 24  20
+/ch/15/delay OFF   0.3
+/ch/15/eq OFF
+/ch/15/eq/1 LShv 124.7 +0.00 1.0
+/ch/15/eq/2 PEQ 496.6 +0.00 1.0
+/ch/15/eq/3 PEQ 1k97 +0.00 1.0
+/ch/15/eq/4 HShv 10k02 +0.00 1.0
+/ch/15/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/15/gate/filter OFF 3.0 990.9
+/ch/15/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/15/dyn/filter OFF 3.0 990.9
+/ch/15/insert OFF POST OFF
+/ch/15/grp %00000010 %000000
+/ch/15/mix/fader   -oo
+/ch/15/mix/pan -100
+/ch/15/mix/on OFF
+/ch/15/mix/01 ON   -oo -100 POST
+/ch/15/mix/02 ON   -oo
+/ch/15/mix/03 ON   0.0 -100 POST
+/ch/15/mix/04 ON   0.0
+/ch/15/mix/05 ON   0.0 -100 POST
+/ch/15/mix/06 ON   0.0
+/ch/15/mix/07 ON  -5.0 -100 POST
+/ch/15/mix/08 ON  -5.0
+/ch/15/mix/09 ON   -oo -100 IN/LC
+/ch/15/mix/10 ON   -oo
+/ch/15/mix/11 ON   -oo -100 IN/LC
+/ch/15/mix/12 ON   -oo
+/ch/15/mix/13 ON   -oo -100 IN/LC
+/ch/15/mix/14 ON   -oo
+/ch/15/mix/15 ON   -oo -100 IN/LC
+/ch/15/mix/16 ON   -oo
+/ch/15/mix/mono OFF
+/ch/15/mix/mlevel -10.0
+/ch/16/mix/01 ON   -oo +100 POST
+/ch/16/mix/03 ON   0.0 +100 POST
+/ch/16/mix/05 ON   0.0 +100 POST
+/ch/16/mix/07 ON  -5.0 +100 POST
+/ch/16/mix/09 ON   -oo +100 IN/LC
+/ch/16/mix/11 ON   -oo +100 IN/LC
+/ch/16/mix/13 ON   -oo +100 IN/LC
+/ch/16/mix/15 ON   -oo +100 IN/LC
