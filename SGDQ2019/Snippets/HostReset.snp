@@ -1,0 +1,42 @@
+#2.1# "HostReset" 24575 16 0 0 1                                                                                                
+/fx/2 DES2
+/fx/2/source INS INS
+/fx/2/par/03 10.0
+/fx/2/par/04 10.0
+/fx/2/par/06 MALE
+/headamp/004 +39.0 OFF
+/ch/05/preamp +0.0 OFF ON 24  82
+/ch/05/delay OFF   0.3
+/ch/05/config "Host" 43 CY 5
+/ch/05/eq ON
+/ch/05/eq/1 LShv 176.2 +1.25 0.5
+/ch/05/eq/2 VEQ 726.2 -6.00 1.0
+/ch/05/eq/3 VEQ 10k74 +0.00 2.2
+/ch/05/eq/4 HShv 9k68 +0.00 1.1
+/ch/05/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/05/gate/filter ON 5.0 496.6
+/ch/05/dyn ON COMP PEAK LOG -47.0 4.0 3 12.0 0 6.32  116 POST 0 100 OFF
+/ch/05/dyn/filter ON 10.0 1k49
+/ch/05/insert ON POST FX2R
+/ch/05/grp %00000000 %000000
+/ch/05/mix/fader   0.0
+/ch/05/mix/pan +0
+/ch/05/mix/on OFF
+/ch/05/mix/01 ON   0.0 +0 GRP
+/ch/05/mix/02 ON   0.0
+/ch/05/mix/03 ON   -oo +0 POST
+/ch/05/mix/04 ON   -oo
+/ch/05/mix/05 ON   -oo +0 POST
+/ch/05/mix/06 ON   -oo
+/ch/05/mix/07 ON   0.0 +0 EQ->
+/ch/05/mix/08 ON  -3.0
+/ch/05/mix/09 ON   -5.0 +0 POST
+/ch/05/mix/10 ON   -5.0
+/ch/05/mix/11 ON   -5.0 +0 POST
+/ch/05/mix/12 ON   -5.0
+/ch/05/mix/13 ON   -5.0 +0 POST
+/ch/05/mix/14 ON   -5.0
+/ch/05/mix/15 ON   -5.0 +0 POST
+/ch/05/mix/16 ON   -5.0
+/ch/05/mix/mono ON
+/ch/05/mix/mlevel -28.5

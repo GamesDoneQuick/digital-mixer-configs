@@ -1,0 +1,11 @@
+#2.1# "HD Patch" 8388611 65280 0 0 1                                                                                               
+/config/routing/IN/9-16 AN17-24
+/config/routing/CARD/25-32 AN17-24
+/ch/09/config "HD Game 1 L" 5 RD 9
+/ch/10/config "HD Game 1 R" 5 RD 10
+/ch/11/config "HD Game 2 L" 5 WH 11
+/ch/12/config "HD Game 2 R" 5 WH 12
+/ch/13/config "HD Game 3 L" 5 GN 13
+/ch/14/config "HD Game 3 R" 5 GN 14
+/ch/15/config "HD Game 4 L" 5 BL 15
+/ch/16/config "HD Game 4 R" 5 BL 16

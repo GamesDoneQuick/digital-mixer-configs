@@ -1,0 +1,201 @@
+#2.1# "RunnerReset" 401407 15 -16777216 0 1                                                                                    
+/fx/5 DES2
+/fx/5/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/6 DES2
+/fx/6/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/headamp/000 +36.5 OFF
+/ch/01/preamp +0.0 OFF ON 24  82
+/ch/01/delay OFF   0.3
+/ch/01/config "Runner 1" 74 RD 1
+/ch/01/eq ON
+/ch/01/eq/1 LShv 306.2 +0.00  1.0
+/ch/01/eq/2 VEQ 654.7 -5.25 1.0
+/ch/01/eq/3 VEQ 2k11 +0.00 1.0
+/ch/01/eq/4 HShv 4k68 +6.50 1.0
+/ch/01/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/01/gate/filter ON 5.0 496.6
+/ch/01/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  77 POST 0 100 OFF
+/ch/01/dyn/filter ON 2.0 1k49
+/ch/01/insert ON POST FX5L
+/ch/01/grp %00000010 %000000
+/ch/01/mix/fader   0.0
+/ch/01/mix/pan +0
+/ch/01/mix/01 ON   0.0 +0 GRP
+/ch/01/mix/02 ON   0.0
+/ch/01/mix/03 ON   -oo +0 POST
+/ch/01/mix/04 ON   -oo
+/ch/01/mix/05 ON   -oo +0 POST
+/ch/01/mix/06 ON   -oo
+/ch/01/mix/07 ON   0.0 +0 POST
+/ch/01/mix/08 ON   0.0
+/ch/01/mix/09 ON  -3.0 +0 EQ->
+/ch/01/mix/10 ON  -3.0
+/ch/01/mix/11 ON   0.0 +0 PRE
+/ch/01/mix/12 ON   0.0
+/ch/01/mix/13 ON   0.0 +0 PRE
+/ch/01/mix/14 ON   0.0
+/ch/01/mix/15 ON   0.0 +0 PRE
+/ch/01/mix/16 ON   0.0
+/ch/01/mix/mono OFF
+/ch/01/mix/mlevel -10.0
+/headamp/001 +36.5 OFF
+/ch/02/preamp +0.0 OFF ON 24  82
+/ch/02/delay OFF   0.3
+/ch/02/config "Runner 2" 74 WH 2
+/ch/02/eq ON
+/ch/02/eq/1 LShv 306.2 +0.00  1.0
+/ch/02/eq/2 VEQ 654.7 -5.25 1.0
+/ch/02/eq/3 VEQ 2k11 +0.00 1.0
+/ch/02/eq/4 HShv 4k68 +6.50 1.0
+/ch/02/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/02/gate/filter ON 5.0 496.6
+/ch/02/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  77 POST 0 100 OFF
+/ch/02/dyn/filter ON 2.0 1k49
+/ch/02/insert ON POST FX5R
+/ch/02/grp %00000010 %000000
+/ch/02/mix/fader   0.0
+/ch/02/mix/pan +0
+/ch/02/mix/01 ON   0.0 +0 GRP
+/ch/02/mix/02 ON   0.0
+/ch/02/mix/03 ON   -oo +0 POST
+/ch/02/mix/04 ON   -oo
+/ch/02/mix/05 ON   -oo +0 POST
+/ch/02/mix/06 ON   -oo
+/ch/02/mix/07 ON   0.0 +0 POST
+/ch/02/mix/08 ON   0.0
+/ch/02/mix/09 ON   0.0 +0 PRE
+/ch/02/mix/10 ON   0.0
+/ch/02/mix/11 ON  -3.0 +0 EQ->
+/ch/02/mix/12 ON  -3.0
+/ch/02/mix/13 ON   0.0 +0 PRE
+/ch/02/mix/14 ON   0.0
+/ch/02/mix/15 ON   0.0 +0 PRE
+/ch/02/mix/16 ON   0.0
+/ch/02/mix/mono OFF
+/ch/02/mix/mlevel -10.0
+/headamp/002 +36.5 OFF
+/ch/03/preamp +0.0 OFF ON 24  82
+/ch/03/delay OFF   0.3
+/ch/03/config "Runner 3" 74 GN 3
+/ch/03/eq ON
+/ch/03/eq/1 LShv 306.2 +0.00  1.0
+/ch/03/eq/2 VEQ 654.7 -5.25 1.0
+/ch/03/eq/3 VEQ 2k11 +0.00 1.0
+/ch/03/eq/4 HShv 4k68 +6.50 1.0
+/ch/03/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/03/gate/filter ON 5.0 496.6
+/ch/03/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  77 POST 0 100 OFF
+/ch/03/dyn/filter ON 2.0 1k49
+/ch/03/insert ON POST FX6L
+/ch/03/grp %00000010 %000000
+/ch/03/mix/fader   0.0
+/ch/03/mix/pan +0
+/ch/03/mix/01 ON   0.0 +0 GRP
+/ch/03/mix/02 ON   0.0
+/ch/03/mix/03 ON   -oo +0 POST
+/ch/03/mix/04 ON   -oo
+/ch/03/mix/05 ON   -oo +0 POST
+/ch/03/mix/06 ON   -oo
+/ch/03/mix/07 ON   0.0 +0 POST
+/ch/03/mix/08 ON   0.0
+/ch/03/mix/09 ON   0.0 +0 PRE
+/ch/03/mix/10 ON   0.0
+/ch/03/mix/11 ON   0.0 +0 PRE
+/ch/03/mix/12 ON   0.0
+/ch/03/mix/13 ON  -3.0 +0 EQ->
+/ch/03/mix/14 ON  -3.0
+/ch/03/mix/15 ON   0.0 +0 PRE
+/ch/03/mix/16 ON   0.0
+/ch/03/mix/mono OFF
+/ch/03/mix/mlevel -10.0
+/headamp/003 +36.5 OFF
+/ch/04/preamp +0.0 OFF ON 24  82
+/ch/04/delay OFF   0.3
+/ch/04/config "Runner 4" 74 BL 4
+/ch/04/eq ON
+/ch/04/eq/1 LShv 306.2 +0.00  1.0
+/ch/04/eq/2 VEQ 654.7 -5.25 1.0
+/ch/04/eq/3 VEQ 2k11 +0.00 1.0
+/ch/04/eq/4 HShv 4k68 +6.50 1.0
+/ch/04/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/04/gate/filter ON 5.0 496.6
+/ch/04/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  83 POST 0 100 OFF
+/ch/04/dyn/filter ON 2.0 1k49
+/ch/04/insert ON POST FX6R
+/ch/04/grp %00000010 %000000
+/ch/04/mix/fader   0.0
+/ch/04/mix/pan +0
+/ch/04/mix/01 ON   0.0 +0 GRP
+/ch/04/mix/02 ON   0.0
+/ch/04/mix/03 ON   -oo +0 POST
+/ch/04/mix/04 ON   -oo
+/ch/04/mix/05 ON   -oo +0 POST
+/ch/04/mix/06 ON   -oo
+/ch/04/mix/07 ON   0.0 +0 POST
+/ch/04/mix/08 ON   0.0
+/ch/04/mix/09 ON   0.0 +0 PRE
+/ch/04/mix/10 ON   0.0
+/ch/04/mix/11 ON   0.0 +0 PRE
+/ch/04/mix/12 ON   0.0
+/ch/04/mix/13 ON   0.0 +0 PRE
+/ch/04/mix/14 ON   0.0
+/ch/04/mix/15 ON  -3.0 +0 EQ->
+/ch/04/mix/16 ON  -3.0
+/ch/04/mix/mono OFF
+/ch/04/mix/mlevel -10.0
+/bus/09/config "Runner 1" 74 RD
+/bus/09/mix/fader  -5.0
+/bus/09/mix/pan -100
+/bus/09/eq OFF
+/bus/09/eq/1 LShv 79.6 +0.00 2.0
+/bus/09/eq/2 PEQ 158.9 +0.00 2.0
+/bus/09/eq/3 PEQ 496.6 +0.00 2.0
+/bus/09/eq/4 PEQ 1k97 +0.00 2.0
+/bus/09/eq/5 PEQ 5k02 +0.00 2.0
+/bus/09/eq/6 HShv 10k02 +0.00 2.0
+/bus/09/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/09/dyn/filter OFF 3.0 990.9
+/bus/10/config "Runner 1" 74 RD
+/bus/10/mix/pan +100
+/bus/11/config "Runner 2" 74 WH
+/bus/11/mix/fader  -5.0
+/bus/11/mix/pan -100
+/bus/11/eq OFF
+/bus/11/eq/1 LShv 79.6 +0.00 2.0
+/bus/11/eq/2 PEQ 158.9 +0.00 2.0
+/bus/11/eq/3 PEQ 496.6 +0.00 2.0
+/bus/11/eq/4 PEQ 1k97 +0.00 2.0
+/bus/11/eq/5 PEQ 5k02 +0.00 2.0
+/bus/11/eq/6 HShv 10k02 +0.00 2.0
+/bus/11/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/11/dyn/filter OFF 3.0 990.9
+/bus/12/config "Runner 2" 74 WH
+/bus/12/mix/pan +100
+/bus/13/config "Runner 3" 74 GN
+/bus/13/mix/fader  -5.0
+/bus/13/mix/pan -100
+/bus/13/eq OFF
+/bus/13/eq/1 LShv 79.6 +0.00 2.0
+/bus/13/eq/2 PEQ 158.9 +0.00 2.0
+/bus/13/eq/3 PEQ 496.6 +0.00 2.0
+/bus/13/eq/4 PEQ 1k97 +0.00 2.0
+/bus/13/eq/5 PEQ 5k02 +0.00 2.0
+/bus/13/eq/6 HShv 10k02 +0.00 2.0
+/bus/13/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/13/dyn/filter OFF 3.0 990.9
+/bus/14/config "Runner 3" 74 GN
+/bus/14/mix/pan +100
+/bus/15/config "Runner 4" 74 BL
+/bus/15/mix/fader  -5.0
+/bus/15/mix/pan -100
+/bus/15/eq OFF
+/bus/15/eq/1 LShv 79.6 +0.00 2.0
+/bus/15/eq/2 PEQ 158.9 +0.00 2.0
+/bus/15/eq/3 PEQ 496.6 +0.00 2.0
+/bus/15/eq/4 PEQ 1k97 +0.00 2.0
+/bus/15/eq/5 PEQ 5k02 +0.00 2.0
+/bus/15/eq/6 HShv 10k02 +0.00 2.0
+/bus/15/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/bus/15/dyn/filter OFF 3.0 990.9
+/bus/16/config "Runner 4" 74 BL
+/bus/16/mix/pan +100
