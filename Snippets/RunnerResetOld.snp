@@ -3,7 +3,7 @@
 /fx/5/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /fx/6 DES2
 /fx/6/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/headamp/000 +42.5 OFF
+/headamp/000 +36.5 OFF
 /ch/01/preamp +0.0 OFF ON 24  82
 /ch/01/delay OFF   0.3
 /ch/01/config "Runner 1" 74 RD 1
@@ -14,7 +14,7 @@
 /ch/01/eq/4 HShv 4k68 +6.50 1.0
 /ch/01/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/01/gate/filter ON 5.0 496.6
-/ch/01/dyn ON COMP PEAK LOG -34.0 3.0 1 6.0 0 6.32  77 POST 0 100 OFF
+/ch/01/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  77 POST 0 100 OFF
 /ch/01/dyn/filter ON 2.0 1k49
 /ch/01/insert ON POST FX5L
 /ch/01/grp %00000010 %000000
@@ -28,8 +28,8 @@
 /ch/01/mix/06 ON   -oo
 /ch/01/mix/07 ON   0.0 +0 POST
 /ch/01/mix/08 ON   0.0
-/ch/01/mix/09 ON  +5.0 +0 EQ->
-/ch/01/mix/10 ON  +5.0
+/ch/01/mix/09 ON  -3.0 +0 EQ->
+/ch/01/mix/10 ON  -3.0
 /ch/01/mix/11 ON   0.0 +0 PRE
 /ch/01/mix/12 ON   0.0
 /ch/01/mix/13 ON   0.0 +0 PRE
@@ -38,7 +38,7 @@
 /ch/01/mix/16 ON   0.0
 /ch/01/mix/mono OFF
 /ch/01/mix/mlevel -10.0
-/headamp/001 +42.5 OFF
+/headamp/001 +36.5 OFF
 /ch/02/preamp +0.0 OFF ON 24  82
 /ch/02/delay OFF   0.3
 /ch/02/config "Runner 2" 74 WH 2
@@ -49,7 +49,7 @@
 /ch/02/eq/4 HShv 4k68 +6.50 1.0
 /ch/02/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/02/gate/filter ON 5.0 496.6
-/ch/02/dyn ON COMP PEAK LOG -34.0 3.0 1 6.0 0 6.32  77 POST 0 100 OFF
+/ch/02/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  77 POST 0 100 OFF
 /ch/02/dyn/filter ON 2.0 1k49
 /ch/02/insert ON POST FX5R
 /ch/02/grp %00000010 %000000
@@ -65,15 +65,15 @@
 /ch/02/mix/08 ON   0.0
 /ch/02/mix/09 ON   0.0 +0 PRE
 /ch/02/mix/10 ON   0.0
-/ch/02/mix/11 ON  +5.0 +0 EQ->
-/ch/02/mix/12 ON  +5.0
+/ch/02/mix/11 ON  -3.0 +0 EQ->
+/ch/02/mix/12 ON  -3.0
 /ch/02/mix/13 ON   0.0 +0 PRE
 /ch/02/mix/14 ON   0.0
 /ch/02/mix/15 ON   0.0 +0 PRE
 /ch/02/mix/16 ON   0.0
 /ch/02/mix/mono OFF
 /ch/02/mix/mlevel -10.0
-/headamp/002 +42.5 OFF
+/headamp/002 +36.5 OFF
 /ch/03/preamp +0.0 OFF ON 24  82
 /ch/03/delay OFF   0.3
 /ch/03/config "Runner 3" 74 GN 3
@@ -84,7 +84,7 @@
 /ch/03/eq/4 HShv 4k68 +6.50 1.0
 /ch/03/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/03/gate/filter ON 5.0 496.6
-/ch/03/dyn ON COMP PEAK LOG -34.0 3.0 1 6.0 0 6.32  77 POST 0 100 OFF
+/ch/03/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  77 POST 0 100 OFF
 /ch/03/dyn/filter ON 2.0 1k49
 /ch/03/insert ON POST FX6L
 /ch/03/grp %00000010 %000000
@@ -102,13 +102,13 @@
 /ch/03/mix/10 ON   0.0
 /ch/03/mix/11 ON   0.0 +0 PRE
 /ch/03/mix/12 ON   0.0
-/ch/03/mix/13 ON  +5.0 +0 EQ->
-/ch/03/mix/14 ON  +5.0
+/ch/03/mix/13 ON  -3.0 +0 EQ->
+/ch/03/mix/14 ON  -3.0
 /ch/03/mix/15 ON   0.0 +0 PRE
 /ch/03/mix/16 ON   0.0
 /ch/03/mix/mono OFF
 /ch/03/mix/mlevel -10.0
-/headamp/003 +42.5 OFF
+/headamp/003 +36.5 OFF
 /ch/04/preamp +0.0 OFF ON 24  82
 /ch/04/delay OFF   0.3
 /ch/04/config "Runner 4" 74 BL 4
@@ -119,7 +119,7 @@
 /ch/04/eq/4 HShv 4k68 +6.50 1.0
 /ch/04/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/04/gate/filter ON 5.0 496.6
-/ch/04/dyn ON COMP PEAK LOG -34.0 3.0 1 6.0 0 6.32  83 POST 0 100 OFF
+/ch/04/dyn ON COMP PEAK LOG -40.0 3.0 1 12.0 0 6.32  83 POST 0 100 OFF
 /ch/04/dyn/filter ON 2.0 1k49
 /ch/04/insert ON POST FX6R
 /ch/04/grp %00000010 %000000
@@ -139,18 +139,10 @@
 /ch/04/mix/12 ON   0.0
 /ch/04/mix/13 ON   0.0 +0 PRE
 /ch/04/mix/14 ON   0.0
-/ch/04/mix/15 ON  +5.0 +0 EQ->
-/ch/04/mix/16 ON  +5.0
+/ch/04/mix/15 ON  -3.0 +0 EQ->
+/ch/04/mix/16 ON  -3.0
 /ch/04/mix/mono OFF
 /ch/04/mix/mlevel -10.0
-/ch/05/mix/09 ON   -5.0 +0 POST
-/ch/05/mix/10 ON   -5.0
-/ch/05/mix/11 ON   -5.0 +0 POST
-/ch/05/mix/12 ON   -5.0
-/ch/05/mix/13 ON   -5.0 +0 POST
-/ch/05/mix/14 ON   -5.0
-/ch/05/mix/15 ON   -5.0 +0 POST
-/ch/05/mix/16 ON   -5.0
 /bus/09/config "Runner 1" 74 RD
 /bus/09/mix/fader  -5.0
 /bus/09/mix/pan -100
