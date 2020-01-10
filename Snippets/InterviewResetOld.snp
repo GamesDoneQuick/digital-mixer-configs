@@ -24,7 +24,7 @@
 /ch/17/grp %00000100 %000000
 /ch/17/mix/fader   0.0
 /ch/17/mix/pan +0
-/ch/17/mix/on OFF
+/ch/17/mix/on ON
 /ch/17/mix/01 ON   0.0 +0 GRP
 /ch/17/mix/02 ON   0.0
 /ch/17/mix/03 ON   -oo +0 POST
@@ -59,7 +59,7 @@
 /ch/18/grp %00000100 %000000
 /ch/18/mix/fader   0.0
 /ch/18/mix/pan +0
-/ch/18/mix/on OFF
+/ch/18/mix/on ON
 /ch/18/mix/01 ON   0.0 +0 GRP
 /ch/18/mix/02 ON   0.0
 /ch/18/mix/03 ON   -oo +0 POST
@@ -94,7 +94,7 @@
 /ch/19/grp %00000100 %000000
 /ch/19/mix/fader   0.0
 /ch/19/mix/pan +0
-/ch/19/mix/on OFF
+/ch/19/mix/on ON
 /ch/19/mix/01 ON   0.0 +0 GRP
 /ch/19/mix/02 ON   0.0
 /ch/19/mix/03 ON   -oo +0 POST
@@ -129,7 +129,7 @@
 /ch/20/grp %00000100 %000000
 /ch/20/mix/fader   0.0
 /ch/20/mix/pan +0
-/ch/20/mix/on OFF
+/ch/20/mix/on ON
 /ch/20/mix/01 ON   0.0 +0 GRP
 /ch/20/mix/02 ON   0.0
 /ch/20/mix/03 ON   -oo +0 POST
@@ -164,7 +164,7 @@
 /ch/21/grp %00000100 %000000
 /ch/21/mix/fader   0.0
 /ch/21/mix/pan +0
-/ch/21/mix/on OFF
+/ch/21/mix/on ON
 /ch/21/mix/01 ON   0.0 +0 GRP
 /ch/21/mix/02 ON   0.0
 /ch/21/mix/03 ON   -oo +0 POST
