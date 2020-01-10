@@ -7,14 +7,14 @@
 /headamp/013 +0.0 OFF
 /headamp/014 +0.0 OFF
 /headamp/015 +0.0 OFF
-/headamp/016 -12.0 OFF
-/headamp/017 -12.0 OFF
-/headamp/018 -12.0 OFF
-/headamp/019 -12.0 OFF
-/headamp/020 -12.0 OFF
-/headamp/021 -12.0 OFF
-/headamp/022 -12.0 OFF
-/headamp/023 -12.0 OFF
+/headamp/016 +0.0 OFF
+/headamp/017 +0.0 OFF
+/headamp/018 +0.0 OFF
+/headamp/019 +0.0 OFF
+/headamp/020 +0.0 OFF
+/headamp/021 +0.0 OFF
+/headamp/022 +0.0 OFF
+/headamp/023 +0.0 OFF
 /ch/09/preamp +0.0 OFF OFF 24  20
 /ch/09/delay OFF   0.3
 /ch/09/eq OFF
