@@ -1,14 +1,4 @@
 Snippet assignment:
 
-00 SD Patch
-01 HD Patch
-02 TalkAHost
-03 TalkASkype
-04 RunnerReset
-05 GameReset
-06 HostReset
-07 InterviewReset
-08 Stage Commentary
-09 IntervCommentary
 10 ReferenceSolo
 11 ClearSolo
