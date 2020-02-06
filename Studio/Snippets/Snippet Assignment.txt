@@ -1,0 +1,4 @@
+Snippet assignment:
+
+10 ReferenceSolo
+11 ClearSolo
