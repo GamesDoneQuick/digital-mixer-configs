@@ -45,9 +45,9 @@
 /ch/01/insert ON POST FX5L
 /ch/01/eq ON
 /ch/01/eq/1 LShv 403.7 +3.25 1.0
-/ch/01/eq/2 PEQ 654.7 -5.25 1.0
-/ch/01/eq/3 PEQ 2k11 +0.00 1.0
-/ch/01/eq/4 PEQ 4k68 +6.50 1.0
+/ch/01/eq/2 VEQ 654.7 -5.25 1.0
+/ch/01/eq/3 VEQ 2k11 +0.00 1.0
+/ch/01/eq/4 HShv 4k68 +6.50 1.0
 /ch/01/mix OFF  +1.5 OFF +0 OFF -10.0
 /ch/01/mix/01 ON   0.0 +0 GRP 0
 /ch/01/mix/02 ON   0.0
