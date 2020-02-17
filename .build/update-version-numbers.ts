@@ -106,7 +106,7 @@ async function prepare(_: unknown, context: Context) {
 	}
 
 	if (unhandledFiles.size > 0) {
-		logger.log(`Unhandled files:\n\t${Array.from(unhandledFiles).join('\n  ')}`);
+		logger.log(`Unhandled files:\n  ${Array.from(unhandledFiles).join('\n  ')}`);
 	}
 
 	logger.log(`Handled files:\n\t${
