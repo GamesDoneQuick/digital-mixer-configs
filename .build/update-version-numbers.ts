@@ -78,15 +78,27 @@ const nameRegex = /(^#\d\.\d# ")(?<name>.*?)(_dev")/;
  * @param context The context provided by semantic-release
  */
 async function prepare(_: unknown, context: Context) {
-	const { nextRelease, releases, logger } = context;
+	const { lastRelease, nextRelease, releases, logger } = context;
 	if (!nextRelease) {
 		return logger.error('No nextRelease!');
 	}
 
 	const unhandledFiles = new Set<string>(await enumScenesAndSnippets());
 	const handledFiles = new Map<string, string>();
-	const allReleases = [...(releases || []), nextRelease].reverse();
-	logger.log(`nextRelease: ${JSON.stringify(nextRelease)}`);
+	logger.log(`Num releases: ${releases?.length}`);
+	logger.log(`  ${releases?.map(release => release.version).join('  \n')}`)
+	let allReleases: BaseRelease[] = [];
+	if (releases) {
+		allReleases.push(...releases);
+	}
+
+	if (lastRelease) {
+		allReleases.push(lastRelease);
+	}
+
+	allReleases.push(nextRelease);
+	allReleases.reverse();
+	
 	for (const [index, release] of allReleases.entries()) {
 		const prevRelease: BaseRelease | undefined = allReleases[index + 1];
 		const changedFiles = prevRelease ?
