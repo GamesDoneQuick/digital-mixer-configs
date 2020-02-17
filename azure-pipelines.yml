@@ -1,0 +1,33 @@
+variables:
+  - group: Publishing Secrets
+
+pool:
+  vmImage: 'Ubuntu-18.04'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '12.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    # https://github.com/microsoft/azure-pipelines-yaml/issues/135#issuecomment-532480446
+    set -e
+    set -o pipefail
+
+    cd .build
+    npm i
+    npm run build
+  displayName: 'Prepare build plugin'
+  
+- script: |
+    # https://github.com/microsoft/azure-pipelines-yaml/issues/135#issuecomment-532480446
+    set -e
+    set -o pipefail
+
+    npm i -g semantic-release @semantic-release/exec
+    semantic-release
+  displayName: 'Release'
+  env:
+    GH_TOKEN: $(GH_TOKEN)
+    

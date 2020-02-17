@@ -1,4 +1,4 @@
-#4.0# "AGDQ2020Rack" "" %000000000 1                                                                                           
+#4.0# "AGDQ2020Rack_dev" "" %000000000 1                                                                                           
 /config/chlink OFF OFF OFF ON ON ON ON OFF OFF OFF OFF OFF OFF OFF OFF OFF
 /config/auxlink OFF OFF OFF ON
 /config/fxlink ON ON ON ON

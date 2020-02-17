@@ -1,0 +1,23 @@
+{
+  "name": "x32-configs-build",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
+    "@types/node": "^13.7.1",
+    "@types/recursive-readdir": "^2.2.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "recursive-readdir": "^2.2.2"
+  }
+}
