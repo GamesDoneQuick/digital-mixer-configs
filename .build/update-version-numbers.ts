@@ -71,6 +71,8 @@ type Context = {
 }
 
 const nameRegex = /(^#\d\.\d# ")(?<name>.*?)(_dev")/;
+const tagRegex = /(?<hash>\w+) refs\/tags\/v(?<version>(?:\d|\.)+)$/
+const tagLineRegex = new RegExp(tagRegex, 'gm');
 
 /**
  * Called by semantic-release during the verification step
@@ -78,27 +80,14 @@ const nameRegex = /(^#\d\.\d# ")(?<name>.*?)(_dev")/;
  * @param context The context provided by semantic-release
  */
 async function prepare(_: unknown, context: Context) {
-	const { lastRelease, nextRelease, releases, logger } = context;
+	const { nextRelease, logger } = context;
 	if (!nextRelease) {
 		return logger.error('No nextRelease!');
 	}
 
 	const unhandledFiles = new Set<string>(await enumScenesAndSnippets());
 	const handledFiles = new Map<string, string>();
-	logger.log(`Num releases: ${releases?.length}`);
-	logger.log(`  ${releases?.map(release => release.version).join('  \n')}`)
-	let allReleases: BaseRelease[] = [];
-	if (releases) {
-		allReleases.push(...releases);
-	}
-
-	if (lastRelease) {
-		allReleases.push(lastRelease);
-	}
-
-	allReleases.push(nextRelease);
-	allReleases.reverse();
-	
+	const allReleases = [...enumTags(), nextRelease].reverse();
 	for (const [index, release] of allReleases.entries()) {
 		const prevRelease: BaseRelease | undefined = allReleases[index + 1];
 		const changedFiles = prevRelease ?
@@ -121,10 +110,10 @@ async function prepare(_: unknown, context: Context) {
 		logger.log(`Unhandled files:\n  ${Array.from(unhandledFiles).join('\n  ')}`);
 	}
 
-	logger.log(`Handled files:\n\t${
+	logger.log(`Handled files:\n  ${
 		Array.from(handledFiles.entries()).map(([file, version]) => {
 			return `${file} - ${version}`;
-		}).join('\n')
+		}).join('\n  ')
 	}`);
 
 	for (const [filePath, version] of handledFiles) {
@@ -150,5 +139,28 @@ function isSceneOrSnippet(filePath: string): boolean {
 	return filePath.endsWith('.snp') || filePath.endsWith('.scn');
 }
 
-// TODO: change this back to prepare
+function enumTags(): Array<BaseRelease> {
+	const raw = execSync('git show-ref --tags').toString();
+	const lines = raw.match(tagLineRegex);
+	const results: Array<BaseRelease> = [];
+	if (!lines) {
+		return results;
+	}
+
+	for (const line of lines) {
+		const matches = line.match(tagRegex);
+		if (!matches?.groups?.hash || !matches?.groups?.version) {
+			continue;
+		}
+
+		results.push({
+			version: matches.groups.version,
+			gitTag: `v${matches.groups.version}`,
+			gitHead: matches.groups.hash,
+			channel: 'master'
+		});
+	}
+	return results;
+}
+
 module.exports = {prepare};
