@@ -23,13 +23,13 @@
 /config/routing/PLAY CARD1-8 CARD9-16 CARD17-24 CARD25-32 AUX1-4
 /config/userctrl/A YEi
 /config/userctrl/A/enc "F72" "F73" "F74" ""
-/config/userctrl/A/btn "" "" "" "" "" "" "" ""
-/config/userctrl/B GN
+/config/userctrl/A/btn "S200" "S202" "S204" "S206" "S201" "S203" "S205" "S207"
+/config/userctrl/B GNi
 /config/userctrl/B/enc "F72" "F73" "F74" ""
-/config/userctrl/B/btn "" "" "" "" "S210" "S211" "" ""
+/config/userctrl/B/btn "S208" "S210" "" "" "S209" "S211" "" ""
 /config/userctrl/C MG
 /config/userctrl/C/enc "F72" "F73" "F74" "-"
-/config/userctrl/C/btn "" "" "" "" "" "" "" ""
+/config/userctrl/C/btn "" "" "" "" "S212" "S213" "" ""
 /config/tape 0.0 0.0 ON
 /config/amixenable ON OFF
 /config/dp48 %0000 0
