@@ -1,0 +1,22 @@
+#3.0# "RTMP2_Stereo_dev" 1859 196608 0 0 1
+/config/chlink/19-20 ON
+/ch/19/config/name "RTMP 1 L"
+/ch/19/mix/pan -100
+/ch/19/mix/01/pan -100
+/ch/19/mix/03/pan -100
+/ch/19/mix/05/pan -100
+/ch/19/mix/07/pan -100
+/ch/19/mix/09/pan -100
+/ch/19/mix/11/pan -100
+/ch/19/mix/13/pan -100
+/ch/19/mix/15/pan -100
+/ch/20/config/name "RTMP 1 R"
+/ch/20/mix/pan +100
+/ch/20/mix/01/pan +100
+/ch/20/mix/03/pan +100
+/ch/20/mix/05/pan +100
+/ch/20/mix/07/pan +100
+/ch/20/mix/09/pan +100
+/ch/20/mix/11/pan +100
+/ch/20/mix/13/pan +100
+/ch/20/mix/15/pan +100

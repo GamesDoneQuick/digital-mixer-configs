@@ -1,4 +1,17 @@
 Snippet assignment:
 
-10 ReferenceSolo
-11 ClearSolo
+01 RTMP1_Stereo
+02 RTMP1_Mono
+03 RTMP2_Stereo
+04 RTMP2_Mono
+05 RTMP3_Stereo
+06 RTMP3_Mono
+07 RTMP4_Stereo
+08 RTMP4_Mono
+09 RTMP5_Stereo
+10 RTMP5_Mono
+11 RTMP6_Stereo
+12 RTMP6_Mono
+
+13 ReferenceSolo
+14 ClearSolo
