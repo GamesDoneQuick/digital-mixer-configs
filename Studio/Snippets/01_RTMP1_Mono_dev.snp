@@ -1,6 +1,6 @@
-#3.0# "RTMP1_Mono_dev" 1859 196608 0 0 1
+#3.0# "RTMP1 Mono" 1859 196608 0 0 1
 /config/chlink/17-18 OFF
-/ch/17/config/name "RTMP 1 Game"
+/ch/17/config/name "RTMP1 Game"
 /ch/17/mix/pan +0
 /ch/17/mix/01/pan +0
 /ch/17/mix/03/pan +0
@@ -10,7 +10,7 @@
 /ch/17/mix/11/pan +0
 /ch/17/mix/13/pan +0
 /ch/17/mix/15/pan +0
-/ch/18/config/name "RTMP 1 Mic"
+/ch/18/config/name "RTMP1 Mic"
 /ch/18/mix/pan +0
 /ch/18/mix/01/pan +0
 /ch/18/mix/03/pan +0

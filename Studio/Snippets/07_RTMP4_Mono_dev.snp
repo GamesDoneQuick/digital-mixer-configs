@@ -1,6 +1,6 @@
-#3.0# "RTMP4_Mono_dev" 1859 196608 0 0 1
+#3.0# "RTMP4 Mono" 1859 196608 0 0 1
 /config/chlink/23-24 OFF
-/ch/23/config/name "RTMP 1 Game"
+/ch/23/config/name "RTMP4 Game"
 /ch/23/mix/pan +0
 /ch/23/mix/01/pan +0
 /ch/23/mix/03/pan +0
@@ -10,7 +10,7 @@
 /ch/23/mix/11/pan +0
 /ch/23/mix/13/pan +0
 /ch/23/mix/15/pan +0
-/ch/24/config/name "RTMP 1 Mic"
+/ch/24/config/name "RTMP4 Mic"
 /ch/24/mix/pan +0
 /ch/24/mix/01/pan +0
 /ch/24/mix/03/pan +0
