@@ -10,5 +10,6 @@
 
 - Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) so that our automated release tooling can properly analyze commits.
 - Releases are made automatically whenever a `fix` or `feat` commit lands on `master`.
-- All Scenes and Snippets should have `_dev` appended to the end of their names.
+- All Scenes and Snippets should have `_dev` appended to the end of their names in their headers.
+    - Don't append anything to the actual filename, just put it in the header inside the file.
 - The automated release tooling will replace `_dev` with the appropriate version number when publishing a release.
