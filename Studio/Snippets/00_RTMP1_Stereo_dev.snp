@@ -1,6 +1,6 @@
-#3.0# "RTMP1_Stereo_dev" 1859 196608 0 0 1
+#3.0# "RTMP1 Stereo" 1859 196608 0 0 1
 /config/chlink/17-18 ON
-/ch/17/config/name "RTMP 1 L"
+/ch/17/config/name "RTMP1 L"
 /ch/17/mix/pan -100
 /ch/17/mix/01/pan -100
 /ch/17/mix/03/pan -100
@@ -10,7 +10,7 @@
 /ch/17/mix/11/pan -100
 /ch/17/mix/13/pan -100
 /ch/17/mix/15/pan -100
-/ch/18/config/name "RTMP 1 R"
+/ch/18/config/name "RTMP1 R"
 /ch/18/mix/pan +100
 /ch/18/mix/01/pan +100
 /ch/18/mix/03/pan +100
