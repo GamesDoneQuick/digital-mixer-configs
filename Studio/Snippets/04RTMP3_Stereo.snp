@@ -1,5 +1,7 @@
 #3.0# "RTMP3_Stereo_dev" 1859 3145728 0 0 1
 /config/chlink/21-22 ON
+/ch/21/config/source 21
+/ch/22/config/source 22
 /ch/21/config/name "RTMP 3 L"
 /ch/21/mix/st OFF
 /ch/21/mix/pan -100

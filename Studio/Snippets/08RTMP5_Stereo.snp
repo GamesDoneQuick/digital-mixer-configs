@@ -1,5 +1,7 @@
 #3.0# "RTMP5_Stereo_dev" 1859 50331648 0 0 1
 /config/chlink/25-26 ON
+/ch/25/config/source 25
+/ch/26/config/source 26
 /ch/25/config/name "RTMP 5 L"
 /ch/25/mix/st OFF
 /ch/25/mix/pan -100
