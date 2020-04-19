@@ -1,5 +1,7 @@
 #3.0# "RTMP6_Stereo_dev" 1859 201326592 0 0 1
 /config/chlink/27-28 ON
+/ch/27/config/source 27
+/ch/28/config/source 28
 /ch/27/config/name "RTMP 6 L"
 /ch/27/mix/st OFF
 /ch/27/mix/pan -100

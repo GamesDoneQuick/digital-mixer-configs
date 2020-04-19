@@ -1,5 +1,7 @@
 #3.0# "RTMP4_Stereo_dev" 1859 12582912 0 0 1
 /config/chlink/23-24 ON
+/ch/23/config/source 23
+/ch/24/config/source 24
 /ch/23/config/name "RTMP 4 L"
 /ch/23/mix/st OFF
 /ch/23/mix/pan -100

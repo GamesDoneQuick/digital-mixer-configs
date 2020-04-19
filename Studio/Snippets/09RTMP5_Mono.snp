@@ -1,5 +1,7 @@
 #3.0# "RTMP5_Mono_dev" 1859 50331648 0 0 1
 /config/chlink/25-26 OFF
+/ch/25/config/source 25
+/ch/26/config/source 26
 /ch/25/config/name "RTMP 5 Game"
 /ch/25/mix/st ON
 /ch/25/mix/pan +0

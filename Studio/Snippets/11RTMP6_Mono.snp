@@ -1,5 +1,7 @@
 #3.0# "RTMP6_Mono_dev" 1859 201326592 0 0 1
 /config/chlink/27-28 OFF
+/ch/27/config/source 27
+/ch/28/config/source 28
 /ch/27/config/name "RTMP 6 Game"
 /ch/27/mix/st ON
 /ch/27/mix/pan +0
