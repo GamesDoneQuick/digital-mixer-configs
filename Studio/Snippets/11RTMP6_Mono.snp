@@ -1,0 +1,32 @@
+#3.0# "RTMP6_Mono_dev" 1859 201326592 0 0 1
+/config/chlink/27-28 OFF
+/ch/27/config/name "RTMP 6 Game"
+/ch/27/mix/st ON
+/ch/27/mix/pan +0
+/ch/27/mix/01 ON   -oo +0 POST 0
+/ch/27/mix/03/pan +0
+/ch/27/mix/05/pan +0
+/ch/27/mix/07/pan +0
+/ch/27/mix/09/pan +0
+/ch/27/mix/11/pan +0
+/ch/27/mix/13/pan +0
+/ch/27/mix/15/pan +0
+/ch/28/config/name "RTMP 6 Mic"
+/ch/28/mix/st OFF
+/ch/28/mix/pan +0
+/ch/28/mix/01 ON   0.0 +0 GRP 0
+/ch/28/mix/03/pan +0
+/ch/28/mix/05/pan +0
+/ch/28/mix/07/pan +0
+/ch/28/mix/09/pan +0
+/ch/28/mix/11/pan +0
+/ch/28/mix/13/pan +0
+/ch/28/mix/15/pan +0
+/ch/27/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/27/gate/filter OFF 3.0 990.9
+/ch/27/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/27/dyn/filter OFF 3.0 990.9
+/ch/28/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/28/gate/filter ON 5.0 496.6
+/ch/28/dyn ON COMP PEAK LOG -36.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/28/dyn/filter ON 2.0 1k49
