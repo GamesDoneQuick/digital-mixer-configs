@@ -1,0 +1,32 @@
+#3.0# "RTMP5_Mono_dev" 1859 50331648 0 0 1
+/config/chlink/25-26 OFF
+/ch/25/config/name "RTMP 5 Game"
+/ch/25/mix/st ON
+/ch/25/mix/pan +0
+/ch/25/mix/01 ON   -oo +0 POST 0
+/ch/25/mix/03/pan +0
+/ch/25/mix/05/pan +0
+/ch/25/mix/07/pan +0
+/ch/25/mix/09/pan +0
+/ch/25/mix/11/pan +0
+/ch/25/mix/13/pan +0
+/ch/25/mix/15/pan +0
+/ch/26/config/name "RTMP 5 Mic"
+/ch/26/mix/st OFF
+/ch/26/mix/pan +0
+/ch/26/mix/01 ON   0.0 +0 GRP 0
+/ch/26/mix/03/pan +0
+/ch/26/mix/05/pan +0
+/ch/26/mix/07/pan +0
+/ch/26/mix/09/pan +0
+/ch/26/mix/11/pan +0
+/ch/26/mix/13/pan +0
+/ch/26/mix/15/pan +0
+/ch/25/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/25/gate/filter OFF 3.0 990.9
+/ch/25/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/25/dyn/filter OFF 3.0 990.9
+/ch/26/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/26/gate/filter ON 5.0 496.6
+/ch/26/dyn ON COMP PEAK LOG -36.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/26/dyn/filter ON 2.0 1k49
