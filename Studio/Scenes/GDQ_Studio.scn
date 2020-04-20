@@ -1,4 +1,4 @@
-#4.0# "GDQ_Studio_dev" "" %000000000 1                                                                                             
+#4.0# "GDQ_Studio" "" %000000000 1                                                                                             
 /config/chlink OFF OFF OFF OFF ON ON OFF OFF ON ON ON ON ON ON ON ON
 /config/auxlink ON ON ON ON
 /config/fxlink ON ON ON ON
@@ -12,7 +12,7 @@
 /config/talk/A  +9.8 OFF OFF %000000000011110000
 /config/talk/B +10.0 OFF OFF %001111111100000000
 /config/osc -75.0 20k00 946.3 F2 PINK 5
-/config/userrout/out 175 176 0 0 0 0 191 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/config/userrout/out 175 176 187 188 0 0 191 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /config/userrout/in 33 34 35 4 5 135 29 30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /config/routing REC
 /config/routing/IN UIN1-8 AN9-16 CARD9-16 CARD17-24 CARD1-6
@@ -1755,83 +1755,83 @@
 /bus/16/mix/05 OFF   -oo +100 POST 0
 /bus/16/mix/06 OFF   -oo
 /bus/16/grp %00000000 %000000
-/mtx/01/config "House IL" 64 GNi
+/mtx/01/config "Speakers L" 64 GNi
 /mtx/01/preamp OFF
 /mtx/01/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
 /mtx/01/dyn/filter OFF 3.0 990.9
 /mtx/01/insert OFF POST OFF
 /mtx/01/eq ON
-/mtx/01/eq/1 PEQ 120.5 -15.0 2.0
-/mtx/01/eq/2 LShv 532.1 -2.75 2.0
-/mtx/01/eq/3 PEQ 726.2 -4.50 2.0
-/mtx/01/eq/4 PEQ 2k89 -2.25 2.0
-/mtx/01/eq/5 PEQ 317.0 -5.50 3.5
-/mtx/01/eq/6 HShv 2k04 +1.00 2.0
+/mtx/01/eq/1 LShv 79.6 +0.00 2.0
+/mtx/01/eq/2 PEQ 158.9 +0.00 2.0
+/mtx/01/eq/3 PEQ 496.6 +0.00 2.0
+/mtx/01/eq/4 PEQ 1k97 +0.00 2.0
+/mtx/01/eq/5 PEQ 5k02 +0.00 2.0
+/mtx/01/eq/6 HShv 10k02 +0.00 2.0
 /mtx/01/mix ON   -oo
-/mtx/02/config "House IR" 65 GNi
+/mtx/02/config "Speakers R" 65 GNi
 /mtx/02/preamp OFF
 /mtx/02/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
 /mtx/02/dyn/filter OFF 3.0 990.9
 /mtx/02/insert OFF POST OFF
 /mtx/02/eq ON
-/mtx/02/eq/1 PEQ 120.5 -15.0 2.0
-/mtx/02/eq/2 LShv 532.1 -2.75 2.0
-/mtx/02/eq/3 PEQ 726.2 -4.50 2.0
-/mtx/02/eq/4 PEQ 2k89 -2.25 2.0
-/mtx/02/eq/5 PEQ 317.0 -5.50 3.5
-/mtx/02/eq/6 HShv 2k04 +1.00 2.0
+/mtx/02/eq/1 LShv 79.6 +0.00 2.0
+/mtx/02/eq/2 PEQ 158.9 +0.00 2.0
+/mtx/02/eq/3 PEQ 496.6 +0.00 2.0
+/mtx/02/eq/4 PEQ 1k97 +0.00 2.0
+/mtx/02/eq/5 PEQ 5k02 +0.00 2.0
+/mtx/02/eq/6 HShv 10k02 +0.00 2.0
 /mtx/02/mix ON   -oo
-/mtx/03/config "Couch Fill" 63 GNi
+/mtx/03/config "" 1 GNi
 /mtx/03/preamp OFF
 /mtx/03/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/03/dyn/filter OFF 3.0 990.9
 /mtx/03/insert OFF PRE OFF
 /mtx/03/eq ON
-/mtx/03/eq/1 BU18 805.4 +0.75 2.0
+/mtx/03/eq/1 LShv 79.6 +0.00 2.0
 /mtx/03/eq/2 PEQ 158.9 +0.00 2.0
-/mtx/03/eq/3 PEQ 2k19 +0.00 3.2
-/mtx/03/eq/4 PEQ 7k34 -1.25 2.0
-/mtx/03/eq/5 PEQ 8k14 +0.00 2.0
+/mtx/03/eq/3 PEQ 496.6 +0.00 2.0
+/mtx/03/eq/4 PEQ 1k97 +0.00 2.0
+/mtx/03/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/03/eq/6 HShv 10k02 +0.00 2.0
 /mtx/03/mix ON   -oo
-/mtx/04/config "House C" 72 GNi
+/mtx/04/config "" 1 GNi
 /mtx/04/preamp OFF
 /mtx/04/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/04/dyn/filter OFF 3.0 990.9
 /mtx/04/insert OFF PRE OFF
 /mtx/04/eq ON
-/mtx/04/eq/1 BS24 751.7 +0.00 2.0
+/mtx/04/eq/1 LShv 79.6 +0.00 2.0
 /mtx/04/eq/2 PEQ 158.9 +0.00 2.0
 /mtx/04/eq/3 PEQ 496.6 +0.00 2.0
 /mtx/04/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/04/eq/5 PEQ 5k02 +0.00 2.0
-/mtx/04/eq/6 BU24 15k70 +0.00 2.0
+/mtx/04/eq/6 HShv 10k02 +0.00 2.0
 /mtx/04/mix ON   -oo
-/mtx/05/config "House OL" 66 GNi
+/mtx/05/config "" 1 GNi
 /mtx/05/preamp OFF
-/mtx/05/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
+/mtx/05/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
 /mtx/05/dyn/filter OFF 3.0 990.9
 /mtx/05/insert OFF PRE OFF
 /mtx/05/eq ON
-/mtx/05/eq/1 LShv 390.0 +1.75 2.0
-/mtx/05/eq/2 LShv 82.4 +0.00 2.0
-/mtx/05/eq/3 PEQ 496.6 +0.00 2.0
-/mtx/05/eq/4 PEQ 2k11 -3.50 2.0
-/mtx/05/eq/5 PEQ 1k13 +0.00 2.0
-/mtx/05/eq/6 HShv 3k94 +1.25 2.0
+/mtx/05/eq/1 PEQ 120.5 -15.0 2.0
+/mtx/05/eq/2 LShv 532.1 -2.75 2.0
+/mtx/05/eq/3 PEQ 726.2 -4.50 2.0
+/mtx/05/eq/4 PEQ 2k89 -2.25 2.0
+/mtx/05/eq/5 PEQ 317.0 -5.50 3.5
+/mtx/05/eq/6 HShv 2k04 +1.00 2.0
 /mtx/05/mix ON   -oo
-/mtx/06/config "House OR" 66 GNi
+/mtx/06/config "" 1 GNi
 /mtx/06/preamp OFF
-/mtx/06/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
+/mtx/06/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
 /mtx/06/dyn/filter OFF 3.0 990.9
 /mtx/06/insert OFF PRE OFF
 /mtx/06/eq ON
-/mtx/06/eq/1 LShv 390.0 +1.75 2.0
-/mtx/06/eq/2 LShv 82.4 +0.00 2.0
-/mtx/06/eq/3 PEQ 496.6 +0.00 2.0
-/mtx/06/eq/4 PEQ 2k11 -3.50 2.0
-/mtx/06/eq/5 PEQ 1k13 +0.00 2.0
-/mtx/06/eq/6 HShv 3k94 +1.25 2.0
+/mtx/06/eq/1 PEQ 120.5 -15.0 2.0
+/mtx/06/eq/2 LShv 532.1 -2.75 2.0
+/mtx/06/eq/3 PEQ 726.2 -4.50 2.0
+/mtx/06/eq/4 PEQ 2k89 -2.25 2.0
+/mtx/06/eq/5 PEQ 317.0 -5.50 3.5
+/mtx/06/eq/6 HShv 2k04 +1.00 2.0
 /mtx/06/mix ON   -oo
 /main/st/config "Stream" 73 RD
 /main/st/dyn OFF COMP RMS LOG -22.5 3.0 5 0.00 1 50.2  101 PRE 100 OFF
@@ -1845,8 +1845,8 @@
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
 /main/st/mix ON  -0.7 +0
-/main/st/mix/01 ON   -oo +0 POST 0
-/main/st/mix/02 ON   -oo
+/main/st/mix/01 ON   0.0 +0 POST 0
+/main/st/mix/02 ON   0.0
 /main/st/mix/03 ON   -oo +0 POST 0
 /main/st/mix/04 ON   -oo
 /main/st/mix/05 ON   -oo +0 POST 0
@@ -1905,17 +1905,17 @@
 /fx/7/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /fx/8 DES2
 /fx/8/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/outputs/main/01 24 POST OFF
+/outputs/main/01 20 POST OFF
 /outputs/main/01/delay ON   0.3
-/outputs/main/02 25 POST OFF
+/outputs/main/02 21 POST OFF
 /outputs/main/02/delay ON   0.3
-/outputs/main/03 20 POST OFF
+/outputs/main/03 0 POST OFF
 /outputs/main/03/delay ON   0.3
-/outputs/main/04 21 POST OFF
+/outputs/main/04 0 POST OFF
 /outputs/main/04/delay ON   0.3
-/outputs/main/05 22 POST OFF
+/outputs/main/05 0 POST OFF
 /outputs/main/05/delay ON  19.7
-/outputs/main/06 23 POST OFF
+/outputs/main/06 0 POST OFF
 /outputs/main/06/delay ON  12.4
 /outputs/main/07 1 POST OFF
 /outputs/main/07/delay ON 100.0
@@ -1949,7 +1949,7 @@
 /outputs/p16/02/iQ OFF none Linear 0
 /outputs/p16/03 6 POST OFF
 /outputs/p16/03/iQ OFF none Linear 0
-/outputs/p16/04 7 IN/LC OFF
+/outputs/p16/04 7 POST OFF
 /outputs/p16/04/iQ OFF none Linear 0
 /outputs/p16/05 0 IN/LC OFF
 /outputs/p16/05/iQ OFF none Linear 0
