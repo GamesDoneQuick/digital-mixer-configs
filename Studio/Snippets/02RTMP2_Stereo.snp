@@ -6,7 +6,7 @@
 /ch/19/mix/st OFF
 /ch/19/mix/pan -100
 /ch/19/mix/01 ON   0.0 -100 GRP 0
-/ch/19/mix/03/pan -100
+/ch/19/mix/03 ON   -oo -100 POST 0
 /ch/19/mix/05/pan -100
 /ch/19/mix/07/pan -100
 /ch/19/mix/09/pan -100
