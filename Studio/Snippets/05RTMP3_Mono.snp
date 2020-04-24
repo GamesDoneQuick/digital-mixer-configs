@@ -6,7 +6,7 @@
 /ch/21/mix/st ON
 /ch/21/mix/pan +0
 /ch/21/mix/01 ON   -oo +0 POST 0
-/ch/21/mix/03/pan +0
+/ch/21/mix/03 ON   0.0 +0 POST 0
 /ch/21/mix/05/pan +0
 /ch/21/mix/07/pan +0
 /ch/21/mix/09/pan +0
@@ -17,7 +17,7 @@
 /ch/22/mix/st OFF
 /ch/22/mix/pan +0
 /ch/22/mix/01 ON   0.0 +0 GRP 0
-/ch/22/mix/03/pan +0
+/ch/22/mix/03 ON   -oo +0 POST 0
 /ch/22/mix/05/pan +0
 /ch/22/mix/07/pan +0
 /ch/22/mix/09/pan +0
