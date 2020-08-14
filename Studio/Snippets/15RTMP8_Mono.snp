@@ -1,0 +1,34 @@
+#3.0# "RTMP8_Mono_dev" 1859 -1073741824 0 0 1
+/config/chlink/31-32 OFF
+/ch/31/config/source 31
+/ch/32/config/source 32
+/ch/31/config/name "RTMP 8 Game"
+/ch/31/mix/st ON
+/ch/31/mix/pan +0
+/ch/31/mix/01 ON   -oo +0 POST 0
+/ch/31/mix/03 ON   0.0 +0 POST 0
+/ch/31/mix/05/pan +0
+/ch/31/mix/07/pan +0
+/ch/31/mix/09/pan +0
+/ch/31/mix/11/pan +0
+/ch/31/mix/13/pan +0
+/ch/31/mix/15/pan +0
+/ch/32/config/name "RTMP 8 Mic"
+/ch/32/mix/st OFF
+/ch/32/mix/pan +0
+/ch/32/mix/01 ON   0.0 +0 GRP 0
+/ch/32/mix/03 ON   -oo +0 POST 0
+/ch/32/mix/05/pan +0
+/ch/32/mix/07/pan +0
+/ch/32/mix/09/pan +0
+/ch/32/mix/11/pan +0
+/ch/32/mix/13/pan +0
+/ch/32/mix/15/pan +0
+/ch/31/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/31/gate/filter OFF 3.0 990.9
+/ch/31/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/31/dyn/filter OFF 3.0 990.9
+/ch/32/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/32/gate/filter ON 5.0 496.6
+/ch/32/dyn ON COMP PEAK LOG -36.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/32/dyn/filter ON 2.0 1k49
