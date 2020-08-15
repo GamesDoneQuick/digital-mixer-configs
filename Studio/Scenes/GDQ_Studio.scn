@@ -8,7 +8,7 @@
 /config/linkcfg ON ON ON ON
 /config/mono LR+M ON
 /config/solo   0.0 LRAFL -13.0 PFL PFL PFL OFF OFF OFF -20 OFF OFF OFF 187.0 OFF OFF OFF
-/config/talk OFF EXT
+/config/talk ON EXT
 /config/talk/A  +9.8 OFF ON %000000000011110000
 /config/talk/B +10.0 OFF OFF %001111111100000000
 /config/osc -27.5 20k00 946.3 F2 PINK 18
@@ -29,7 +29,7 @@
 /config/userctrl/B/btn "S208" "S210" "S212" "S214" "S209" "S211" "S213" "S215"
 /config/userctrl/C MG
 /config/userctrl/C/enc "F72" "F73" "F74" "-"
-/config/userctrl/C/btn "" "" "" "" "S216" "S217" "" ""
+/config/userctrl/C/btn "" "" "" "" "S216" "S217" "S218" "S219"
 /config/tape 0.0 0.0 ON
 /config/amixenable ON OFF
 /config/dp48 %0000 0
@@ -304,7 +304,7 @@
 /ch/09/eq/2 PEQ 496.6 +0.00 1.0
 /ch/09/eq/3 PEQ 1k97 +0.00 1.0
 /ch/09/eq/4 HShv 10k02 +0.00 1.0
-/ch/09/mix OFF   0.0 ON -100 OFF -14.0
+/ch/09/mix OFF   -oo ON -100 OFF -14.0
 /ch/09/mix/01 ON   -oo -100 POST 0
 /ch/09/mix/02 ON   -oo
 /ch/09/mix/03 ON   0.0 -100 POST 0
@@ -336,7 +336,7 @@
 /ch/10/eq/2 PEQ 496.6 +0.00 1.0
 /ch/10/eq/3 PEQ 1k97 +0.00 1.0
 /ch/10/eq/4 HShv 10k02 +0.00 1.0
-/ch/10/mix OFF   0.0 ON +100 OFF -14.0
+/ch/10/mix OFF   -oo ON +100 OFF -14.0
 /ch/10/mix/01 ON   -oo +100 POST 0
 /ch/10/mix/02 ON   -oo
 /ch/10/mix/03 ON   0.0 +100 POST 0
@@ -368,7 +368,7 @@
 /ch/11/eq/2 PEQ 496.6 +0.00 1.0
 /ch/11/eq/3 PEQ 1k97 +0.00 1.0
 /ch/11/eq/4 HShv 10k02 +0.00 1.0
-/ch/11/mix OFF   0.0 ON -100 OFF -10.0
+/ch/11/mix OFF   -oo ON -100 OFF -10.0
 /ch/11/mix/01 ON   -oo -100 POST 0
 /ch/11/mix/02 ON   -oo
 /ch/11/mix/03 ON   0.0 -100 POST 0
@@ -400,7 +400,7 @@
 /ch/12/eq/2 PEQ 496.6 +0.00 1.0
 /ch/12/eq/3 PEQ 1k97 +0.00 1.0
 /ch/12/eq/4 HShv 10k02 +0.00 1.0
-/ch/12/mix OFF   0.0 ON +100 OFF -10.0
+/ch/12/mix OFF   -oo ON +100 OFF -10.0
 /ch/12/mix/01 ON   -oo +100 POST 0
 /ch/12/mix/02 ON   -oo
 /ch/12/mix/03 ON   0.0 +100 POST 0
@@ -931,7 +931,7 @@
 /ch/28/mix/16 ON   -oo
 /ch/28/grp %00000010 %000000
 /ch/28/automix OFF -12.0
-/ch/29/config "RTMP 7 L" 72 CY 29
+/ch/29/config "RTMP 7 L" 72 WHi 29
 /ch/29/delay OFF   0.3
 /ch/29/preamp +0.0 OFF OFF 24  20
 /ch/29/gate OFF EXP4 -58.0 60.0 1  112  226 0
@@ -961,9 +961,9 @@
 /ch/29/mix/14 ON   -oo
 /ch/29/mix/15 ON   -oo -100 IN/LC 0
 /ch/29/mix/16 ON   -oo
-/ch/29/grp %00000010 %000000
+/ch/29/grp %00000000 %000000
 /ch/29/automix OFF -12.0
-/ch/30/config "RTMP 7 R" 5 CY 30
+/ch/30/config "RTMP 7 R" 5 WHi 30
 /ch/30/delay OFF   0.3
 /ch/30/preamp +0.0 OFF OFF 24  20
 /ch/30/gate OFF EXP4 -58.0 60.0 1  112  226 0
@@ -993,9 +993,9 @@
 /ch/30/mix/14 ON   -oo
 /ch/30/mix/15 ON   -oo +100 IN/LC 0
 /ch/30/mix/16 ON   -oo
-/ch/30/grp %00000010 %000000
+/ch/30/grp %00000000 %000000
 /ch/30/automix OFF -12.0
-/ch/31/config "RTMP 8 L" 72 RDi 31
+/ch/31/config "RTMP 8 L" 72 WHi 31
 /ch/31/delay OFF   0.3
 /ch/31/preamp +0.0 OFF OFF 24  20
 /ch/31/gate OFF EXP4 -58.0 60.0 1  112  226 0
@@ -1025,9 +1025,9 @@
 /ch/31/mix/14 ON   -oo
 /ch/31/mix/15 ON   -oo -100 IN/LC 0
 /ch/31/mix/16 ON   -oo
-/ch/31/grp %00000010 %000000
+/ch/31/grp %00000000 %000000
 /ch/31/automix OFF -12.0
-/ch/32/config "RTMP 8 R" 5 RDi 32
+/ch/32/config "RTMP 8 R" 5 WHi 32
 /ch/32/delay OFF   0.3
 /ch/32/preamp +0.0 OFF OFF 24  20
 /ch/32/gate OFF EXP4 -58.0 60.0 1  112  226 0
@@ -1057,7 +1057,7 @@
 /ch/32/mix/14 ON   -oo
 /ch/32/mix/15 ON   -oo +100 IN/LC 0
 /ch/32/mix/16 ON   -oo
-/ch/32/grp %00000010 %000000
+/ch/32/grp %00000000 %000000
 /ch/32/automix OFF -12.0
 /auxin/01/config "Reference" 1 WHi 37
 /auxin/01/preamp -3.0 OFF
@@ -1844,9 +1844,9 @@
 /main/st/eq/4 PEQ 1k97 +0.00 2.0
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
-/main/st/mix ON   0.0 +0
-/main/st/mix/01 ON   0.0 +0 POST 0
-/main/st/mix/02 ON   0.0
+/main/st/mix ON  +1.6 +0
+/main/st/mix/01 ON -25.5 +0 POST 0
+/main/st/mix/02 ON -25.5
 /main/st/mix/03 ON   -oo +0 POST 0
 /main/st/mix/04 ON   -oo
 /main/st/mix/05 ON   -oo +0 POST 0
@@ -1869,12 +1869,12 @@
 /main/m/mix/04 OFF   -oo
 /main/m/mix/05 OFF   -oo +0 PRE 0
 /main/m/mix/06 OFF   -oo
-/dca/1 ON  -0.9
+/dca/1 ON   -oo
 /dca/1/config "Break Music" 60 GN
 /dca/2 ON   -oo
 /dca/2/config "Run" 70 CY
 /dca/3 ON   -oo
-/dca/3/config "Interview" 70 YE
+/dca/3/config "DCA" 70 OFF
 /dca/4 ON   -oo
 /dca/4/config "DCA" 70 OFF
 /dca/5 ON   -oo
