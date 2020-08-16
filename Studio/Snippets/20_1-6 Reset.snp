@@ -1,0 +1,97 @@
+#4.0# "1-6 Reset" 5 268369920 0 0 1                                                                                            
+/headamp/016 -3.0 OFF
+/ch/17/preamp +0.0 OFF OFF 24  20
+/ch/17/delay OFF   0.3
+/ch/17/eq ON
+/ch/17/eq/1 LShv 124.7 +0.00 1.0
+/ch/17/eq/2 VEQ 496.6 +0.00 1.0
+/ch/17/eq/3 VEQ 1k97 +0.00 1.0
+/ch/17/eq/4 HShv 10k02 +0.00 1.0
+/headamp/017 -3.0 OFF
+/ch/18/preamp +0.0 OFF ON 24  61
+/ch/18/delay OFF   0.3
+/ch/18/eq ON
+/ch/18/eq/1 LShv 124.7 +0.00 1.0
+/ch/18/eq/2 VEQ 496.6 +0.00 1.0
+/ch/18/eq/3 VEQ 1k97 +0.00 1.0
+/ch/18/eq/4 HShv 10k02 +0.00 1.0
+/headamp/018 -3.0 OFF
+/ch/19/preamp +0.0 OFF ON 24 104
+/ch/19/delay OFF   0.3
+/ch/19/eq ON
+/ch/19/eq/1 LShv 124.7 +0.00 1.0
+/ch/19/eq/2 VEQ 496.6 +0.00 1.0
+/ch/19/eq/3 VEQ 1k97 +0.00 1.0
+/ch/19/eq/4 HShv 10k02 +0.00 1.0
+/headamp/019 -3.0 OFF
+/ch/20/preamp +0.0 OFF ON 24 104
+/ch/20/delay OFF   0.3
+/ch/20/eq ON
+/ch/20/eq/1 LShv 124.7 +0.00 1.0
+/ch/20/eq/2 VEQ 496.6 +0.00 1.0
+/ch/20/eq/3 VEQ 1k97 +0.00 1.0
+/ch/20/eq/4 HShv 10k02 +0.00 1.0
+/headamp/020 -3.0 OFF
+/ch/21/preamp +0.0 OFF OFF 24  20
+/ch/21/delay OFF   0.3
+/ch/21/eq ON
+/ch/21/eq/1 LShv 124.7 +0.00 1.0
+/ch/21/eq/2 VEQ 496.6 +0.00 1.0
+/ch/21/eq/3 VEQ 1k97 +0.00 1.0
+/ch/21/eq/4 HShv 10k02 +0.00 1.0
+/headamp/021 -3.0 OFF
+/ch/22/preamp +0.0 OFF OFF 24  20
+/ch/22/delay OFF   0.3
+/ch/22/eq ON
+/ch/22/eq/1 LShv 124.7 +0.00 1.0
+/ch/22/eq/2 VEQ 496.6 +0.00 1.0
+/ch/22/eq/3 VEQ 1k97 +0.00 1.0
+/ch/22/eq/4 HShv 10k02 +0.00 1.0
+/headamp/022 -3.0 OFF
+/ch/23/preamp +0.0 OFF ON 24 136
+/ch/23/delay OFF   0.3
+/ch/23/eq ON
+/ch/23/eq/1 LShv 124.7 +0.00 1.0
+/ch/23/eq/2 VEQ 496.6 +0.00 1.0
+/ch/23/eq/3 VEQ 1k97 +0.00 1.0
+/ch/23/eq/4 HShv 10k02 +0.00 1.0
+/headamp/023 -3.0 OFF
+/ch/24/preamp +0.0 OFF ON 24 136
+/ch/24/delay OFF   0.3
+/ch/24/eq ON
+/ch/24/eq/1 LShv 124.7 +0.00 1.0
+/ch/24/eq/2 VEQ 496.6 +0.00 1.0
+/ch/24/eq/3 VEQ 1k97 +0.00 1.0
+/ch/24/eq/4 HShv 10k02 +0.00 1.0
+/headamp/024 -3.0 OFF
+/ch/25/preamp +0.0 OFF OFF 24  20
+/ch/25/delay OFF   0.3
+/ch/25/eq ON
+/ch/25/eq/1 LShv 124.7 +0.00 1.0
+/ch/25/eq/2 VEQ 496.6 +0.00 1.0
+/ch/25/eq/3 VEQ 1k97 +0.00 1.0
+/ch/25/eq/4 HShv 10k02 +0.00 1.0
+/headamp/025 -3.0 OFF
+/ch/26/preamp +0.0 OFF OFF 24  20
+/ch/26/delay OFF   0.3
+/ch/26/eq ON
+/ch/26/eq/1 LShv 124.7 +0.00 1.0
+/ch/26/eq/2 VEQ 496.6 +0.00 1.0
+/ch/26/eq/3 VEQ 1k97 +0.00 1.0
+/ch/26/eq/4 HShv 10k02 +0.00 1.0
+/headamp/026 -3.0 OFF
+/ch/27/preamp +0.0 OFF OFF 24  20
+/ch/27/delay OFF   0.3
+/ch/27/eq ON
+/ch/27/eq/1 LShv 124.7 +0.00 1.0
+/ch/27/eq/2 VEQ 496.6 +0.00 1.0
+/ch/27/eq/3 VEQ 1k97 +0.00 1.0
+/ch/27/eq/4 HShv 10k02 +0.00 1.0
+/headamp/027 -3.0 OFF
+/ch/28/preamp +0.0 OFF OFF 24  20
+/ch/28/delay OFF   0.3
+/ch/28/eq ON
+/ch/28/eq/1 LShv 124.7 +0.00 1.0
+/ch/28/eq/2 VEQ 496.6 +0.00 1.0
+/ch/28/eq/3 VEQ 1k97 +0.00 1.0
+/ch/28/eq/4 HShv 10k02 +0.00 1.0
