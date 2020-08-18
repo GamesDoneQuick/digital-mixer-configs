@@ -3,6 +3,11 @@
 /ch/19/config/source 19
 /ch/20/config/source 20
 /ch/19/config/name "RTMP 2 Game"
+/ch/19/eq ON
+/ch/19/eq/1 LShv 124.7 +0.00 1.0
+/ch/19/eq/2 VEQ 496.6 +0.00 1.0
+/ch/19/eq/3 VEQ 1k97 +0.00 1.0
+/ch/19/eq/4 HShv 10k02 +0.00 1.0
 /ch/19/mix/st ON
 /ch/19/mix/pan +0
 /ch/19/mix/01 ON   -oo +0 POST 0
@@ -14,6 +19,11 @@
 /ch/19/mix/13/pan +0
 /ch/19/mix/15/pan +0
 /ch/20/config/name "RTMP 2 Mic"
+/ch/20/eq ON
+/ch/20/eq/1 LShv 124.7 +0.00 1.0
+/ch/20/eq/2 VEQ 496.6 +0.00 1.0
+/ch/20/eq/3 VEQ 1k97 +0.00 1.0
+/ch/20/eq/4 HShv 10k02 +0.00 1.0
 /ch/20/mix/st OFF
 /ch/20/mix/pan +0
 /ch/20/mix/01 ON   0.0 +0 GRP 0

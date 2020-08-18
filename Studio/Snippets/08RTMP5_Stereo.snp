@@ -3,6 +3,11 @@
 /ch/25/config/source 25
 /ch/26/config/source 26
 /ch/25/config/name "RTMP 5 L"
+/ch/25/eq ON
+/ch/25/eq/1 LShv 124.7 +0.00 1.0
+/ch/25/eq/2 VEQ 496.6 +0.00 1.0
+/ch/25/eq/3 VEQ 1k97 +0.00 1.0
+/ch/25/eq/4 HShv 10k02 +0.00 1.0
 /ch/25/mix/st OFF
 /ch/25/mix/pan -100
 /ch/25/mix/01 ON   0.0 -100 GRP 0
@@ -14,6 +19,11 @@
 /ch/25/mix/13/pan -100
 /ch/25/mix/15/pan -100
 /ch/26/config/name "RTMP 5 R"
+/ch/26/eq ON
+/ch/26/eq/1 LShv 124.7 +0.00 1.0
+/ch/26/eq/2 VEQ 496.6 +0.00 1.0
+/ch/26/eq/3 VEQ 1k97 +0.00 1.0
+/ch/26/eq/4 HShv 10k02 +0.00 1.0
 /ch/26/mix/pan +100
 /ch/26/mix/01/pan +100
 /ch/26/mix/03/pan +100

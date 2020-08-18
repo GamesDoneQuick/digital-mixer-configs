@@ -3,6 +3,11 @@
 /ch/31/config/source 31
 /ch/32/config/source 32
 /ch/31/config/name "RTMP 8 Game"
+/ch/31/eq ON
+/ch/31/eq/1 LShv 124.7 +0.00 2.0
+/ch/31/eq/2 VEQ 496.6 +0.00 2.0
+/ch/31/eq/3 VEQ 1k97 +0.00 2.0
+/ch/31/eq/4 HShv 10k02 +0.00 2.0
 /ch/31/mix/st ON
 /ch/31/mix/pan +0
 /ch/31/mix/01 ON   -oo +0 POST 0
@@ -14,6 +19,11 @@
 /ch/31/mix/13/pan +0
 /ch/31/mix/15/pan +0
 /ch/32/config/name "RTMP 8 Mic"
+/ch/32/eq ON
+/ch/32/eq/1 LShv 124.7 +0.00 2.0
+/ch/32/eq/2 VEQ 496.6 +0.00 2.0
+/ch/32/eq/3 VEQ 1k97 +0.00 2.0
+/ch/32/eq/4 HShv 10k02 +0.00 2.0
 /ch/32/mix/st OFF
 /ch/32/mix/pan +0
 /ch/32/mix/01 ON   0.0 +0 GRP 0

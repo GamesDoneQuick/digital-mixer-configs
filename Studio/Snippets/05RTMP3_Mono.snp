@@ -3,6 +3,11 @@
 /ch/21/config/source 21
 /ch/22/config/source 22
 /ch/21/config/name "RTMP 3 Game"
+/ch/21/eq ON
+/ch/21/eq/1 LShv 124.7 +0.00 1.0
+/ch/21/eq/2 VEQ 496.6 +0.00 1.0
+/ch/21/eq/3 VEQ 1k97 +0.00 1.0
+/ch/21/eq/4 HShv 10k02 +0.00 1.0
 /ch/21/mix/st ON
 /ch/21/mix/pan +0
 /ch/21/mix/01 ON   -oo +0 POST 0
@@ -14,6 +19,11 @@
 /ch/21/mix/13/pan +0
 /ch/21/mix/15/pan +0
 /ch/22/config/name "RTMP 3 Mic"
+/ch/22/eq ON
+/ch/22/eq/1 LShv 124.7 +0.00 1.0
+/ch/22/eq/2 VEQ 496.6 +0.00 1.0
+/ch/22/eq/3 VEQ 1k97 +0.00 1.0
+/ch/22/eq/4 HShv 10k02 +0.00 1.0
 /ch/22/mix/st OFF
 /ch/22/mix/pan +0
 /ch/22/mix/01 ON   0.0 +0 GRP 0

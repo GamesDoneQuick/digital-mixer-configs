@@ -3,6 +3,11 @@
 /ch/23/config/source 23
 /ch/24/config/source 24
 /ch/23/config/name "RTMP 4 L"
+/ch/23/eq ON
+/ch/23/eq/1 LShv 124.7 +0.00 1.0
+/ch/23/eq/2 VEQ 496.6 +0.00 1.0
+/ch/23/eq/3 VEQ 1k97 +0.00 1.0
+/ch/23/eq/4 HShv 10k02 +0.00 1.0
 /ch/23/mix/st OFF
 /ch/23/mix/pan -100
 /ch/23/mix/01 ON   0.0 -100 GRP 0
@@ -14,6 +19,11 @@
 /ch/23/mix/13/pan -100
 /ch/23/mix/15/pan -100
 /ch/24/config/name "RTMP 4 R"
+/ch/24/eq ON
+/ch/24/eq/1 LShv 124.7 +0.00 1.0
+/ch/24/eq/2 VEQ 496.6 +0.00 1.0
+/ch/24/eq/3 VEQ 1k97 +0.00 1.0
+/ch/24/eq/4 HShv 10k02 +0.00 1.0
 /ch/24/mix/pan +100
 /ch/24/mix/01/pan +100
 /ch/24/mix/03/pan +100

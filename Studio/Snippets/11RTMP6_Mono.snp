@@ -3,6 +3,11 @@
 /ch/27/config/source 27
 /ch/28/config/source 28
 /ch/27/config/name "RTMP 6 Game"
+/ch/27/eq ON
+/ch/27/eq/1 LShv 124.7 +0.00 1.0
+/ch/27/eq/2 VEQ 496.6 +0.00 1.0
+/ch/27/eq/3 VEQ 1k97 +0.00 1.0
+/ch/27/eq/4 HShv 10k02 +0.00 1.0
 /ch/27/mix/st ON
 /ch/27/mix/pan +0
 /ch/27/mix/01 ON   -oo +0 POST 0
@@ -14,6 +19,11 @@
 /ch/27/mix/13/pan +0
 /ch/27/mix/15/pan +0
 /ch/28/config/name "RTMP 6 Mic"
+/ch/28/eq ON
+/ch/28/eq/1 LShv 124.7 +0.00 1.0
+/ch/28/eq/2 VEQ 496.6 +0.00 1.0
+/ch/28/eq/3 VEQ 1k97 +0.00 1.0
+/ch/28/eq/4 HShv 10k02 +0.00 1.0
 /ch/28/mix/st OFF
 /ch/28/mix/pan +0
 /ch/28/mix/01 ON   0.0 +0 GRP 0
