@@ -39,6 +39,6 @@
 /ch/30/mix/15/pan +100
 /ch/29/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/29/gate/filter ON 5.0 496.6
-/ch/29/dyn ON COMP PEAK LOG -36.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/29/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
 /ch/29/dyn/filter ON 2.0 1k49
 /ch/30/gate/keysrc 0
