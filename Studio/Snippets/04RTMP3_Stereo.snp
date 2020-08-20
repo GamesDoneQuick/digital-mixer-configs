@@ -2,6 +2,10 @@
 /config/chlink/21-22 ON
 /ch/21/config/source 21
 /ch/22/config/source 22
+/headamp/020 -6.0 OFF
+/ch/21/preamp +0.0 OFF ON 24  82
+/headamp/021 -6.0 OFF
+/ch/22/preamp +0.0 OFF ON 24  82
 /ch/21/config/name "RTMP 3 L"
 /ch/21/eq ON
 /ch/21/eq/1 LShv 124.7 +0.00 1.0

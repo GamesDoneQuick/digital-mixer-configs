@@ -2,6 +2,10 @@
 /config/chlink/19-20 OFF
 /ch/19/config/source 19
 /ch/20/config/source 20
+/headamp/018 +0.0 OFF
+/ch/19/preamp +0.0 OFF ON 24  20
+/headamp/019 -6.0 OFF
+/ch/20/preamp +0.0 OFF ON 24  82
 /ch/19/config/name "RTMP 2 Game"
 /ch/19/eq ON
 /ch/19/eq/1 LShv 124.7 +0.00 1.0

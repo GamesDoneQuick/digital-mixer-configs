@@ -2,6 +2,10 @@
 /config/chlink/17-18 ON
 /ch/17/config/source 17
 /ch/18/config/source 18
+/headamp/016 -6.0 OFF
+/ch/17/preamp +0.0 OFF ON 24  82
+/headamp/017 -6.0 OFF
+/ch/18/preamp +0.0 OFF ON 24  82
 /ch/17/config/name "RTMP 1 L"
 /ch/17/eq ON
 /ch/17/eq/1 LShv 124.7 +0.00 1.0

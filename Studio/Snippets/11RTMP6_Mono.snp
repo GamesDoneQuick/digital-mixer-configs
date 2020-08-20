@@ -2,6 +2,10 @@
 /config/chlink/27-28 OFF
 /ch/27/config/source 27
 /ch/28/config/source 28
+/headamp/026 +0.0 OFF
+/ch/27/preamp +0.0 OFF ON 24  20
+/headamp/027 -6.0 OFF
+/ch/28/preamp +0.0 OFF ON 24  82
 /ch/27/config/name "RTMP 6 Game"
 /ch/27/eq ON
 /ch/27/eq/1 LShv 124.7 +0.00 1.0
