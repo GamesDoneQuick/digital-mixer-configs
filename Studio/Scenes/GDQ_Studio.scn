@@ -144,7 +144,7 @@
 /ch/04/eq/2 VEQ 654.7 -5.25 1.0
 /ch/04/eq/3 VEQ 2k11 +0.00 1.0
 /ch/04/eq/4 HShv 4k68 +6.50 1.0
-/ch/04/mix OFF -89.1 OFF +0 OFF -10.0
+/ch/04/mix OFF   -oo OFF +0 OFF -10.0
 /ch/04/mix/01 ON   0.0 +0 GRP 0
 /ch/04/mix/02 ON   0.0
 /ch/04/mix/03 ON   -oo +0 POST 0
@@ -428,9 +428,9 @@
 /ch/13/dyn/filter OFF 3.0 990.9
 /ch/13/insert OFF POST OFF
 /ch/13/eq ON
-/ch/13/eq/1 LShv 94.6 +0.00 2.0
+/ch/13/eq/1 LShv 124.7 +0.00 2.0
 /ch/13/eq/2 VEQ 496.6 +0.00 2.0
-/ch/13/eq/3 VEQ 5k20 -6.00 2.0
+/ch/13/eq/3 VEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 10k02 +0.00 2.0
 /ch/13/mix ON  +1.4 ON -100 OFF   -oo
 /ch/13/mix/01 ON   -oo -100 POST 0
@@ -460,9 +460,9 @@
 /ch/14/dyn/filter OFF 3.0 990.9
 /ch/14/insert OFF POST OFF
 /ch/14/eq ON
-/ch/14/eq/1 LShv 94.6 +0.00 2.0
+/ch/14/eq/1 LShv 124.7 +0.00 2.0
 /ch/14/eq/2 VEQ 496.6 +0.00 2.0
-/ch/14/eq/3 VEQ 5k20 -6.00 2.0
+/ch/14/eq/3 VEQ 1k97 +0.00 2.0
 /ch/14/eq/4 HShv 10k02 +0.00 2.0
 /ch/14/mix ON  +1.4 ON +100 OFF   -oo
 /ch/14/mix/01 ON   -oo +100 POST 0
@@ -1767,7 +1767,7 @@
 /mtx/01/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/01/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/01/eq/6 HShv 10k02 +0.00 2.0
-/mtx/01/mix ON  +0.7
+/mtx/01/mix ON   0.0
 /mtx/02/config "Speakers R" 65 GNi
 /mtx/02/preamp OFF
 /mtx/02/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
@@ -1780,7 +1780,7 @@
 /mtx/02/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/02/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/02/eq/6 HShv 10k02 +0.00 2.0
-/mtx/02/mix ON  +0.7
+/mtx/02/mix ON   0.0
 /mtx/03/config "" 1 GNi
 /mtx/03/preamp OFF
 /mtx/03/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
@@ -1844,7 +1844,7 @@
 /main/st/eq/4 PEQ 1k97 +0.00 2.0
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
-/main/st/mix ON  -0.3 +0
+/main/st/mix ON   0.0 +0
 /main/st/mix/01 ON -38.0 +0 POST 0
 /main/st/mix/02 ON -38.0
 /main/st/mix/03 ON   -oo +0 POST 0
@@ -1862,7 +1862,7 @@
 /main/m/eq/4 PEQ 1k97 +0.00 2.0
 /main/m/eq/5 PEQ 4k08 -3.00 0.8
 /main/m/eq/6 HShv 10k02 +0.50 2.0
-/main/m/mix ON  -2.4
+/main/m/mix ON   0.0
 /main/m/mix/01 OFF   -oo +0 PRE 0
 /main/m/mix/02 OFF   -oo
 /main/m/mix/03 OFF   -oo +0 PRE 0
