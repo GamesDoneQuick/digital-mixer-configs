@@ -2,7 +2,16 @@
 /config/chlink/25-26 ON
 /ch/25/config/source 25
 /ch/26/config/source 26
+/headamp/024 -6.0 OFF
+/ch/25/preamp +0.0 OFF ON 24  82
+/headamp/025 -6.0 OFF
+/ch/26/preamp +0.0 OFF ON 24  82
 /ch/25/config/name "RTMP 5 L"
+/ch/25/eq ON
+/ch/25/eq/1 LShv 124.7 +0.00 1.0
+/ch/25/eq/2 VEQ 496.6 +0.00 1.0
+/ch/25/eq/3 VEQ 1k97 +0.00 1.0
+/ch/25/eq/4 HShv 10k02 +0.00 1.0
 /ch/25/mix/st OFF
 /ch/25/mix/pan -100
 /ch/25/mix/01 ON   0.0 -100 GRP 0
@@ -14,6 +23,11 @@
 /ch/25/mix/13/pan -100
 /ch/25/mix/15/pan -100
 /ch/26/config/name "RTMP 5 R"
+/ch/26/eq ON
+/ch/26/eq/1 LShv 124.7 +0.00 1.0
+/ch/26/eq/2 VEQ 496.6 +0.00 1.0
+/ch/26/eq/3 VEQ 1k97 +0.00 1.0
+/ch/26/eq/4 HShv 10k02 +0.00 1.0
 /ch/26/mix/pan +100
 /ch/26/mix/01/pan +100
 /ch/26/mix/03/pan +100
@@ -25,6 +39,6 @@
 /ch/26/mix/15/pan +100
 /ch/25/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/25/gate/filter ON 5.0 496.6
-/ch/25/dyn ON COMP PEAK LOG -36.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/25/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
 /ch/25/dyn/filter ON 2.0 1k49
 /ch/26/gate/keysrc 0

@@ -2,7 +2,16 @@
 /config/chlink/23-24 OFF
 /ch/23/config/source 23
 /ch/24/config/source 24
+/headamp/022 +0.0 OFF
+/ch/23/preamp +0.0 OFF ON 24  20
+/headamp/023 -6.0 OFF
+/ch/24/preamp +0.0 OFF ON 24  82
 /ch/23/config/name "RTMP 4 Game"
+/ch/23/eq ON
+/ch/23/eq/1 LShv 124.7 +0.00 1.0
+/ch/23/eq/2 VEQ 496.6 +0.00 1.0
+/ch/23/eq/3 VEQ 1k97 +0.00 1.0
+/ch/23/eq/4 HShv 10k02 +0.00 1.0
 /ch/23/mix/st ON
 /ch/23/mix/pan +0
 /ch/23/mix/01 ON   -oo +0 POST 0
@@ -14,6 +23,11 @@
 /ch/23/mix/13/pan +0
 /ch/23/mix/15/pan +0
 /ch/24/config/name "RTMP 4 Mic"
+/ch/24/eq ON
+/ch/24/eq/1 LShv 124.7 +0.00 1.0
+/ch/24/eq/2 VEQ 496.6 +0.00 1.0
+/ch/24/eq/3 VEQ 1k97 +0.00 1.0
+/ch/24/eq/4 HShv 10k02 +0.00 1.0
 /ch/24/mix/st OFF
 /ch/24/mix/pan +0
 /ch/24/mix/01 ON   0.0 +0 GRP 0
@@ -30,5 +44,5 @@
 /ch/23/dyn/filter OFF 3.0 990.9
 /ch/24/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/24/gate/filter ON 5.0 496.6
-/ch/24/dyn ON COMP PEAK LOG -36.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/24/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
 /ch/24/dyn/filter ON 2.0 1k49
