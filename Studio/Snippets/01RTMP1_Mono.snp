@@ -2,47 +2,47 @@
 /config/chlink/17-18 OFF
 /ch/17/config/source 17
 /ch/18/config/source 18
-/headamp/016 +0.0 OFF
-/ch/17/preamp +0.0 OFF ON 24  20
-/headamp/017 -6.0 OFF
-/ch/18/preamp +0.0 OFF ON 24  82
-/ch/17/config/name "RTMP 1 Game"
-/ch/17/eq ON
-/ch/17/eq/1 LShv 124.7 +0.00 1.0
-/ch/17/eq/2 VEQ 496.6 +0.00 1.0
-/ch/17/eq/3 VEQ 1k97 +0.00 1.0
-/ch/17/eq/4 HShv 10k02 +0.00 1.0
-/ch/17/mix/st ON
-/ch/17/mix/pan +0
-/ch/17/mix/01 ON   -oo +0 POST 0
-/ch/17/mix/03 ON   0.0 +0 POST 0
-/ch/17/mix/05/pan +0
-/ch/17/mix/07/pan +0
-/ch/17/mix/09/pan +0
-/ch/17/mix/11/pan +0
-/ch/17/mix/13/pan +0
-/ch/17/mix/15/pan +0
-/ch/18/config/name "RTMP 1 Mic"
+/headamp/017 +0.0 OFF
+/ch/18/preamp +0.0 OFF ON 24  20
+/headamp/016 -6.0 OFF
+/ch/17/preamp +0.0 OFF ON 24  82
+/ch/18/config/name "RTMP 1 Game"
 /ch/18/eq ON
 /ch/18/eq/1 LShv 124.7 +0.00 1.0
 /ch/18/eq/2 VEQ 496.6 +0.00 1.0
 /ch/18/eq/3 VEQ 1k97 +0.00 1.0
 /ch/18/eq/4 HShv 10k02 +0.00 1.0
-/ch/18/mix/st OFF
+/ch/18/mix/st ON
 /ch/18/mix/pan +0
-/ch/18/mix/01 ON   0.0 +0 GRP 0
-/ch/18/mix/03 ON   -oo +0 POST 0
+/ch/18/mix/01 ON   -oo +0 POST 0
+/ch/18/mix/03 ON   0.0 +0 POST 0
 /ch/18/mix/05/pan +0
 /ch/18/mix/07/pan +0
 /ch/18/mix/09/pan +0
 /ch/18/mix/11/pan +0
 /ch/18/mix/13/pan +0
 /ch/18/mix/15/pan +0
-/ch/17/gate ON DUCK -24.0 6.0 100 2000 4000 49
-/ch/17/gate/filter OFF 3.0 990.9
-/ch/17/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
-/ch/17/dyn/filter OFF 3.0 990.9
-/ch/18/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/18/gate/filter ON 5.0 496.6
-/ch/18/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
-/ch/18/dyn/filter ON 2.0 1k49
+/ch/17/config/name "RTMP 1 Mic"
+/ch/17/eq ON
+/ch/17/eq/1 LShv 124.7 +0.00 1.0
+/ch/17/eq/2 VEQ 496.6 +0.00 1.0
+/ch/17/eq/3 VEQ 1k97 +0.00 1.0
+/ch/17/eq/4 HShv 10k02 +0.00 1.0
+/ch/17/mix/st OFF
+/ch/17/mix/pan +0
+/ch/17/mix/01 ON   0.0 +0 GRP 0
+/ch/17/mix/03 ON   -oo +0 POST 0
+/ch/17/mix/05/pan +0
+/ch/17/mix/07/pan +0
+/ch/17/mix/09/pan +0
+/ch/17/mix/11/pan +0
+/ch/17/mix/13/pan +0
+/ch/17/mix/15/pan +0
+/ch/18/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/18/gate/filter OFF 3.0 990.9
+/ch/18/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/18/dyn/filter OFF 3.0 990.9
+/ch/17/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/17/gate/filter ON 5.0 496.6
+/ch/17/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/17/dyn/filter ON 2.0 1k49
