@@ -259,7 +259,7 @@
 /ch/07/mix/16 OFF   -oo
 /ch/07/grp %00000000 %000000
 /ch/07/automix X  +0.0
-/ch/08/config "Skype" 45 CYi 6
+/ch/08/config "Discord" 45 CYi 6
 /ch/08/delay OFF   0.3
 /ch/08/preamp -13.0 ON OFF 24 101
 /ch/08/gate OFF EXP4 -58.0 60.0 1  112  226 0
@@ -1527,7 +1527,7 @@
 /bus/04/mix/05 OFF   -oo +100 POST 0
 /bus/04/mix/06 OFF   -oo
 /bus/04/grp %00000000 %000000
-/bus/05/config "Skype L" 45 MGi
+/bus/05/config "Discord L" 45 MGi
 /bus/05/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /bus/05/dyn/filter OFF 3.0 990.9
 /bus/05/insert OFF PRE OFF
@@ -1546,7 +1546,7 @@
 /bus/05/mix/05 ON   -oo -100 POST 0
 /bus/05/mix/06 ON   -oo
 /bus/05/grp %00000000 %000000
-/bus/06/config "Skype R" 45 MGi
+/bus/06/config "Discord R" 45 MGi
 /bus/06/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /bus/06/dyn/filter OFF 3.0 990.9
 /bus/06/insert OFF PRE OFF
