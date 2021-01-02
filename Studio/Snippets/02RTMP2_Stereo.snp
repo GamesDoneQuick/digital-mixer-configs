@@ -1,12 +1,15 @@
 #3.0# "RTMP2_Stereo_dev" 1859 786432 0 0 1
 /config/chlink/19-20 ON
-/ch/19/config/source 19
-/ch/20/config/source 20
 /headamp/018 -6.0 OFF
-/ch/19/preamp +0.0 OFF ON 24  82
 /headamp/019 -6.0 OFF
-/ch/20/preamp +0.0 OFF ON 24  82
 /ch/19/config/name "RTMP 2 L"
+/ch/19/config/source 19
+/ch/19/preamp +0.0 OFF ON 24  82
+/ch/19/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/19/gate/filter ON 5.0 496.6
+/ch/19/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/19/dyn/filter ON 2.0 1k49
+/ch/19/insert OFF POST OFF
 /ch/19/eq ON
 /ch/19/eq/1 LShv 124.7 +0.00 1.0
 /ch/19/eq/2 VEQ 496.6 +0.00 1.0
@@ -23,11 +26,10 @@
 /ch/19/mix/13/pan -100
 /ch/19/mix/15/pan -100
 /ch/20/config/name "RTMP 2 R"
-/ch/20/eq ON
-/ch/20/eq/1 LShv 124.7 +0.00 1.0
-/ch/20/eq/2 VEQ 496.6 +0.00 1.0
-/ch/20/eq/3 VEQ 1k97 +0.00 1.0
-/ch/20/eq/4 HShv 10k02 +0.00 1.0
+/ch/20/config/source 20
+/ch/20/preamp +0.0 OFF ON 24  82
+/ch/20/gate/keysrc 0
+/ch/20/insert OFF POST OFF
 /ch/20/mix/pan +100
 /ch/20/mix/01/pan +100
 /ch/20/mix/03/pan +100
@@ -37,8 +39,3 @@
 /ch/20/mix/11/pan +100
 /ch/20/mix/13/pan +100
 /ch/20/mix/15/pan +100
-/ch/19/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/19/gate/filter ON 5.0 496.6
-/ch/19/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
-/ch/19/dyn/filter ON 2.0 1k49
-/ch/20/gate/keysrc 0

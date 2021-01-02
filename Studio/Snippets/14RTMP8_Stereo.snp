@@ -1,12 +1,15 @@
 #3.0# "RTMP8_Stereo_dev" 1859 -1073741824 0 0 1
 /config/chlink/31-32 ON
-/ch/31/config/source 31
-/ch/32/config/source 32
 /headamp/030 -6.0 OFF
-/ch/31/preamp +0.0 OFF ON 24  82
 /headamp/031 -6.0 OFF
-/ch/32/preamp +0.0 OFF ON 24  82
+/ch/31/config/source 31
+/ch/31/preamp +0.0 OFF ON 24  82
 /ch/31/config/name "RTMP 8 L"
+/ch/31/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/31/gate/filter ON 5.0 496.6
+/ch/31/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/31/dyn/filter ON 2.0 1k49
+/ch/31/insert OFF POST OFF
 /ch/31/eq ON
 /ch/31/eq/1 LShv 124.7 +0.00 2.0
 /ch/31/eq/2 VEQ 496.6 +0.00 2.0
@@ -23,11 +26,10 @@
 /ch/31/mix/13/pan -100
 /ch/31/mix/15/pan -100
 /ch/32/config/name "RTMP 8 R"
-/ch/32/eq ON
-/ch/32/eq/1 LShv 124.7 +0.00 2.0
-/ch/32/eq/2 VEQ 496.6 +0.00 2.0
-/ch/32/eq/3 VEQ 1k97 +0.00 2.0
-/ch/32/eq/4 HShv 10k02 +0.00 2.0
+/ch/32/config/source 32
+/ch/32/preamp +0.0 OFF ON 24  82
+/ch/32/gate/keysrc 0
+/ch/32/insert OFF POST OFF
 /ch/32/mix/pan +100
 /ch/32/mix/01/pan +100
 /ch/32/mix/03/pan +100
@@ -37,8 +39,3 @@
 /ch/32/mix/11/pan +100
 /ch/32/mix/13/pan +100
 /ch/32/mix/15/pan +100
-/ch/31/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/31/gate/filter ON 5.0 496.6
-/ch/31/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
-/ch/31/dyn/filter ON 2.0 1k49
-/ch/32/gate/keysrc 0

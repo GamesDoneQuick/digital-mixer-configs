@@ -1,12 +1,15 @@
 #3.0# "RTMP3_Stereo_dev" 1859 3145728 0 0 1
 /config/chlink/21-22 ON
-/ch/21/config/source 21
-/ch/22/config/source 22
 /headamp/020 -6.0 OFF
-/ch/21/preamp +0.0 OFF ON 24  82
 /headamp/021 -6.0 OFF
-/ch/22/preamp +0.0 OFF ON 24  82
+/ch/21/config/source 21
+/ch/21/preamp +0.0 OFF ON 24  82
 /ch/21/config/name "RTMP 3 L"
+/ch/21/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/21/gate/filter ON 5.0 496.6
+/ch/21/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/21/dyn/filter ON 2.0 1k49
+/ch/21/insert OFF POST OFF
 /ch/21/eq ON
 /ch/21/eq/1 LShv 124.7 +0.00 1.0
 /ch/21/eq/2 VEQ 496.6 +0.00 1.0
@@ -23,11 +26,10 @@
 /ch/21/mix/13/pan -100
 /ch/21/mix/15/pan -100
 /ch/22/config/name "RTMP 3 R"
-/ch/22/eq ON
-/ch/22/eq/1 LShv 124.7 +0.00 1.0
-/ch/22/eq/2 VEQ 496.6 +0.00 1.0
-/ch/22/eq/3 VEQ 1k97 +0.00 1.0
-/ch/22/eq/4 HShv 10k02 +0.00 1.0
+/ch/22/config/source 22
+/ch/22/preamp +0.0 OFF ON 24  82
+/ch/22/gate/keysrc 0
+/ch/22/insert OFF POST OFF
 /ch/22/mix/pan +100
 /ch/22/mix/01/pan +100
 /ch/22/mix/03/pan +100
@@ -37,8 +39,3 @@
 /ch/22/mix/11/pan +100
 /ch/22/mix/13/pan +100
 /ch/22/mix/15/pan +100
-/ch/21/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/21/gate/filter ON 5.0 496.6
-/ch/21/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
-/ch/21/dyn/filter ON 2.0 1k49
-/ch/22/gate/keysrc 0

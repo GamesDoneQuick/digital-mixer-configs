@@ -1,12 +1,15 @@
 #3.0# "RTMP4_Stereo_dev" 1859 12582912 0 0 1
 /config/chlink/23-24 ON
-/ch/23/config/source 23
-/ch/24/config/source 24
 /headamp/022 -6.0 OFF
-/ch/23/preamp +0.0 OFF ON 24  82
 /headamp/023 -6.0 OFF
-/ch/24/preamp +0.0 OFF ON 24  82
+/ch/23/config/source 23
+/ch/23/preamp +0.0 OFF ON 24  82
 /ch/23/config/name "RTMP 4 L"
+/ch/23/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/23/gate/filter ON 5.0 496.6
+/ch/23/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/23/dyn/filter ON 2.0 1k49
+/ch/23/insert OFF POST OFF
 /ch/23/eq ON
 /ch/23/eq/1 LShv 124.7 +0.00 1.0
 /ch/23/eq/2 VEQ 496.6 +0.00 1.0
@@ -23,11 +26,10 @@
 /ch/23/mix/13/pan -100
 /ch/23/mix/15/pan -100
 /ch/24/config/name "RTMP 4 R"
-/ch/24/eq ON
-/ch/24/eq/1 LShv 124.7 +0.00 1.0
-/ch/24/eq/2 VEQ 496.6 +0.00 1.0
-/ch/24/eq/3 VEQ 1k97 +0.00 1.0
-/ch/24/eq/4 HShv 10k02 +0.00 1.0
+/ch/24/config/source 24
+/ch/24/preamp +0.0 OFF ON 24  82
+/ch/24/gate/keysrc 0
+/ch/24/insert OFF POST OFF
 /ch/24/mix/pan +100
 /ch/24/mix/01/pan +100
 /ch/24/mix/03/pan +100
@@ -37,8 +39,3 @@
 /ch/24/mix/11/pan +100
 /ch/24/mix/13/pan +100
 /ch/24/mix/15/pan +100
-/ch/23/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/23/gate/filter ON 5.0 496.6
-/ch/23/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
-/ch/23/dyn/filter ON 2.0 1k49
-/ch/24/gate/keysrc 0

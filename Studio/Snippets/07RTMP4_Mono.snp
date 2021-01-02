@@ -1,28 +1,15 @@
 #3.0# "RTMP4_Mono_dev" 1859 12582912 0 0 1
 /config/chlink/23-24 OFF
-/ch/23/config/source 23
-/ch/24/config/source 24
-/headamp/023 +0.0 OFF
-/ch/24/preamp +0.0 OFF ON 24  20
 /headamp/022 -6.0 OFF
-/ch/23/preamp +0.0 OFF ON 24  82
-/ch/24/config/name "RTMP 4 Game"
-/ch/24/eq ON
-/ch/24/eq/1 LShv 124.7 +0.00 1.0
-/ch/24/eq/2 VEQ 496.6 +0.00 1.0
-/ch/24/eq/3 VEQ 1k97 +0.00 1.0
-/ch/24/eq/4 HShv 10k02 +0.00 1.0
-/ch/24/mix/st ON
-/ch/24/mix/pan +0
-/ch/24/mix/01 ON   -oo +0 POST 0
-/ch/24/mix/03 ON   0.0 +0 POST 0
-/ch/24/mix/05/pan +0
-/ch/24/mix/07/pan +0
-/ch/24/mix/09/pan +0
-/ch/24/mix/11/pan +0
-/ch/24/mix/13/pan +0
-/ch/24/mix/15/pan +0
+/headamp/023 +0.0 OFF
 /ch/23/config/name "RTMP 4 Mic"
+/ch/23/config/source 23
+/ch/23/preamp +0.0 OFF ON 24  82
+/ch/23/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/23/gate/filter ON 5.0 496.6
+/ch/23/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/23/dyn/filter ON 2.0 1k49
+/ch/23/insert OFF POST OFF
 /ch/23/eq ON
 /ch/23/eq/1 LShv 124.7 +0.00 1.0
 /ch/23/eq/2 VEQ 496.6 +0.00 1.0
@@ -38,11 +25,26 @@
 /ch/23/mix/11/pan +0
 /ch/23/mix/13/pan +0
 /ch/23/mix/15/pan +0
+/ch/24/config/name "RTMP 4 Game"
+/ch/24/config/source 24
+/ch/24/preamp +0.0 OFF ON 24  20
 /ch/24/gate ON DUCK -24.0 6.0 100 2000 4000 49
 /ch/24/gate/filter OFF 3.0 990.9
 /ch/24/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
 /ch/24/dyn/filter OFF 3.0 990.9
-/ch/23/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/23/gate/filter ON 5.0 496.6
-/ch/23/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
-/ch/23/dyn/filter ON 2.0 1k49
+/ch/24/insert OFF POST OFF
+/ch/24/eq ON
+/ch/24/eq/1 LShv 124.7 +0.00 1.0
+/ch/24/eq/2 VEQ 496.6 +0.00 1.0
+/ch/24/eq/3 VEQ 1k97 +0.00 1.0
+/ch/24/eq/4 HShv 10k02 +0.00 1.0
+/ch/24/mix/st ON
+/ch/24/mix/pan +0
+/ch/24/mix/01 ON   -oo +0 POST 0
+/ch/24/mix/03 ON   0.0 +0 POST 0
+/ch/24/mix/05/pan +0
+/ch/24/mix/07/pan +0
+/ch/24/mix/09/pan +0
+/ch/24/mix/11/pan +0
+/ch/24/mix/13/pan +0
+/ch/24/mix/15/pan +0
