@@ -496,7 +496,7 @@
 /ch/15/eq/2 PEQ 496.6 +0.00 2.0
 /ch/15/eq/3 PEQ 1k97 +0.00 2.0
 /ch/15/eq/4 HShv 10k02 +0.00 2.0
-/ch/15/mix ON  +0.9 ON -100 OFF   -oo
+/ch/15/mix ON   0.0 ON -100 OFF   -oo
 /ch/15/mix/01 ON   -oo -100 POST 0
 /ch/15/mix/02 ON   -oo
 /ch/15/mix/03 OFF   -oo -100 POST 0
@@ -528,7 +528,7 @@
 /ch/16/eq/2 PEQ 496.6 +0.00 2.0
 /ch/16/eq/3 PEQ 1k97 +0.00 2.0
 /ch/16/eq/4 HShv 10k02 +0.00 2.0
-/ch/16/mix ON  +0.9 ON +100 OFF   -oo
+/ch/16/mix ON   0.0 ON +100 OFF   -oo
 /ch/16/mix/01 ON   -oo +100 POST 0
 /ch/16/mix/02 ON   -oo
 /ch/16/mix/03 OFF   -oo +100 POST 0
