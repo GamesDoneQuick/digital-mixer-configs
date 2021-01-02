@@ -746,7 +746,7 @@
 /ch/23/gate/filter ON 5.0 496.6
 /ch/23/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
 /ch/23/dyn/filter ON 2.0 1k49
-/ch/23/insert OFF POST FX8L
+/ch/23/insert OFF POST OFF
 /ch/23/eq ON
 /ch/23/eq/1 LShv 124.7 +0.00 1.0
 /ch/23/eq/2 VEQ 496.6 +0.00 1.0
@@ -778,7 +778,7 @@
 /ch/24/gate/filter ON 5.0 496.6
 /ch/24/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
 /ch/24/dyn/filter ON 2.0 1k49
-/ch/24/insert OFF POST FX8R
+/ch/24/insert OFF POST OFF
 /ch/24/eq ON
 /ch/24/eq/1 LShv 124.7 +0.00 1.0
 /ch/24/eq/2 VEQ 496.6 +0.00 1.0
@@ -1614,7 +1614,7 @@
 /bus/09/eq/4 PEQ 1k97 +0.00 2.0
 /bus/09/eq/5 PEQ 5k02 +0.00 2.0
 /bus/09/eq/6 HShv 10k02 +0.00 2.0
-/bus/09/mix ON  -3.7 OFF -100 OFF   -oo
+/bus/09/mix ON  -5.0 OFF -100 OFF   -oo
 /bus/09/mix/01 OFF   -oo -100 POST 0
 /bus/09/mix/02 OFF   -oo
 /bus/09/mix/03 OFF   -oo -100 POST 0
@@ -1633,7 +1633,7 @@
 /bus/10/eq/4 PEQ 1k97 +0.00 2.0
 /bus/10/eq/5 PEQ 5k02 +0.00 2.0
 /bus/10/eq/6 HShv 10k02 +0.00 2.0
-/bus/10/mix ON  -3.7 OFF +100 OFF   -oo
+/bus/10/mix ON  -5.0 OFF +100 OFF   -oo
 /bus/10/mix/01 OFF   -oo +100 POST 0
 /bus/10/mix/02 OFF   -oo
 /bus/10/mix/03 OFF   -oo +100 POST 0
@@ -1869,7 +1869,7 @@
 /main/m/mix/04 OFF   -oo
 /main/m/mix/05 OFF   -oo +0 PRE 0
 /main/m/mix/06 OFF   -oo
-/dca/1 ON   -oo
+/dca/1 ON   0.0
 /dca/1/config "Break Music" 60 GN
 /dca/2 ON   -oo
 /dca/2/config "Run(RTMP1-6" 70 CY
@@ -1883,7 +1883,7 @@
 /dca/6/config "DCA" 70 OFF
 /dca/7 ON   -oo
 /dca/7/config "DCA" 70 OFF
-/dca/8 ON   0.0
+/dca/8 ON   -oo
 /dca/8/config "Host DCA" 70 WHi
 /fx/1 VRM
 /fx/1/source INS INS
