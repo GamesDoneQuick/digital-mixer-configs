@@ -272,7 +272,7 @@
 /ch/08/eq/2 PEQ 153.5 +3.75 0.7
 /ch/08/eq/3 PEQ 496.6 -2.25 1.2
 /ch/08/eq/4 PEQ 4k37 -0.25  10
-/ch/08/mix OFF  0.0 OFF +0 OFF   -oo
+/ch/08/mix OFF   0.0 OFF +0 OFF   -oo
 /ch/08/mix/01 ON   0.0 +0 GRP 0
 /ch/08/mix/02 ON   0.0
 /ch/08/mix/03 ON   -oo +0 POST 0
@@ -432,7 +432,7 @@
 /ch/13/eq/2 VEQ 496.6 +0.00 2.0
 /ch/13/eq/3 VEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 10k02 +0.00 2.0
-/ch/13/mix ON  0.0 ON -100 OFF   -oo
+/ch/13/mix ON   0.0 ON -100 OFF   -oo
 /ch/13/mix/01 ON   -oo -100 POST 0
 /ch/13/mix/02 ON   -oo
 /ch/13/mix/03 ON   0.0 -100 POST 0
@@ -464,7 +464,7 @@
 /ch/14/eq/2 VEQ 496.6 +0.00 2.0
 /ch/14/eq/3 VEQ 1k97 +0.00 2.0
 /ch/14/eq/4 HShv 10k02 +0.00 2.0
-/ch/14/mix ON  0.0 ON +100 OFF   -oo
+/ch/14/mix ON   0.0 ON +100 OFF   -oo
 /ch/14/mix/01 ON   -oo +100 POST 0
 /ch/14/mix/02 ON   -oo
 /ch/14/mix/03 ON   0.0 +100 POST 0
@@ -547,24 +547,24 @@
 /ch/16/mix/16 OFF   -oo
 /ch/16/grp %00000001 %000000
 /ch/16/automix OFF -12.0
-/ch/17/config "RTMP 1 Game" 72 RD 17
+/ch/17/config "RTMP 1 Mic" 72 RD 17
 /ch/17/delay OFF   0.3
-/ch/17/preamp +0.0 OFF ON 24  20
-/ch/17/gate ON DUCK -24.0 6.0 100 2000 4000 49
-/ch/17/gate/filter OFF 3.0 990.9
-/ch/17/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
-/ch/17/dyn/filter OFF 3.0 990.9
+/ch/17/preamp +0.0 OFF ON 24  82
+/ch/17/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/ch/17/gate/filter ON 5.0 496.6
+/ch/17/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/17/dyn/filter ON 2.0 1k49
 /ch/17/insert OFF POST OFF
 /ch/17/eq ON
 /ch/17/eq/1 LShv 124.7 +0.00 1.0
 /ch/17/eq/2 VEQ 496.6 +0.00 1.0
 /ch/17/eq/3 VEQ 1k97 +0.00 1.0
 /ch/17/eq/4 HShv 10k02 +0.00 1.0
-/ch/17/mix OFF   -oo ON +0 OFF -14.0
-/ch/17/mix/01 ON   -oo +0 POST 0
-/ch/17/mix/02 ON   -oo
-/ch/17/mix/03 ON   0.0 +0 POST 0
-/ch/17/mix/04 ON   0.0
+/ch/17/mix OFF   -oo OFF +0 OFF -14.0
+/ch/17/mix/01 ON   0.0 +0 GRP 0
+/ch/17/mix/02 ON   0.0
+/ch/17/mix/03 ON   -oo +0 POST 0
+/ch/17/mix/04 ON   -oo
 /ch/17/mix/05 ON   -oo +0 POST 0
 /ch/17/mix/06 ON   -oo
 /ch/17/mix/07 ON   0.0 +0 POST 0
@@ -579,24 +579,24 @@
 /ch/17/mix/16 ON   -oo
 /ch/17/grp %00000010 %000000
 /ch/17/automix OFF -12.0
-/ch/18/config "RTMP 1 Mic" 5 RD 18
+/ch/18/config "RTMP 1 Game" 5 RD 18
 /ch/18/delay OFF   0.3
-/ch/18/preamp +0.0 OFF ON 24  82
-/ch/18/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/18/gate/filter ON 5.0 496.6
-/ch/18/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
-/ch/18/dyn/filter ON 2.0 1k49
+/ch/18/preamp +0.0 OFF ON 24  20
+/ch/18/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/18/gate/filter OFF 3.0 990.9
+/ch/18/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/18/dyn/filter OFF 3.0 990.9
 /ch/18/insert OFF POST OFF
 /ch/18/eq ON
 /ch/18/eq/1 LShv 124.7 +0.00 1.0
 /ch/18/eq/2 VEQ 496.6 +0.00 1.0
 /ch/18/eq/3 VEQ 1k97 +0.00 1.0
 /ch/18/eq/4 HShv 10k02 +0.00 1.0
-/ch/18/mix OFF   -oo OFF +0 OFF -14.0
-/ch/18/mix/01 ON   0.0 +0 GRP 0
-/ch/18/mix/02 ON   0.0
-/ch/18/mix/03 ON   -oo +0 POST 0
-/ch/18/mix/04 ON   -oo
+/ch/18/mix OFF   -oo ON +0 OFF -14.0
+/ch/18/mix/01 ON   -oo +0 POST 0
+/ch/18/mix/02 ON   -oo
+/ch/18/mix/03 ON   0.0 +0 POST 0
+/ch/18/mix/04 ON   0.0
 /ch/18/mix/05 ON   -oo +0 POST 0
 /ch/18/mix/06 ON   -oo
 /ch/18/mix/07 ON   0.0 +0 POST 0
@@ -688,7 +688,7 @@
 /ch/21/eq/2 VEQ 496.6 +0.00 1.0
 /ch/21/eq/3 VEQ 1k97 +0.00 1.0
 /ch/21/eq/4 HShv 10k02 +0.00 1.0
-/ch/21/mix OFF -oo OFF -100 OFF -14.0
+/ch/21/mix OFF   -oo OFF -100 OFF -14.0
 /ch/21/mix/01 ON   0.0 -100 GRP 0
 /ch/21/mix/02 ON   0.0
 /ch/21/mix/03 ON   -oo -100 POST 0
@@ -720,7 +720,7 @@
 /ch/22/eq/2 VEQ 496.6 +0.00 1.0
 /ch/22/eq/3 VEQ 1k97 +0.00 1.0
 /ch/22/eq/4 HShv 10k02 +0.00 1.0
-/ch/22/mix OFF -oo OFF +100 OFF -14.0
+/ch/22/mix OFF   -oo OFF +100 OFF -14.0
 /ch/22/mix/01 ON   0.0 +100 GRP 0
 /ch/22/mix/02 ON   0.0
 /ch/22/mix/03 ON   -oo +100 POST 0
@@ -1883,7 +1883,7 @@
 /dca/6/config "DCA" 70 OFF
 /dca/7 ON   -oo
 /dca/7/config "DCA" 70 OFF
-/dca/8 ON  0.0
+/dca/8 ON   0.0
 /dca/8/config "Host DCA" 70 WHi
 /fx/1 VRM
 /fx/1/source INS INS
@@ -1995,8 +1995,8 @@
 /headamp/013 +0.0 OFF
 /headamp/014 +0.0 OFF
 /headamp/015 +0.0 OFF
-/headamp/016 +0.0 OFF
-/headamp/017 -6.0 OFF
+/headamp/016 -6.0 OFF
+/headamp/017 +0.0 OFF
 /headamp/018 -6.0 OFF
 /headamp/019 -6.0 OFF
 /headamp/020 -6.0 OFF
