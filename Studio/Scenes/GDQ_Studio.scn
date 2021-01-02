@@ -272,7 +272,7 @@
 /ch/08/eq/2 PEQ 153.5 +3.75 0.7
 /ch/08/eq/3 PEQ 496.6 -2.25 1.2
 /ch/08/eq/4 PEQ 4k37 -0.25  10
-/ch/08/mix OFF  -1.0 OFF +0 OFF   -oo
+/ch/08/mix OFF  0.0 OFF +0 OFF   -oo
 /ch/08/mix/01 ON   0.0 +0 GRP 0
 /ch/08/mix/02 ON   0.0
 /ch/08/mix/03 ON   -oo +0 POST 0
@@ -432,7 +432,7 @@
 /ch/13/eq/2 VEQ 496.6 +0.00 2.0
 /ch/13/eq/3 VEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 10k02 +0.00 2.0
-/ch/13/mix ON  +1.4 ON -100 OFF   -oo
+/ch/13/mix ON  0.0 ON -100 OFF   -oo
 /ch/13/mix/01 ON   -oo -100 POST 0
 /ch/13/mix/02 ON   -oo
 /ch/13/mix/03 ON   0.0 -100 POST 0
@@ -464,7 +464,7 @@
 /ch/14/eq/2 VEQ 496.6 +0.00 2.0
 /ch/14/eq/3 VEQ 1k97 +0.00 2.0
 /ch/14/eq/4 HShv 10k02 +0.00 2.0
-/ch/14/mix ON  +1.4 ON +100 OFF   -oo
+/ch/14/mix ON  0.0 ON +100 OFF   -oo
 /ch/14/mix/01 ON   -oo +100 POST 0
 /ch/14/mix/02 ON   -oo
 /ch/14/mix/03 ON   0.0 +100 POST 0
@@ -688,7 +688,7 @@
 /ch/21/eq/2 VEQ 496.6 +0.00 1.0
 /ch/21/eq/3 VEQ 1k97 +0.00 1.0
 /ch/21/eq/4 HShv 10k02 +0.00 1.0
-/ch/21/mix OFF -89.5 OFF -100 OFF -14.0
+/ch/21/mix OFF -oo OFF -100 OFF -14.0
 /ch/21/mix/01 ON   0.0 -100 GRP 0
 /ch/21/mix/02 ON   0.0
 /ch/21/mix/03 ON   -oo -100 POST 0
@@ -720,7 +720,7 @@
 /ch/22/eq/2 VEQ 496.6 +0.00 1.0
 /ch/22/eq/3 VEQ 1k97 +0.00 1.0
 /ch/22/eq/4 HShv 10k02 +0.00 1.0
-/ch/22/mix OFF -89.5 OFF +100 OFF -14.0
+/ch/22/mix OFF -oo OFF +100 OFF -14.0
 /ch/22/mix/01 ON   0.0 +100 GRP 0
 /ch/22/mix/02 ON   0.0
 /ch/22/mix/03 ON   -oo +100 POST 0
@@ -1883,7 +1883,7 @@
 /dca/6/config "DCA" 70 OFF
 /dca/7 ON   -oo
 /dca/7/config "DCA" 70 OFF
-/dca/8 ON  -0.6
+/dca/8 ON  0.0
 /dca/8/config "Host DCA" 70 WHi
 /fx/1 VRM
 /fx/1/source INS INS
