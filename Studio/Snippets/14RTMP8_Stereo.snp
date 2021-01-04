@@ -25,6 +25,7 @@
 /ch/31/mix/11/pan -100
 /ch/31/mix/13/pan -100
 /ch/31/mix/15/pan -100
+/ch/31/grp/dca %00000010
 /ch/32/config/name "RTMP 8 R"
 /ch/32/config/source 32
 /ch/32/preamp +0.0 OFF ON 24  82
