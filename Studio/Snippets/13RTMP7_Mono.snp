@@ -25,7 +25,7 @@
 /ch/29/mix/11/pan +0
 /ch/29/mix/13/pan +0
 /ch/29/mix/15/pan +0
-/ch/29/grp/dca %00000010
+/ch/29/grp/dca %10000000
 /ch/30/config/name "RTMP 7 Game"
 /ch/30/config/source 30
 /ch/30/preamp +0.0 OFF ON 24  20
@@ -49,4 +49,4 @@
 /ch/30/mix/11/pan +0
 /ch/30/mix/13/pan +0
 /ch/30/mix/15/pan +0
-/ch/30/grp/dca %00000010
+/ch/30/grp/dca %10000000
