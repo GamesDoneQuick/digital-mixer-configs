@@ -1,13 +1,13 @@
 #3.0# "RTMP5_Mono_dev" 1859 50331648 0 0 1
 /config/chlink/25-26 OFF
-/headamp/024 -6.0 OFF
+/headamp/024 +0.0 OFF
 /headamp/025 +0.0 OFF
 /ch/25/config/name "RTMP 5 Mic"
 /ch/25/config/source 25
 /ch/25/preamp +0.0 OFF ON 24  82
 /ch/25/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/25/gate/filter ON 5.0 496.6
-/ch/25/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/25/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/25/dyn/filter ON 2.0 1k49
 /ch/25/insert OFF POST OFF
 /ch/25/eq ON

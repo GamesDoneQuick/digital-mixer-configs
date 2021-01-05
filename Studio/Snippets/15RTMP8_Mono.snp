@@ -1,13 +1,13 @@
 #3.0# "RTMP8_Mono_dev" 1859 -1073741824 0 0 1
 /config/chlink/31-32 OFF
-/headamp/030 -6.0 OFF
+/headamp/030 +0.0 OFF
 /headamp/031 +0.0 OFF
 /ch/31/config/name "RTMP 8 Mic"
 /ch/31/config/source 31
 /ch/31/preamp +0.0 OFF ON 24  82
 /ch/31/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/31/gate/filter ON 5.0 496.6
-/ch/31/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/31/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/31/dyn/filter ON 2.0 1k49
 /ch/31/insert OFF POST OFF
 /ch/31/eq ON

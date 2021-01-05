@@ -1,13 +1,13 @@
 #3.0# "RTMP3_Mono_dev" 1859 3145728 0 0 1
 /config/chlink/21-22 OFF
+/headamp/020 +0.0 OFF
 /headamp/021 +0.0 OFF
-/headamp/022 -6.0 OFF
 /ch/21/config/name "RTMP 3 Mic"
 /ch/21/config/source 21
 /ch/21/preamp +0.0 OFF ON 24  82
 /ch/21/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/21/gate/filter ON 5.0 496.6
-/ch/21/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/21/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/21/dyn/filter ON 2.0 1k49
 /ch/21/insert OFF POST OFF
 /ch/21/eq ON

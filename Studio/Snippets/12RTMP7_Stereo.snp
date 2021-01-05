@@ -1,13 +1,13 @@
 #3.0# "RTMP7_Stereo_dev" 1859 805306368 0 0 1
 /config/chlink/29-30 ON
-/headamp/028 -6.0 OFF
-/headamp/029 -6.0 OFF
+/headamp/028 +0.0 OFF
+/headamp/029 +0.0 OFF
 /ch/29/config/source 29
 /ch/29/preamp +0.0 OFF ON 24  82
 /ch/29/config/name "RTMP 7 L"
 /ch/29/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/29/gate/filter ON 5.0 496.6
-/ch/29/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/29/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/29/dyn/filter ON 2.0 1k49
 /ch/29/insert OFF POST OFF
 /ch/29/eq ON

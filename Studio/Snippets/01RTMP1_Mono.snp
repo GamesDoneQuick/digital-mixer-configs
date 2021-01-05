@@ -1,13 +1,13 @@
 #3.0# "RTMP1_Mono_dev" 1859 196608 0 0 1
 /config/chlink/17-18 OFF
-/headamp/016 -6.0 OFF
+/headamp/016 +0.0 OFF
 /headamp/017 +0.0 OFF
 /ch/17/config/name "RTMP 1 Mic"
 /ch/17/config/source 17
 /ch/17/preamp +0.0 OFF ON 24  82
 /ch/17/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/17/gate/filter ON 5.0 496.6
-/ch/17/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/17/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/17/dyn/filter ON 2.0 1k49
 /ch/17/insert OFF POST OFF
 /ch/17/eq ON
