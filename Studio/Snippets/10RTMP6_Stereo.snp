@@ -2,9 +2,10 @@
 /config/chlink/27-28 ON
 /headamp/026 +0.0 OFF
 /headamp/027 +0.0 OFF
-/ch/27/config/source 27
-/ch/27/preamp +0.0 OFF ON 24  82
 /ch/27/config/name "RTMP 6 L"
+/ch/27/config/source 27
+/ch/27/delay OFF   0.3
+/ch/27/preamp +0.0 OFF ON 24  82
 /ch/27/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/27/gate/filter ON 5.0 496.6
 /ch/27/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF

@@ -2,9 +2,10 @@
 /config/chlink/23-24 ON
 /headamp/022 +0.0 OFF
 /headamp/023 +0.0 OFF
-/ch/23/config/source 23
-/ch/23/preamp +0.0 OFF ON 24  82
 /ch/23/config/name "RTMP 4 L"
+/ch/23/config/source 23
+/ch/23/delay OFF   0.3
+/ch/23/preamp +0.0 OFF ON 24  82
 /ch/23/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/23/gate/filter ON 5.0 496.6
 /ch/23/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF

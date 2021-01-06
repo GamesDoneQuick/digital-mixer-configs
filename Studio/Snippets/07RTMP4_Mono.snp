@@ -4,6 +4,7 @@
 /headamp/023 +0.0 OFF
 /ch/23/config/name "RTMP 4 Mic"
 /ch/23/config/source 23
+/ch/23/delay OFF   0.3
 /ch/23/preamp +0.0 OFF ON 24  82
 /ch/23/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/23/gate/filter ON 5.0 496.6

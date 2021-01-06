@@ -4,6 +4,7 @@
 /headamp/027 +0.0 OFF
 /ch/27/config/name "RTMP 6 Mic"
 /ch/27/config/source 27
+/ch/27/delay OFF   0.3
 /ch/27/preamp +0.0 OFF ON 24  82
 /ch/27/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/27/gate/filter ON 5.0 496.6

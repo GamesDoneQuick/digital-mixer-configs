@@ -4,6 +4,7 @@
 /headamp/017 +0.0 OFF
 /ch/17/config/name "RTMP 1 Mic"
 /ch/17/config/source 17
+/ch/17/delay OFF   0.3
 /ch/17/preamp +0.0 OFF ON 24  82
 /ch/17/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/17/gate/filter ON 5.0 496.6

@@ -4,6 +4,7 @@
 /headamp/019 +0.0 OFF
 /ch/19/config/name "RTMP 2 L"
 /ch/19/config/source 19
+/ch/19/delay OFF   0.3
 /ch/19/preamp +0.0 OFF ON 24  82
 /ch/19/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/19/gate/filter ON 5.0 496.6
