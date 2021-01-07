@@ -12,10 +12,10 @@
 /ch/31/dyn/filter ON 2.0 1k49
 /ch/31/insert OFF POST OFF
 /ch/31/eq ON
-/ch/31/eq/1 LShv 124.7 +0.00 2.0
+/ch/31/eq/1 LShv 232.3 +0.00 2.0
 /ch/31/eq/2 VEQ 496.6 +0.00 2.0
 /ch/31/eq/3 VEQ 1k97 +0.00 2.0
-/ch/31/eq/4 HShv 10k02 +0.00 2.0
+/ch/31/eq/4 HShv 5k57 +0.00 2.0
 /ch/31/mix/st OFF
 /ch/31/mix/pan -100
 /ch/31/mix/01 ON   0.0 -100 GRP 0
