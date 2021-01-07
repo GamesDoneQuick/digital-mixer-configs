@@ -65,7 +65,7 @@
 /ch/01/mix/14 ON  -1.5
 /ch/01/mix/15 ON   0.0 +0 PRE 0
 /ch/01/mix/16 ON   0.0
-/ch/01/grp %00000010 %000000
+/ch/01/grp %00000000 %000000
 /ch/01/automix X  +0.0
 /ch/02/config "Runner 2" 74 WH 2
 /ch/02/delay OFF   0.3
@@ -97,7 +97,7 @@
 /ch/02/mix/14 ON  -2.5
 /ch/02/mix/15 ON   0.0 +0 PRE 0
 /ch/02/mix/16 ON   0.0
-/ch/02/grp %00000010 %000000
+/ch/02/grp %00000000 %000000
 /ch/02/automix X  +0.0
 /ch/03/config "Runner 3" 74 GN 3
 /ch/03/delay OFF   0.3
@@ -129,7 +129,7 @@
 /ch/03/mix/14 ON  +2.3
 /ch/03/mix/15 ON   0.0 +0 PRE 0
 /ch/03/mix/16 ON   0.0
-/ch/03/grp %00000010 %000000
+/ch/03/grp %00000000 %000000
 /ch/03/automix X  +0.0
 /ch/04/config "Runner 4" 74 BL 4
 /ch/04/delay OFF   0.3
@@ -161,7 +161,7 @@
 /ch/04/mix/14 ON  -2.3
 /ch/04/mix/15 ON  +5.0 +0 EQ-> 0
 /ch/04/mix/16 ON  +5.0
-/ch/04/grp %00000010 %000000
+/ch/04/grp %00000000 %000000
 /ch/04/automix X  +0.0
 /ch/05/config "Host" 43 CY 5
 /ch/05/delay OFF   0.3
@@ -321,7 +321,7 @@
 /ch/09/mix/14 ON  -2.3
 /ch/09/mix/15 ON   0.0 -100 IN/LC 0
 /ch/09/mix/16 ON   0.0
-/ch/09/grp %00000010 %000000
+/ch/09/grp %00000000 %000000
 /ch/09/automix OFF -12.0
 /ch/10/config "Game 1 R" 5 RD 10
 /ch/10/delay OFF   0.3
@@ -353,7 +353,7 @@
 /ch/10/mix/14 ON  -2.3
 /ch/10/mix/15 ON   0.0 +100 IN/LC 0
 /ch/10/mix/16 ON   0.0
-/ch/10/grp %00000010 %000000
+/ch/10/grp %00000000 %000000
 /ch/10/automix OFF -12.0
 /ch/11/config "Game 2 L" 5 WH 11
 /ch/11/delay OFF   0.3
@@ -385,7 +385,7 @@
 /ch/11/mix/14 ON   -oo
 /ch/11/mix/15 ON   -oo -100 IN/LC 0
 /ch/11/mix/16 ON   -oo
-/ch/11/grp %00000010 %000000
+/ch/11/grp %00000000 %000000
 /ch/11/automix OFF -12.0
 /ch/12/config "Game 2 R" 5 WH 12
 /ch/12/delay OFF   0.3
@@ -417,7 +417,7 @@
 /ch/12/mix/14 ON   -oo
 /ch/12/mix/15 ON   -oo +100 IN/LC 0
 /ch/12/mix/16 ON   -oo
-/ch/12/grp %00000010 %000000
+/ch/12/grp %00000000 %000000
 /ch/12/automix OFF -12.0
 /ch/13/config "Ad L" 12 RDi 7
 /ch/13/delay OFF   0.3
