@@ -1213,9 +1213,9 @@
 /auxin/07/preamp +0.0 OFF
 /auxin/07/eq ON
 /auxin/07/eq/1 LShv 232.3 +0.00 2.0
-/auxin/07/eq/2 PEQ 5k76 -3.50 2.0
-/auxin/07/eq/3 PEQ 7k60 -3.75 7.1
-/auxin/07/eq/4 PEQ 15k70 -10.0  10
+/auxin/07/eq/2 PEQ 5k76 +0.00 2.0
+/auxin/07/eq/3 PEQ 7k60 +0.00 7.1
+/auxin/07/eq/4 PEQ 15k70 +0.00  10
 /auxin/07/mix ON   0.0 ON -100 OFF   -oo
 /auxin/07/mix/01 OFF   -oo +0 GRP 0
 /auxin/07/mix/02 OFF   -oo
@@ -1238,9 +1238,9 @@
 /auxin/08/preamp +0.0 OFF
 /auxin/08/eq ON
 /auxin/08/eq/1 LShv 232.3 +0.00 2.0
-/auxin/08/eq/2 PEQ 5k76 -3.50 2.0
-/auxin/08/eq/3 PEQ 7k60 -3.75 7.1
-/auxin/08/eq/4 PEQ 15k70 -10.0  10
+/auxin/08/eq/2 PEQ 5k76 +0.00 2.0
+/auxin/08/eq/3 PEQ 7k60 +0.00 7.1
+/auxin/08/eq/4 PEQ 15k70 +0.00  10
 /auxin/08/mix ON   0.0 ON +100 OFF   -oo
 /auxin/08/mix/01 OFF   -oo +0 GRP 0
 /auxin/08/mix/02 OFF   -oo
