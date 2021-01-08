@@ -424,7 +424,7 @@
 /ch/13/preamp +0.0 OFF OFF 24  20
 /ch/13/gate OFF EXP4 -44.0 60.0 1  502  983 0
 /ch/13/gate/filter OFF 3.0 990.9
-/ch/13/dyn ON COMP RMS LOG -21.5 100 2 4.00 0 2000 4000 POST 0 100 OFF
+/ch/13/dyn ON COMP RMS LOG -30.0 100 2 11.0 0 2000 4000 POST 0 100 OFF
 /ch/13/dyn/filter OFF 3.0 990.9
 /ch/13/insert OFF POST OFF
 /ch/13/eq ON
@@ -456,7 +456,7 @@
 /ch/14/preamp +0.0 OFF OFF 24  20
 /ch/14/gate OFF EXP4 -44.0 60.0 1  502  983 0
 /ch/14/gate/filter OFF 3.0 990.9
-/ch/14/dyn ON COMP RMS LOG -21.5 100 2 4.00 0 2000 4000 POST 0 100 OFF
+/ch/13/dyn ON COMP RMS LOG -30.0 100 2 11.0 0 2000 4000 POST 0 100 OFF
 /ch/14/dyn/filter OFF 3.0 990.9
 /ch/14/insert OFF POST OFF
 /ch/14/eq ON
@@ -1985,8 +1985,8 @@
 /headamp/003 +42.5 OFF
 /headamp/004 +39.0 OFF
 /headamp/005 -12.0 OFF
-/headamp/006 +0.0 OFF
-/headamp/007 +0.0 OFF
+/headamp/006 +10.0 OFF
+/headamp/007 +10.0 OFF
 /headamp/008 +44.5 OFF
 /headamp/009 +44.5 OFF
 /headamp/010 +43.0 OFF
