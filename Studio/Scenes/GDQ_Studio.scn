@@ -1,4 +1,4 @@
-#4.0# "GDQ_Studio_dev" "" %000000000 1                                                                                        
+#4.0# "GDQ_Studio_dev" "" %000000000 1                                                                                             
 /config/chlink OFF OFF OFF OFF ON ON ON ON OFF ON ON ON ON ON ON ON
 /config/auxlink ON ON ON ON
 /config/fxlink ON ON ON ON
@@ -432,7 +432,7 @@
 /ch/13/eq/2 VEQ 496.6 +0.00 2.0
 /ch/13/eq/3 VEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 5k57 +0.00 2.0
-/ch/13/mix ON   0.0 ON -100 OFF   -oo
+/ch/13/mix OFF   0.0 ON -100 OFF   -oo
 /ch/13/mix/01 ON   -oo -100 POST 0
 /ch/13/mix/02 ON   -oo
 /ch/13/mix/03 ON   0.0 -100 POST 0
@@ -456,7 +456,7 @@
 /ch/14/preamp +0.0 OFF OFF 24  20
 /ch/14/gate OFF EXP4 -44.0 60.0 1  502  983 0
 /ch/14/gate/filter OFF 3.0 990.9
-/ch/13/dyn ON COMP RMS LIN -30.0 100 2 11.0 0 2000 4000 POST 0 100 OFF
+/ch/14/dyn ON COMP RMS LIN -30.0 100 2 11.0 0 2000 4000 POST 0 100 OFF
 /ch/14/dyn/filter OFF 3.0 990.9
 /ch/14/insert OFF POST OFF
 /ch/14/eq ON
@@ -464,7 +464,7 @@
 /ch/14/eq/2 VEQ 496.6 +0.00 2.0
 /ch/14/eq/3 VEQ 1k97 +0.00 2.0
 /ch/14/eq/4 HShv 5k57 +0.00 2.0
-/ch/14/mix ON   0.0 ON +100 OFF   -oo
+/ch/14/mix OFF   0.0 ON +100 OFF   -oo
 /ch/14/mix/01 ON   -oo +100 POST 0
 /ch/14/mix/02 ON   -oo
 /ch/14/mix/03 ON   0.0 +100 POST 0
@@ -547,12 +547,12 @@
 /ch/16/mix/16 OFF   -oo
 /ch/16/grp %00000001 %000000
 /ch/16/automix OFF -12.0
-/ch/17/config "RTMP 1 Mic" 72 RD 17
+/ch/17/config "RTMP 1 Mic" 5 RD 17
 /ch/17/delay OFF   0.3
 /ch/17/preamp +0.0 OFF ON 24  82
 /ch/17/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/17/gate/filter ON 5.0 496.6
-/ch/17/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/17/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/17/dyn/filter ON 2.0 1k49
 /ch/17/insert OFF POST OFF
 /ch/17/eq ON
@@ -616,7 +616,7 @@
 /ch/19/preamp +0.0 OFF ON 24  82
 /ch/19/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/19/gate/filter ON 5.0 496.6
-/ch/19/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/19/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/19/dyn/filter ON 2.0 1k49
 /ch/19/insert OFF POST OFF
 /ch/19/eq ON
@@ -648,7 +648,7 @@
 /ch/20/preamp +0.0 OFF ON 24  82
 /ch/20/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/20/gate/filter ON 5.0 496.6
-/ch/20/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/20/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/20/dyn/filter ON 2.0 1k49
 /ch/20/insert OFF POST OFF
 /ch/20/eq ON
@@ -680,7 +680,7 @@
 /ch/21/preamp +0.0 OFF ON 24  82
 /ch/21/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/21/gate/filter ON 5.0 496.6
-/ch/21/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/21/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/21/dyn/filter ON 2.0 1k49
 /ch/21/insert OFF POST OFF
 /ch/21/eq ON
@@ -712,7 +712,7 @@
 /ch/22/preamp +0.0 OFF ON 24  82
 /ch/22/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/22/gate/filter ON 5.0 496.6
-/ch/22/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/22/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/22/dyn/filter ON 2.0 1k49
 /ch/22/insert OFF POST OFF
 /ch/22/eq ON
@@ -744,7 +744,7 @@
 /ch/23/preamp +0.0 OFF ON 24  82
 /ch/23/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/23/gate/filter ON 5.0 496.6
-/ch/23/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/23/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/23/dyn/filter ON 2.0 1k49
 /ch/23/insert OFF POST OFF
 /ch/23/eq ON
@@ -776,7 +776,7 @@
 /ch/24/preamp +0.0 OFF ON 24  82
 /ch/24/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/24/gate/filter ON 5.0 496.6
-/ch/24/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/24/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/24/dyn/filter ON 2.0 1k49
 /ch/24/insert OFF POST OFF
 /ch/24/eq ON
@@ -808,7 +808,7 @@
 /ch/25/preamp +0.0 OFF ON 24  82
 /ch/25/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/25/gate/filter ON 5.0 496.6
-/ch/25/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/25/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/25/dyn/filter ON 2.0 1k49
 /ch/25/insert OFF POST OFF
 /ch/25/eq ON
@@ -840,7 +840,7 @@
 /ch/26/preamp +0.0 OFF ON 24  82
 /ch/26/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/26/gate/filter ON 5.0 496.6
-/ch/26/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/26/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/26/dyn/filter ON 2.0 1k49
 /ch/26/insert OFF POST OFF
 /ch/26/eq ON
@@ -872,7 +872,7 @@
 /ch/27/preamp +0.0 OFF ON 24  82
 /ch/27/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/27/gate/filter ON 5.0 496.6
-/ch/27/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/27/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/27/dyn/filter ON 2.0 1k49
 /ch/27/insert OFF POST OFF
 /ch/27/eq ON
@@ -904,7 +904,7 @@
 /ch/28/preamp +0.0 OFF ON 24  82
 /ch/28/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/28/gate/filter ON 5.0 496.6
-/ch/28/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/28/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/28/dyn/filter ON 2.0 1k49
 /ch/28/insert OFF POST OFF
 /ch/28/eq ON
@@ -936,7 +936,7 @@
 /ch/29/preamp +0.0 OFF ON 24  82
 /ch/29/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/29/gate/filter ON 5.0 496.6
-/ch/29/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/29/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/29/dyn/filter ON 2.0 1k49
 /ch/29/insert OFF POST OFF
 /ch/29/eq ON
@@ -968,7 +968,7 @@
 /ch/30/preamp +0.0 OFF ON 24  82
 /ch/30/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/30/gate/filter ON 5.0 496.6
-/ch/30/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/30/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/30/dyn/filter ON 2.0 1k49
 /ch/30/insert OFF POST OFF
 /ch/30/eq ON
@@ -1000,7 +1000,7 @@
 /ch/31/preamp +0.0 OFF ON 24  82
 /ch/31/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/31/gate/filter ON 5.0 496.6
-/ch/31/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/31/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/31/dyn/filter ON 2.0 1k49
 /ch/31/insert OFF POST OFF
 /ch/31/eq ON
@@ -1032,7 +1032,7 @@
 /ch/32/preamp +0.0 OFF ON 24  82
 /ch/32/gate OFF EXP4 -58.0 60.0 1  112  226 0
 /ch/32/gate/filter ON 5.0 496.6
-/ch/32/dyn ON COMP PEAK LOG -30.0 5.0 1 6.00 0 6.32  77 POST 0 100 OFF
+/ch/32/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
 /ch/32/dyn/filter ON 2.0 1k49
 /ch/32/insert OFF POST OFF
 /ch/32/eq ON
@@ -1869,7 +1869,7 @@
 /main/m/mix/04 OFF   -oo
 /main/m/mix/05 OFF   -oo +0 PRE 0
 /main/m/mix/06 OFF   -oo
-/dca/1 ON   0.0
+/dca/1 ON   -oo
 /dca/1/config "Break Music" 60 GN
 /dca/2 ON   -oo
 /dca/2/config "Run(RTMP1-6" 70 CY
@@ -1995,22 +1995,22 @@
 /headamp/013 +0.0 OFF
 /headamp/014 +0.0 OFF
 /headamp/015 +0.0 OFF
-/headamp/016 -6.0 OFF
+/headamp/016 +0.0 OFF
 /headamp/017 +0.0 OFF
-/headamp/018 -6.0 OFF
-/headamp/019 -6.0 OFF
-/headamp/020 -6.0 OFF
-/headamp/021 -6.0 OFF
-/headamp/022 -6.0 OFF
-/headamp/023 -6.0 OFF
-/headamp/024 -6.0 OFF
-/headamp/025 -6.0 OFF
-/headamp/026 -6.0 OFF
-/headamp/027 -6.0 OFF
-/headamp/028 -6.0 OFF
-/headamp/029 -6.0 OFF
-/headamp/030 -6.0 OFF
-/headamp/031 -6.0 OFF
+/headamp/018 +0.0 OFF
+/headamp/019 +0.0 OFF
+/headamp/020 +0.0 OFF
+/headamp/021 +0.0 OFF
+/headamp/022 +0.0 OFF
+/headamp/023 +0.0 OFF
+/headamp/024 +0.0 OFF
+/headamp/025 +0.0 OFF
+/headamp/026 +0.0 OFF
+/headamp/027 +0.0 OFF
+/headamp/028 +0.0 OFF
+/headamp/029 +0.0 OFF
+/headamp/030 +0.0 OFF
+/headamp/031 +0.0 OFF
 /headamp/032 +42.0 OFF
 /headamp/033 +42.5 OFF
 /headamp/034 +42.5 OFF
