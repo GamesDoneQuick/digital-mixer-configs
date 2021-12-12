@@ -13,7 +13,7 @@
 /config/talk/B +10.0 OFF OFF %001111111100000000
 /config/osc -27.5 20k00 946.3 F2 PINK 18
 /config/userrout/out 175 176 187 188 0 0 191 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/userrout/in 33 34 35 4 5 135 7 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/config/userrout/in 33 34 35 36 5 135 7 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /config/routing REC
 /config/routing/IN UIN1-8 AN9-16 AN17-24 AN25-32 CARD1-6
 /config/routing/AES50A OUT9-16 OUT9-16 OUT9-16 A9-16 CARD25-32 P169-16
