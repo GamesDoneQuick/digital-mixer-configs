@@ -1,5 +1,5 @@
 #4.0# "GDQ_Studio_dev" "" %000000000 1                                                                                             
-/config/chlink OFF OFF OFF OFF ON OFF ON ON OFF ON ON ON ON ON ON ON
+/config/chlink OFF OFF OFF ON OFF OFF ON ON OFF ON ON ON ON ON ON ON
 /config/auxlink ON ON OFF ON
 /config/fxlink ON ON ON ON
 /config/buslink ON ON ON ON ON ON ON ON
@@ -13,9 +13,9 @@
 /config/talk/B +10.0 OFF OFF %001111111100000000
 /config/osc -27.5 20k00 946.3 F2 PINK 18
 /config/userrout/out 175 176 187 188 0 0 191 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/userrout/in 129 130 135 136 133 134 0 0 9 10 33 34 13 14 131 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/config/userrout/in 1 2 3 4 5 6 9 10 33 34 35 36 13 14 131 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /config/routing REC
-/config/routing/IN AN1-8 UIN9-16 AN17-24 AN25-32 UIN1-6
+/config/routing/IN UIN1-8 UIN9-16 AN17-24 AN25-32 UIN1-6
 /config/routing/AES50A OUT9-16 OUT9-16 OUT9-16 A9-16 CARD25-32 P169-16
 /config/routing/AES50B OUT1-8 OUT9-16 OUT1-8 OUT9-16 P161-8 P169-16
 /config/routing/CARD UOUT1-8 UOUT9-16 AN1-8 AN17-24
@@ -228,76 +228,76 @@
 /ch/06/mix/16 ON   -oo
 /ch/06/grp %00000010 %000000
 /ch/06/automix X  +0.0
-/ch/07/config "RTMP 7" 1 GNi 7
+/ch/07/config "Game 1 L" 5 MG 7
 /ch/07/delay OFF   0.3
-/ch/07/preamp +0.0 OFF ON 24  82
-/ch/07/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/07/gate/filter ON 5.0 496.6
-/ch/07/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
-/ch/07/dyn/filter ON 2.0 1k49
+/ch/07/preamp +0.0 OFF OFF 24  20
+/ch/07/gate ON DUCK -24.0 6.0 100 2000 4000 49
+/ch/07/gate/filter OFF 3.0 990.9
+/ch/07/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/07/dyn/filter OFF 3.0 990.9
 /ch/07/insert OFF POST FX1R
-/ch/07/eq ON
+/ch/07/eq OFF
 /ch/07/eq/1 LShv 232.3 +0.00 1.0
-/ch/07/eq/2 VEQ 496.6 +0.00 1.0
-/ch/07/eq/3 VEQ 1k97 +0.00 1.0
+/ch/07/eq/2 PEQ 496.6 +0.00 1.0
+/ch/07/eq/3 PEQ 1k97 +0.00 1.0
 /ch/07/eq/4 HShv 5k57 +0.00 1.0
-/ch/07/mix OFF   -oo OFF +0 OFF -14.0
-/ch/07/mix/01 ON   0.0 +0 GRP 0
-/ch/07/mix/02 ON   0.0
-/ch/07/mix/03 ON   -oo +0 POST 0
-/ch/07/mix/04 ON   -oo
-/ch/07/mix/05 ON   -oo +0 POST 0
-/ch/07/mix/06 ON   -oo
-/ch/07/mix/07 ON   0.0 +0 POST 0
-/ch/07/mix/08 ON   0.0
-/ch/07/mix/09 ON   -oo +0 IN/LC 0
-/ch/07/mix/10 ON   -oo
-/ch/07/mix/11 ON   -oo +0 IN/LC 0
-/ch/07/mix/12 ON   -oo
-/ch/07/mix/13 ON   -oo +0 IN/LC 0
-/ch/07/mix/14 ON   -oo
-/ch/07/mix/15 ON   -oo +0 IN/LC 0
-/ch/07/mix/16 ON   -oo
+/ch/07/mix OFF   -oo ON -100 OFF -14.0
+/ch/07/mix/01 ON   -oo -100 POST 0
+/ch/07/mix/02 ON   -oo
+/ch/07/mix/03 ON   0.0 -100 POST 0
+/ch/07/mix/04 ON   0.0
+/ch/07/mix/05 ON  -5.0 -100 POST 0
+/ch/07/mix/06 ON  -5.0
+/ch/07/mix/07 ON  -5.0 -100 POST 0
+/ch/07/mix/08 ON  -5.0
+/ch/07/mix/09 ON   0.0 -100 IN/LC 0
+/ch/07/mix/10 ON   0.0
+/ch/07/mix/11 ON   0.0 -100 IN/LC 0
+/ch/07/mix/12 ON   0.0
+/ch/07/mix/13 ON  -2.3 -100 IN/LC 0
+/ch/07/mix/14 ON  -2.3
+/ch/07/mix/15 ON   0.0 -100 IN/LC 0
+/ch/07/mix/16 ON   0.0
 /ch/07/grp %10000000 %000000
 /ch/07/automix X  +0.0
-/ch/08/config "RTMP 8" 1 BLi 8
+/ch/08/config "Game 1 R" 5 MG 8
 /ch/08/delay OFF   0.3
-/ch/08/preamp +0.0 OFF ON 24  82
-/ch/08/gate OFF EXP4 -58.0 60.0 1  112  226 0
-/ch/08/gate/filter ON 5.0 496.6
-/ch/08/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
-/ch/08/dyn/filter ON 2.0 1k49
+/ch/08/preamp +0.0 OFF OFF 24  20
+/ch/08/gate ON DUCK -24.0 6.0 100 2000 4000 50
+/ch/08/gate/filter OFF 3.0 990.9
+/ch/08/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/08/dyn/filter OFF 3.0 990.9
 /ch/08/insert OFF POST OFF
-/ch/08/eq ON
+/ch/08/eq OFF
 /ch/08/eq/1 LShv 232.3 +0.00 1.0
-/ch/08/eq/2 VEQ 496.6 +0.00 1.0
-/ch/08/eq/3 VEQ 1k97 +0.00 1.0
+/ch/08/eq/2 PEQ 496.6 +0.00 1.0
+/ch/08/eq/3 PEQ 1k97 +0.00 1.0
 /ch/08/eq/4 HShv 5k57 +0.00 1.0
-/ch/08/mix OFF   -oo OFF +0 OFF -14.0
-/ch/08/mix/01 ON   0.0 +0 GRP 0
-/ch/08/mix/02 ON   0.0
-/ch/08/mix/03 ON   -oo +0 POST 0
-/ch/08/mix/04 ON   -oo
-/ch/08/mix/05 ON   -oo +0 POST 0
-/ch/08/mix/06 ON   -oo
-/ch/08/mix/07 ON   0.0 +0 POST 0
-/ch/08/mix/08 ON   0.0
-/ch/08/mix/09 ON   -oo +0 IN/LC 0
-/ch/08/mix/10 ON   -oo
-/ch/08/mix/11 ON   -oo +0 IN/LC 0
-/ch/08/mix/12 ON   -oo
-/ch/08/mix/13 ON   -oo +0 IN/LC 0
-/ch/08/mix/14 ON   -oo
-/ch/08/mix/15 ON   -oo +0 IN/LC 0
-/ch/08/mix/16 ON   -oo
+/ch/08/mix OFF   -oo ON +100 OFF -14.0
+/ch/08/mix/01 ON   -oo +100 POST 0
+/ch/08/mix/02 ON   -oo
+/ch/08/mix/03 ON   0.0 +100 POST 0
+/ch/08/mix/04 ON   0.0
+/ch/08/mix/05 ON  -5.0 +100 POST 0
+/ch/08/mix/06 ON  -5.0
+/ch/08/mix/07 ON  -5.0 +100 POST 0
+/ch/08/mix/08 ON  -5.0
+/ch/08/mix/09 ON   0.0 +100 IN/LC 0
+/ch/08/mix/10 ON   0.0
+/ch/08/mix/11 ON   0.0 +100 IN/LC 0
+/ch/08/mix/12 ON   0.0
+/ch/08/mix/13 ON  -2.3 +100 IN/LC 0
+/ch/08/mix/14 ON  -2.3
+/ch/08/mix/15 ON   0.0 +100 IN/LC 0
+/ch/08/mix/16 ON   0.0
 /ch/08/grp %10000000 %000000
 /ch/08/automix X  +0.0
-/ch/09/config "Game 1 L" 5 MG 9
+/ch/09/config "Local Mic1" 74 MGi 9
 /ch/09/delay OFF   0.3
 /ch/09/preamp +0.0 OFF OFF 24  20
 /ch/09/gate ON DUCK -24.0 6.0 100 2000 4000 49
 /ch/09/gate/filter OFF 3.0 990.9
-/ch/09/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/09/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
 /ch/09/dyn/filter OFF 3.0 990.9
 /ch/09/insert OFF POST OFF
 /ch/09/eq OFF
@@ -305,7 +305,7 @@
 /ch/09/eq/2 PEQ 496.6 +0.00 1.0
 /ch/09/eq/3 PEQ 1k97 +0.00 1.0
 /ch/09/eq/4 HShv 5k57 +0.00 1.0
-/ch/09/mix OFF   -oo ON -100 OFF -14.0
+/ch/09/mix OFF   -oo ON -100 OFF -10.0
 /ch/09/mix/01 ON   -oo -100 POST 0
 /ch/09/mix/02 ON   -oo
 /ch/09/mix/03 ON   0.0 -100 POST 0
@@ -314,22 +314,22 @@
 /ch/09/mix/06 ON  -5.0
 /ch/09/mix/07 ON  -5.0 -100 POST 0
 /ch/09/mix/08 ON  -5.0
-/ch/09/mix/09 ON   0.0 -100 IN/LC 0
-/ch/09/mix/10 ON   0.0
-/ch/09/mix/11 ON   0.0 -100 IN/LC 0
-/ch/09/mix/12 ON   0.0
-/ch/09/mix/13 ON  -2.3 -100 IN/LC 0
-/ch/09/mix/14 ON  -2.3
-/ch/09/mix/15 ON   0.0 -100 IN/LC 0
-/ch/09/mix/16 ON   0.0
+/ch/09/mix/09 ON   -oo -100 IN/LC 0
+/ch/09/mix/10 ON   -oo
+/ch/09/mix/11 ON   -oo -100 IN/LC 0
+/ch/09/mix/12 ON   -oo
+/ch/09/mix/13 ON   -oo -100 IN/LC 0
+/ch/09/mix/14 ON   -oo
+/ch/09/mix/15 ON   -oo -100 IN/LC 0
+/ch/09/mix/16 ON   -oo
 /ch/09/grp %00000100 %000000
 /ch/09/automix OFF -12.0
-/ch/10/config "Game 1 R" 5 MG 10
+/ch/10/config "Local Mic2" 74 MGi 10
 /ch/10/delay OFF   0.3
 /ch/10/preamp +0.0 OFF OFF 24  20
-/ch/10/gate ON DUCK -24.0 6.0 100 2000 4000 50
+/ch/10/gate ON DUCK -24.0 6.0 100 2000 4000 49
 /ch/10/gate/filter OFF 3.0 990.9
-/ch/10/dyn ON COMP PEAK LIN -31.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/10/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
 /ch/10/dyn/filter OFF 3.0 990.9
 /ch/10/insert OFF POST OFF
 /ch/10/eq OFF
@@ -337,26 +337,26 @@
 /ch/10/eq/2 PEQ 496.6 +0.00 1.0
 /ch/10/eq/3 PEQ 1k97 +0.00 1.0
 /ch/10/eq/4 HShv 5k57 +0.00 1.0
-/ch/10/mix OFF   -oo ON +100 OFF -14.0
-/ch/10/mix/01 ON   -oo +100 POST 0
+/ch/10/mix OFF   -oo ON -100 OFF -10.0
+/ch/10/mix/01 ON   -oo -100 POST 0
 /ch/10/mix/02 ON   -oo
-/ch/10/mix/03 ON   0.0 +100 POST 0
+/ch/10/mix/03 ON   0.0 -100 POST 0
 /ch/10/mix/04 ON   0.0
-/ch/10/mix/05 ON  -5.0 +100 POST 0
+/ch/10/mix/05 ON  -5.0 -100 POST 0
 /ch/10/mix/06 ON  -5.0
-/ch/10/mix/07 ON  -5.0 +100 POST 0
+/ch/10/mix/07 ON  -5.0 -100 POST 0
 /ch/10/mix/08 ON  -5.0
-/ch/10/mix/09 ON   0.0 +100 IN/LC 0
-/ch/10/mix/10 ON   0.0
-/ch/10/mix/11 ON   0.0 +100 IN/LC 0
-/ch/10/mix/12 ON   0.0
-/ch/10/mix/13 ON  -2.3 +100 IN/LC 0
-/ch/10/mix/14 ON  -2.3
-/ch/10/mix/15 ON   0.0 +100 IN/LC 0
-/ch/10/mix/16 ON   0.0
+/ch/10/mix/09 ON   -oo -100 IN/LC 0
+/ch/10/mix/10 ON   -oo
+/ch/10/mix/11 ON   -oo -100 IN/LC 0
+/ch/10/mix/12 ON   -oo
+/ch/10/mix/13 ON   -oo -100 IN/LC 0
+/ch/10/mix/14 ON   -oo
+/ch/10/mix/15 ON   -oo -100 IN/LC 0
+/ch/10/mix/16 ON   -oo
 /ch/10/grp %00000100 %000000
 /ch/10/automix OFF -12.0
-/ch/11/config "Local Mic1" 74 MG 11
+/ch/11/config "Local Mic3" 74 MGi 11
 /ch/11/delay OFF   0.3
 /ch/11/preamp +0.0 OFF OFF 24  20
 /ch/11/gate ON DUCK -24.0 6.0 100 2000 4000 49
@@ -388,7 +388,7 @@
 /ch/11/mix/16 ON   -oo
 /ch/11/grp %00000100 %000000
 /ch/11/automix OFF -12.0
-/ch/12/config "Local Mic2" 74 MG 12
+/ch/12/config "Local Mic4" 74 MGi 12
 /ch/12/delay OFF   0.3
 /ch/12/preamp +0.0 OFF OFF 24  20
 /ch/12/gate ON DUCK -24.0 6.0 100 2000 4000 49
@@ -2012,7 +2012,7 @@
 /headamp/029 +0.0 OFF
 /headamp/030 +0.0 OFF
 /headamp/031 +0.0 OFF
-/headamp/032 +42.0 OFF
+/headamp/032 +42.5 OFF
 /headamp/033 +42.5 OFF
 /headamp/034 +42.5 OFF
 /headamp/035 +42.5 OFF
