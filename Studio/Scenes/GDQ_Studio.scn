@@ -1,5 +1,5 @@
-#4.0# "GDQ_Studio_dev" "" %000000000 1                                                                                            
-/config/chlink OFF OFF OFF OFF ON ON ON ON OFF ON ON ON ON ON ON ON
+#4.0# "GDQ_Studio_dev" "" %000000000 1                                                                                             
+/config/chlink OFF OFF OFF OFF ON OFF ON ON OFF ON ON ON ON ON ON ON
 /config/auxlink ON ON OFF ON
 /config/fxlink ON ON ON ON
 /config/buslink ON ON ON ON ON ON ON ON
@@ -1769,7 +1769,6 @@
 /mtx/01/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/01/eq/6 HShv 5k57 +0.00 2.0
 /mtx/01/mix ON   0.0
-/mtx/01/grp %00000000 %000000
 /mtx/02/config "Speakers R" 65 GNi
 /mtx/02/preamp OFF
 /mtx/02/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
@@ -1783,7 +1782,6 @@
 /mtx/02/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/02/eq/6 HShv 5k57 +0.00 2.0
 /mtx/02/mix ON   0.0
-/mtx/02/grp %00000000 %000000
 /mtx/03/config "" 1 GNi
 /mtx/03/preamp OFF
 /mtx/03/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
@@ -1797,7 +1795,6 @@
 /mtx/03/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/03/eq/6 HShv 5k57 +0.00 2.0
 /mtx/03/mix ON   -oo
-/mtx/03/grp %00000000 %000000
 /mtx/04/config "" 1 GNi
 /mtx/04/preamp OFF
 /mtx/04/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
@@ -1811,7 +1808,6 @@
 /mtx/04/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/04/eq/6 HShv 5k57 +0.00 2.0
 /mtx/04/mix ON   -oo
-/mtx/04/grp %00000000 %000000
 /mtx/05/config "" 1 GNi
 /mtx/05/preamp OFF
 /mtx/05/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
@@ -1825,7 +1821,6 @@
 /mtx/05/eq/5 PEQ 317.0 -5.50 3.5
 /mtx/05/eq/6 HShv 2k04 +1.00 2.0
 /mtx/05/mix ON   -oo
-/mtx/05/grp %00000000 %000000
 /mtx/06/config "" 1 GNi
 /mtx/06/preamp OFF
 /mtx/06/dyn OFF EXP RMS LOG -55.0 2.5 0 0.00 1  100  151 POST 100 OFF
@@ -1839,7 +1834,6 @@
 /mtx/06/eq/5 PEQ 317.0 -5.50 3.5
 /mtx/06/eq/6 HShv 2k04 +1.00 2.0
 /mtx/06/mix ON   -oo
-/mtx/06/grp %00000000 %000000
 /main/st/config "Stream" 73 RD
 /main/st/dyn OFF COMP RMS LOG -22.5 3.0 5 0.00 1 50.2  101 PRE 100 OFF
 /main/st/dyn/filter OFF 3.0 990.9
@@ -1858,7 +1852,6 @@
 /main/st/mix/04 ON   -oo
 /main/st/mix/05 ON   -oo +0 POST 0
 /main/st/mix/06 ON   -oo
-/main/st/grp %00000000 %000000
 /main/m/config "" 67 WH
 /main/m/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /main/m/dyn/filter OFF 3.0 990.9
@@ -1877,7 +1870,6 @@
 /main/m/mix/04 OFF   -oo
 /main/m/mix/05 OFF   -oo +0 PRE 0
 /main/m/mix/06 OFF   -oo
-/main/m/grp %00000000 %000000
 /dca/1 ON   -oo
 /dca/1/config "Break Music" 60 GN
 /dca/2 ON   -oo
