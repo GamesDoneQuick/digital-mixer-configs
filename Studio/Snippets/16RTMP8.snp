@@ -1,4 +1,4 @@
-#3.0# "RTMP8_Mono_dev" 1859 -1073741824 0 0 1
+#4.0# "RTMP8" 1967 -1073741824 0 0 1
 /config/chlink/31-32 OFF
 /headamp/030 +0.0 OFF
 /headamp/031 +0.0 OFF
@@ -16,6 +16,7 @@
 /ch/31/eq/2 VEQ 496.6 +0.00 2.0
 /ch/31/eq/3 VEQ 1k97 +0.00 2.0
 /ch/31/eq/4 HShv 5k57 +0.00 2.0
+/ch/31/mix/on OFF
 /ch/31/mix/st OFF
 /ch/31/mix/pan +0
 /ch/31/mix/01 ON   0.0 +0 GRP 0
@@ -26,7 +27,7 @@
 /ch/31/mix/11/pan +0
 /ch/31/mix/13/pan +0
 /ch/31/mix/15/pan +0
-/ch/31/grp/dca %10000000
+/ch/31/grp/dca %00000000
 /ch/32/config/name "RTMP 8 Game"
 /ch/32/config/source 32
 /ch/32/preamp +0.0 OFF ON 24  20
@@ -40,6 +41,7 @@
 /ch/32/eq/2 VEQ 496.6 +0.00 2.0
 /ch/32/eq/3 VEQ 1k97 +0.00 2.0
 /ch/32/eq/4 HShv 5k57 +0.00 2.0
+/ch/32/mix/on OFF
 /ch/32/mix/st ON
 /ch/32/mix/pan +0
 /ch/32/mix/01 ON   -oo +0 POST 0
@@ -50,4 +52,4 @@
 /ch/32/mix/11/pan +0
 /ch/32/mix/13/pan +0
 /ch/32/mix/15/pan +0
-/ch/32/grp/dca %10000000
+/ch/32/grp/dca %00000000

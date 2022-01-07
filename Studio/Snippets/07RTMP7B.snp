@@ -1,0 +1,28 @@
+#4.0# "RTMP7(B)" 1967 64 0 0 1
+/headamp/006 +0.0 OFF
+/ch/07/config/name "RTMP 7 (B)"
+/ch/07/config/source 7
+/ch/07/delay OFF   0.3
+/ch/07/preamp +0.0 OFF ON 24  82
+/ch/07/gate OFF EXP2 -58.0 60.0 1  112  226 0
+/ch/07/gate/filter ON 5.0 496.6
+/ch/07/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
+/ch/07/dyn/filter ON 2.0 1k49
+/ch/07/insert OFF POST OFF
+/ch/07/eq ON
+/ch/07/eq/1 LShv 232.3 +0.00 1.0
+/ch/07/eq/2 VEQ 496.6 +0.00 1.0
+/ch/07/eq/3 VEQ 1k97 +0.00 1.0
+/ch/07/eq/4 HShv 5k57 +0.00 1.0
+/ch/07/mix/on OFF
+/ch/07/mix/st OFF
+/ch/07/mix/pan +0
+/ch/07/mix/01 ON   0.0 +0 GRP 0
+/ch/07/mix/03 ON   -oo +0 POST 0
+/ch/07/mix/05/pan +0
+/ch/07/mix/07/pan +0
+/ch/07/mix/09/pan +0
+/ch/07/mix/11/pan +0
+/ch/07/mix/13/pan +0
+/ch/07/mix/15/pan +0
+/ch/07/grp/dca %10000000

@@ -1,4 +1,4 @@
-#3.0# "RTMP6_Mono_dev" 1859 201326592 0 0 1
+#4.0# "RTMP6" 1967 201326592 0 0 1
 /config/chlink/27-28 OFF
 /headamp/026 +0.0 OFF
 /headamp/027 +0.0 OFF
@@ -16,6 +16,7 @@
 /ch/27/eq/2 VEQ 496.6 +0.00 1.0
 /ch/27/eq/3 VEQ 1k97 +0.00 1.0
 /ch/27/eq/4 HShv 5k57 +0.00 1.0
+/ch/27/mix/on OFF
 /ch/27/mix/st OFF
 /ch/27/mix/pan +0
 /ch/27/mix/01 ON   0.0 +0 GRP 0
@@ -26,7 +27,7 @@
 /ch/27/mix/11/pan +0
 /ch/27/mix/13/pan +0
 /ch/27/mix/15/pan +0
-/ch/27/grp/dca %00000010
+/ch/27/grp/dca %00000000
 /ch/28/config/name "RTMP 6 Game"
 /ch/28/config/source 28
 /ch/28/preamp +0.0 OFF ON 24  20
@@ -40,6 +41,7 @@
 /ch/28/eq/2 VEQ 496.6 +0.00 1.0
 /ch/28/eq/3 VEQ 1k97 +0.00 1.0
 /ch/28/eq/4 HShv 5k57 +0.00 1.0
+/ch/28/mix/on OFF
 /ch/28/mix/st ON
 /ch/28/mix/pan +0
 /ch/28/mix/01 ON   -oo +0 POST 0
@@ -50,4 +52,4 @@
 /ch/28/mix/11/pan +0
 /ch/28/mix/13/pan +0
 /ch/28/mix/15/pan +0
-/ch/28/grp/dca %00000010
+/ch/28/grp/dca %00000000

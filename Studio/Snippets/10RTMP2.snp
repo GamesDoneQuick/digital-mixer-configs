@@ -1,4 +1,4 @@
-#3.0# "RTMP2_Mono_dev" 1859 786432 0 0 1  
+#4.0# "RTMP2" 1967 786432 0 0 1
 /config/chlink/19-20 OFF
 /headamp/018 +0.0 OFF
 /headamp/019 +0.0 OFF
@@ -16,6 +16,7 @@
 /ch/19/eq/2 VEQ 496.6 +0.00 1.0
 /ch/19/eq/3 VEQ 1k97 +0.00 1.0
 /ch/19/eq/4 HShv 5k57 +0.00 1.0
+/ch/19/mix/on OFF
 /ch/19/mix/st OFF
 /ch/19/mix/pan +0
 /ch/19/mix/01 ON   0.0 +0 GRP 0
@@ -26,7 +27,7 @@
 /ch/19/mix/11/pan +0
 /ch/19/mix/13/pan +0
 /ch/19/mix/15/pan +0
-/ch/19/grp/dca %00000010
+/ch/19/grp/dca %00000000
 /ch/20/config/name "RTMP 2 Game"
 /ch/20/config/source 20
 /ch/20/preamp +0.0 OFF ON 24  20
@@ -40,6 +41,7 @@
 /ch/20/eq/2 VEQ 496.6 +0.00 1.0
 /ch/20/eq/3 VEQ 1k97 +0.00 1.0
 /ch/20/eq/4 HShv 5k57 +0.00 1.0
+/ch/20/mix/on OFF
 /ch/20/mix/st ON
 /ch/20/mix/pan +0
 /ch/20/mix/01 ON   -oo +0 POST 0
@@ -50,4 +52,4 @@
 /ch/20/mix/11/pan +0
 /ch/20/mix/13/pan +0
 /ch/20/mix/15/pan +0
-/ch/20/grp/dca %00000010
+/ch/20/grp/dca %00000000

@@ -1,0 +1,28 @@
+#4.0# "RTMP6(B)" 1967 32 0 0 1
+/headamp/005 +0.0 OFF
+/ch/06/config/name "RTMP 6 (B)"
+/ch/06/config/source 6
+/ch/06/delay OFF   0.3
+/ch/06/preamp +0.0 OFF ON 24  82
+/ch/06/gate OFF EXP2 -58.0 60.0 1  112  226 0
+/ch/06/gate/filter ON 5.0 496.6
+/ch/06/dyn ON COMP PEAK LOG -24.0 5.0 1 0.00 0 6.32  77 POST 0 100 OFF
+/ch/06/dyn/filter ON 2.0 1k49
+/ch/06/insert OFF POST OFF
+/ch/06/eq ON
+/ch/06/eq/1 LShv 232.3 +0.00 1.0
+/ch/06/eq/2 VEQ 496.6 +0.00 1.0
+/ch/06/eq/3 VEQ 1k97 +0.00 1.0
+/ch/06/eq/4 HShv 5k57 +0.00 1.0
+/ch/06/mix/on OFF
+/ch/06/mix/st OFF
+/ch/06/mix/pan +0
+/ch/06/mix/01 ON   0.0 +0 GRP 0
+/ch/06/mix/03 ON   -oo +0 POST 0
+/ch/06/mix/05/pan +0
+/ch/06/mix/07/pan +0
+/ch/06/mix/09/pan +0
+/ch/06/mix/11/pan +0
+/ch/06/mix/13/pan +0
+/ch/06/mix/15/pan +0
+/ch/06/grp/dca %00000000

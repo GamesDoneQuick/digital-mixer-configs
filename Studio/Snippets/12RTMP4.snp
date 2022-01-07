@@ -1,4 +1,4 @@
-#3.0# "RTMP4_Mono_dev" 1859 12582912 0 0 1
+#4.0# "RTMP4" 1967 12582912 0 0 1
 /config/chlink/23-24 OFF
 /headamp/022 +0.0 OFF
 /headamp/023 +0.0 OFF
@@ -16,6 +16,7 @@
 /ch/23/eq/2 VEQ 496.6 +0.00 1.0
 /ch/23/eq/3 VEQ 1k97 +0.00 1.0
 /ch/23/eq/4 HShv 5k57 +0.00 1.0
+/ch/23/mix/on OFF
 /ch/23/mix/st OFF
 /ch/23/mix/pan +0
 /ch/23/mix/01 ON   0.0 +0 GRP 0
@@ -26,7 +27,7 @@
 /ch/23/mix/11/pan +0
 /ch/23/mix/13/pan +0
 /ch/23/mix/15/pan +0
-/ch/23/grp/dca %00000010
+/ch/23/grp/dca %00000000
 /ch/24/config/name "RTMP 4 Game"
 /ch/24/config/source 24
 /ch/24/preamp +0.0 OFF ON 24  20
@@ -40,6 +41,7 @@
 /ch/24/eq/2 VEQ 496.6 +0.00 1.0
 /ch/24/eq/3 VEQ 1k97 +0.00 1.0
 /ch/24/eq/4 HShv 5k57 +0.00 1.0
+/ch/24/mix/on OFF
 /ch/24/mix/st ON
 /ch/24/mix/pan +0
 /ch/24/mix/01 ON   -oo +0 POST 0
@@ -50,4 +52,4 @@
 /ch/24/mix/11/pan +0
 /ch/24/mix/13/pan +0
 /ch/24/mix/15/pan +0
-/ch/24/grp/dca %00000010
+/ch/24/grp/dca %00000000

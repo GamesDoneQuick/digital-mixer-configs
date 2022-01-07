@@ -1,4 +1,4 @@
-#3.0# "RTMP7_Mono_dev" 1859 805306368 0 0 1
+#4.0# "RTMP7" 1967 805306368 0 0 1
 /config/chlink/29-30 OFF
 /headamp/028 +0.0 OFF
 /headamp/029 +0.0 OFF
@@ -16,6 +16,7 @@
 /ch/29/eq/2 VEQ 496.6 +0.00 2.0
 /ch/29/eq/3 VEQ 1k97 +0.00 2.0
 /ch/29/eq/4 HShv 5k57 +0.00 2.0
+/ch/29/mix/on OFF
 /ch/29/mix/st OFF
 /ch/29/mix/pan +0
 /ch/29/mix/01 ON   0.0 +0 GRP 0
@@ -26,7 +27,7 @@
 /ch/29/mix/11/pan +0
 /ch/29/mix/13/pan +0
 /ch/29/mix/15/pan +0
-/ch/29/grp/dca %10000000
+/ch/29/grp/dca %00000000
 /ch/30/config/name "RTMP 7 Game"
 /ch/30/config/source 30
 /ch/30/preamp +0.0 OFF ON 24  20
@@ -40,6 +41,7 @@
 /ch/30/eq/2 VEQ 496.6 +0.00 2.0
 /ch/30/eq/3 VEQ 1k97 +0.00 2.0
 /ch/30/eq/4 HShv 5k57 +0.00 2.0
+/ch/30/mix/on OFF
 /ch/30/mix/st ON
 /ch/30/mix/pan +0
 /ch/30/mix/01 ON   -oo +0 POST 0
@@ -50,4 +52,4 @@
 /ch/30/mix/11/pan +0
 /ch/30/mix/13/pan +0
 /ch/30/mix/15/pan +0
-/ch/30/grp/dca %10000000
+/ch/30/grp/dca %00000000
