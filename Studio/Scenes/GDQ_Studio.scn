@@ -361,7 +361,7 @@
 /ch/11/preamp +0.0 OFF OFF 24  20
 /ch/11/gate ON DUCK -24.0 6.0 100 2000 4000 49
 /ch/11/gate/filter OFF 3.0 990.9
-/ch/11/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/11/dyn ON COMP PEAK LIN -23.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
 /ch/11/dyn/filter OFF 3.0 990.9
 /ch/11/insert OFF POST OFF
 /ch/11/eq OFF
@@ -369,7 +369,7 @@
 /ch/11/eq/2 PEQ 496.6 +0.00 1.0
 /ch/11/eq/3 PEQ 1k97 +0.00 1.0
 /ch/11/eq/4 HShv 5k57 +0.00 1.0
-/ch/11/mix OFF   -oo ON -100 OFF -10.0
+/ch/11/mix OFF   -oo ON +0 OFF -10.0
 /ch/11/mix/01 ON   -oo -100 POST 0
 /ch/11/mix/02 ON   -oo
 /ch/11/mix/03 ON   0.0 -100 POST 0
@@ -393,7 +393,7 @@
 /ch/12/preamp +0.0 OFF OFF 24  20
 /ch/12/gate ON DUCK -24.0 6.0 100 2000 4000 49
 /ch/12/gate/filter OFF 3.0 990.9
-/ch/12/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/12/dyn ON COMP PEAK LIN -23.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
 /ch/12/dyn/filter OFF 3.0 990.9
 /ch/12/insert OFF POST OFF
 /ch/12/eq OFF
@@ -401,7 +401,7 @@
 /ch/12/eq/2 PEQ 496.6 +0.00 1.0
 /ch/12/eq/3 PEQ 1k97 +0.00 1.0
 /ch/12/eq/4 HShv 5k57 +0.00 1.0
-/ch/12/mix OFF   -oo ON -100 OFF -10.0
+/ch/12/mix OFF   -oo ON +0 OFF -10.0
 /ch/12/mix/01 ON   -oo -100 POST 0
 /ch/12/mix/02 ON   -oo
 /ch/12/mix/03 ON   0.0 -100 POST 0
@@ -425,7 +425,7 @@
 /ch/13/preamp +0.0 OFF OFF 24  20
 /ch/13/gate ON DUCK -24.0 6.0 100 2000 4000 49
 /ch/13/gate/filter OFF 3.0 990.9
-/ch/13/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/13/dyn ON COMP PEAK LIN -23.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
 /ch/13/dyn/filter OFF 3.0 990.9
 /ch/13/insert OFF POST OFF
 /ch/13/eq OFF
@@ -433,7 +433,7 @@
 /ch/13/eq/2 PEQ 496.6 +0.00 1.0
 /ch/13/eq/3 PEQ 1k97 +0.00 1.0
 /ch/13/eq/4 HShv 5k57 +0.00 1.0
-/ch/13/mix OFF   -oo ON -100 OFF -10.0
+/ch/13/mix OFF   -oo ON +0 OFF -10.0
 /ch/13/mix/01 ON   -oo -100 POST 0
 /ch/13/mix/02 ON   -oo
 /ch/13/mix/03 ON   0.0 -100 POST 0
@@ -457,7 +457,7 @@
 /ch/14/preamp +0.0 OFF OFF 24  20
 /ch/14/gate ON DUCK -24.0 6.0 100 2000 4000 49
 /ch/14/gate/filter OFF 3.0 990.9
-/ch/14/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0  151 POST 0 100 OFF
+/ch/14/dyn ON COMP PEAK LIN -23.5 10 2 0.00 15 10.0  151 POST 0 100 OFF
 /ch/14/dyn/filter OFF 3.0 990.9
 /ch/14/insert OFF POST OFF
 /ch/14/eq OFF
@@ -465,7 +465,7 @@
 /ch/14/eq/2 PEQ 496.6 +0.00 1.0
 /ch/14/eq/3 PEQ 1k97 +0.00 1.0
 /ch/14/eq/4 HShv 5k57 +0.00 1.0
-/ch/14/mix OFF   -oo ON -100 OFF -10.0
+/ch/14/mix OFF   -oo ON +0 OFF -10.0
 /ch/14/mix/01 ON   -oo -100 POST 0
 /ch/14/mix/02 ON   -oo
 /ch/14/mix/03 ON   0.0 -100 POST 0
@@ -1996,8 +1996,8 @@
 /headamp/005 +0.0 OFF
 /headamp/006 +0.0 OFF
 /headamp/007 +0.0 OFF
-/headamp/008 +44.5 OFF
-/headamp/009 +44.5 OFF
+/headamp/008 +29.0 OFF
+/headamp/009 +29.0 OFF
 /headamp/010 +43.0 OFF
 /headamp/011 +43.0 OFF
 /headamp/012 +0.0 OFF
@@ -2119,6 +2119,7 @@
 /-stat/selidx Aux6
 /-stat/chfaderbank 0
 /-stat/grpfaderbank 0
+/-stat/sendsonfader OFF
 /-stat/bussendbank 0
 /-stat/eqband 0
 /-stat/userbank 2
