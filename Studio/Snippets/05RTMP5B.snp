@@ -15,6 +15,7 @@
 /ch/05/eq/3 VEQ 1k97 +0.00 1.0
 /ch/05/eq/4 HShv 5k57 +0.00 1.0
 /ch/05/mix/on OFF
+/ch/05/mix/fader -oo
 /ch/05/mix/st OFF
 /ch/05/mix/pan +0
 /ch/05/mix/01 ON   0.0 +0 GRP 0
