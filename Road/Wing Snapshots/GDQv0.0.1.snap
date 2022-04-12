@@ -350,9 +350,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Ads/Playback",
+            "icon": 613,
             "tags": ""
           },
           "2": {
@@ -361,31 +361,31 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Ads/Playback",
+            "icon": 613,
             "tags": ""
           },
           "3": {
-            "mode": "M",
-            "g": 0,
+            "mode": "ST",
+            "g": 42.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "Crowd",
+            "icon": 600,
             "tags": ""
           },
           "4": {
-            "mode": "M",
-            "g": 0,
+            "mode": "ST",
+            "g": 42.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "Crowd",
+            "icon": 600,
             "tags": ""
           },
           "5": {
@@ -530,9 +530,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Headset 1",
+            "icon": 108,
             "tags": ""
           },
           "2": {
@@ -541,9 +541,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "Headset 2",
+            "icon": 108,
             "tags": ""
           },
           "3": {
@@ -552,9 +552,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "Headset 3",
+            "icon": 108,
             "tags": ""
           },
           "4": {
@@ -563,9 +563,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 3,
+            "name": "Headset 4",
+            "icon": 108,
             "tags": ""
           },
           "5": {
@@ -585,9 +585,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 4,
+            "name": "Host",
+            "icon": 108,
             "tags": ""
           },
           "7": {
@@ -596,9 +596,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "Walk 1",
+            "icon": 102,
             "tags": ""
           },
           "8": {
@@ -607,9 +607,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "Walk 2",
+            "icon": 102,
             "tags": ""
           },
           "9": {
@@ -706,9 +706,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "SD Game 1",
+            "icon": 614,
             "tags": ""
           },
           "18": {
@@ -717,9 +717,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "SD Game 1",
+            "icon": 614,
             "tags": ""
           },
           "19": {
@@ -728,9 +728,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "SD Game 2",
+            "icon": 614,
             "tags": ""
           },
           "20": {
@@ -739,9 +739,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "SD Game 2",
+            "icon": 614,
             "tags": ""
           },
           "21": {
@@ -750,9 +750,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "SD Game 3",
+            "icon": 614,
             "tags": ""
           },
           "22": {
@@ -761,9 +761,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "SD Game 3",
+            "icon": 614,
             "tags": ""
           },
           "23": {
@@ -772,9 +772,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 3,
+            "name": "SD Game 4",
+            "icon": 614,
             "tags": ""
           },
           "24": {
@@ -783,9 +783,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 3,
+            "name": "SD Game 4",
+            "icon": 614,
             "tags": ""
           },
           "25": {
@@ -794,9 +794,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "HD Game 1",
+            "icon": 614,
             "tags": ""
           },
           "26": {
@@ -805,9 +805,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "HD Game 1",
+            "icon": 614,
             "tags": ""
           },
           "27": {
@@ -816,9 +816,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "HD Game 2",
+            "icon": 614,
             "tags": ""
           },
           "28": {
@@ -827,9 +827,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "HD Game 2",
+            "icon": 614,
             "tags": ""
           },
           "29": {
@@ -838,9 +838,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "HD Game 3",
+            "icon": 614,
             "tags": ""
           },
           "30": {
@@ -849,9 +849,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "HD Game 3",
+            "icon": 614,
             "tags": ""
           },
           "31": {
@@ -860,9 +860,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 3,
+            "name": "HD Game 4",
+            "icon": 614,
             "tags": ""
           },
           "32": {
@@ -871,9 +871,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 3,
+            "name": "HD Game 4",
+            "icon": 614,
             "tags": ""
           },
           "33": {
@@ -3004,9 +3004,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "OBS Stingers",
+            "icon": 605,
             "tags": ""
           },
           "2": {
@@ -3015,9 +3015,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "OBS Stingers",
+            "icon": 605,
             "tags": ""
           },
           "3": {
@@ -3026,9 +3026,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 11,
+            "name": "Music",
+            "icon": 606,
             "tags": ""
           },
           "4": {
@@ -3037,9 +3037,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 11,
+            "name": "Music",
+            "icon": 606,
             "tags": ""
           },
           "5": {
@@ -4749,9 +4749,9 @@
           "1": {
             "mode": "M",
             "mute": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Oscillator",
+            "icon": 14,
             "tags": ""
           },
           "2": {
@@ -4835,36 +4835,36 @@
         },
         "A": {
           "1": {
-            "grp": "OFF",
+            "grp": "BUS",
             "in": 1
           },
           "2": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 2
           },
           "3": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 3
           },
           "4": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 4
           },
           "5": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 5
           },
           "6": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 6
           },
           "7": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 7
           },
           "8": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 8
           },
           "9": {
             "grp": "OFF",
@@ -4875,12 +4875,12 @@
             "in": 1
           },
           "11": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 11
           },
           "12": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 12
           },
           "13": {
             "grp": "OFF",
@@ -7795,7 +7795,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -7873,7 +7873,7 @@
             "wid": 100
           },
           "7": {
-            "on": false,
+            "on": true,
             "lvl": -144,
             "pon": false,
             "ind": false,
@@ -9035,7 +9035,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -9348,7 +9348,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -9661,7 +9661,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -9974,7 +9974,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -12775,7 +12775,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -13088,7 +13088,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -13401,7 +13401,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -13714,7 +13714,7 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
@@ -14031,11 +14031,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -14344,11 +14344,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -14657,11 +14657,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -14970,11 +14970,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -15283,11 +15283,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -15596,11 +15596,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -15909,11 +15909,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -16222,11 +16222,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -16535,11 +16535,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -16848,11 +16848,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -17161,11 +17161,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -17474,11 +17474,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -17667,28 +17667,28 @@
             "dly": 0
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "LCL",
+            "in": 3,
             "altgrp": "OFF",
             "altin": 1
           }
         },
         "flt": {
-          "lc": false,
-          "lcf": 100.2375,
-          "hc": false,
+          "lc": true,
+          "lcf": 506.0052,
+          "hc": true,
           "hcf": 10090.67,
           "tf": false,
           "mdl": "TILT",
           "tilt": 0
         },
         "clink": false,
-        "col": 1,
-        "name": "",
-        "icon": 0,
+        "col": 8,
+        "name": "Crowd",
+        "icon": 600,
         "led": true,
         "mute": false,
-        "fdr": -144,
+        "fdr": -0.008764,
         "pan": 0,
         "wid": 100,
         "solosafe": false,
@@ -17708,21 +17708,19 @@
           "3q": 1.411322
         },
         "gate": {
-          "on": false,
-          "mdl": "GATE",
-          "thr": -40,
-          "range": 40,
-          "att": 10,
-          "hld": 10,
-          "rel": 199.4043,
-          "acc": 0,
-          "ratio": "1:3"
+          "on": true,
+          "mdl": "DUCK",
+          "thr": -24,
+          "range": 20.5,
+          "att": 52,
+          "hld": 200,
+          "rel": 4000
         },
         "gatesc": {
           "type": "OFF",
           "f": 1002.374,
           "q": 1.411322,
-          "src": "SELF",
+          "src": "CH.40",
           "tap": "IN"
         },
         "eq": {
@@ -17751,16 +17749,16 @@
           "heq": "SHV"
         },
         "dyn": {
-          "on": false,
+          "on": true,
           "mdl": "COMP",
           "mix": 100,
           "gain": 0,
-          "thr": -10,
-          "ratio": 3,
-          "knee": 3,
+          "thr": -40,
+          "ratio": 5,
+          "knee": 1,
           "det": "RMS",
-          "att": 50,
-          "hld": 20,
+          "att": 10,
+          "hld": 11,
           "rel": 152.5652,
           "env": "LOG",
           "auto": true
@@ -19619,11 +19617,11 @@
             "altin": 1
           }
         },
-        "clink": false,
+        "clink": true,
         "col": 1,
         "name": "",
         "icon": 0,
-        "led": true,
+        "led": false,
         "mute": false,
         "fdr": -144,
         "pan": 0,
@@ -19635,17 +19633,17 @@
           "mix": 100,
           "lg": 0,
           "lf": 80.19642,
-          "lq": 1.411322,
+          "lq": 0.99797,
           "leq": "SHV",
           "1g": 0,
           "1f": 399.0524,
-          "1q": 1.411322,
+          "1q": 0.99797,
           "2g": 0,
           "2f": 2499.799,
-          "2q": 1.411322,
+          "2q": 0.99797,
           "hg": 0,
           "hf": 11994.42,
-          "hq": 1.411322,
+          "hq": 0.99797,
           "heq": "SHV"
         },
         "preins": {
@@ -25575,7 +25573,7 @@
     },
     "layer": {
       "L": {
-        "sel": 4,
+        "sel": 2,
         "1": {
           "ofs": 0,
           "name": "CH1-12",
@@ -26446,7 +26444,7 @@
         }
       },
       "C": {
-        "sel": 1,
+        "sel": 4,
         "1": {
           "ofs": 0,
           "name": "DCA",
