@@ -345,47 +345,47 @@
       "in": {
         "LCL": {
           "1": {
-            "mode": "ST",
-            "g": 0,
+            "mode": "M",
+            "g": 42.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 9,
-            "name": "Ads/Playback",
-            "icon": 613,
+            "col": 1,
+            "name": "ProducerCOMM",
+            "icon": 604,
             "tags": ""
           },
           "2": {
-            "mode": "ST",
-            "g": 0,
+            "mode": "M",
+            "g": 42.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 9,
-            "name": "Ads/Playback",
-            "icon": 613,
+            "col": 1,
+            "name": "Stream COMM",
+            "icon": 604,
             "tags": ""
           },
           "3": {
-            "mode": "ST",
+            "mode": "M",
             "g": 42.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 8,
-            "name": "Crowd",
-            "icon": 600,
+            "col": 1,
+            "name": "Audio COMM",
+            "icon": 604,
             "tags": ""
           },
           "4": {
-            "mode": "ST",
-            "g": 42.5,
+            "mode": "M",
+            "g": -2.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 8,
-            "name": "Crowd",
-            "icon": 600,
+            "col": 1,
+            "name": "",
+            "icon": 0,
             "tags": ""
           },
           "5": {
@@ -613,47 +613,47 @@
             "tags": ""
           },
           "9": {
-            "mode": "M",
-            "g": 0.5,
+            "mode": "ST",
+            "g": 43,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "Crowd",
+            "icon": 600,
             "tags": ""
           },
           "10": {
-            "mode": "M",
-            "g": 0.5,
+            "mode": "ST",
+            "g": 43,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 8,
+            "name": "Crowd",
+            "icon": 600,
             "tags": ""
           },
           "11": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Ads/Playback",
+            "icon": 613,
             "tags": ""
           },
           "12": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0.5,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Ads/Playback",
+            "icon": 613,
             "tags": ""
           },
           "13": {
@@ -1646,8 +1646,8 @@
             "mute": false,
             "pol": false,
             "col": 1,
-            "name": "",
-            "icon": 0,
+            "name": "InterviewCOMM",
+            "icon": 604,
             "tags": ""
           },
           "7": {
@@ -4767,12 +4767,12 @@
       "out": {
         "LCL": {
           "1": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "MAIN",
+            "in": 5
           },
           "2": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "MAIN",
+            "in": 6
           },
           "3": {
             "grp": "OFF",
@@ -16379,7 +16379,7 @@
             "dly": 0
           },
           "conn": {
-            "grp": "OFF",
+            "grp": "LCL",
             "in": 1,
             "altgrp": "OFF",
             "altin": 1
@@ -16495,15 +16495,15 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "3": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "4": {
@@ -16692,8 +16692,8 @@
             "dly": 0
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "LCL",
+            "in": 2,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -16808,15 +16808,15 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "3": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "4": {
@@ -17005,8 +17005,8 @@
             "dly": 0
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "LCL",
+            "in": 3,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -17121,15 +17121,15 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "3": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "4": {
@@ -17318,8 +17318,8 @@
             "dly": 0
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "C",
+            "in": 6,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -17434,15 +17434,15 @@
         },
         "main": {
           "1": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "2": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "3": {
-            "on": true,
+            "on": false,
             "lvl": 0
           },
           "4": {
@@ -17631,8 +17631,8 @@
             "dly": 0
           },
           "conn": {
-            "grp": "LCL",
-            "in": 3,
+            "grp": "A",
+            "in": 10,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -17749,7 +17749,7 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
@@ -19336,8 +19336,8 @@
             "bal": 0
           },
           "conn": {
-            "grp": "LCL",
-            "in": 2,
+            "grp": "A",
+            "in": 11,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -19843,11 +19843,11 @@
             "lvl": 0
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "3": {
-            "on": false,
+            "on": true,
             "lvl": 0
           },
           "4": {
@@ -22227,7 +22227,7 @@
           }
         },
         "col": 11,
-        "name": "Discord Mix",
+        "name": "Discord MIX",
         "icon": 7,
         "led": true,
         "busmono": false,
@@ -25149,7 +25149,7 @@
         "icon": 5,
         "led": true,
         "mute": false,
-        "fdr": 0.011044,
+        "fdr": 0.030594,
         "mon": "A"
       },
       "5": {
@@ -25529,7 +25529,7 @@
     },
     "layer": {
       "L": {
-        "sel": 5,
+        "sel": 7,
         "1": {
           "ofs": 0,
           "name": "CH1-12",
@@ -26154,73 +26154,73 @@
           "ofs": 0,
           "name": "USER1",
           "1": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 1,
             "dst": 1
           },
           "2": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 2,
             "dst": 1
           },
           "3": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 3,
             "dst": 1
           },
           "4": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 4,
             "dst": 1
           },
           "5": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 13,
             "dst": 1
           },
           "6": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 14,
             "dst": 1
           },
           "7": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 15,
             "dst": 1
           },
           "8": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 16,
             "dst": 1
           },
           "9": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 17,
             "dst": 1
           },
           "10": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 18,
             "dst": 1
           },
           "11": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 19,
             "dst": 1
           },
           "12": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 20,
             "dst": 1
           },
           "13": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 6,
             "dst": 1
           },
           "14": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 7,
             "dst": 1
           },
           "15": {
@@ -26278,68 +26278,68 @@
           "ofs": 0,
           "name": "USER2",
           "1": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 25,
             "dst": 1
           },
           "2": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 21,
             "dst": 1
           },
           "3": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 26,
             "dst": 1
           },
           "4": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 22,
             "dst": 1
           },
           "5": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 27,
             "dst": 1
           },
           "6": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 23,
             "dst": 1
           },
           "7": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 28,
             "dst": 1
           },
           "8": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 24,
             "dst": 1
           },
           "9": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 29,
             "dst": 1
           },
           "10": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 30,
             "dst": 1
           },
           "11": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 31,
             "dst": 1
           },
           "12": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 32,
             "dst": 1
           },
           "13": {
-            "type": "OFF",
-            "i": 0,
+            "type": "CH",
+            "i": 24,
             "dst": 1
           },
           "14": {
@@ -26400,7 +26400,7 @@
         }
       },
       "C": {
-        "sel": 4,
+        "sel": 6,
         "1": {
           "ofs": 0,
           "name": "DCA",
@@ -26654,7 +26654,7 @@
           }
         },
         "4": {
-          "ofs": 4,
+          "ofs": 0,
           "name": "BUSES",
           "1": {
             "type": "BUS",
@@ -26741,18 +26741,18 @@
           "ofs": 0,
           "name": "USER1",
           "1": {
-            "type": "OFF",
-            "i": 0,
+            "type": "DCA",
+            "i": 1,
             "dst": 1
           },
           "2": {
-            "type": "OFF",
-            "i": 0,
+            "type": "DCA",
+            "i": 4,
             "dst": 1
           },
           "3": {
-            "type": "OFF",
-            "i": 0,
+            "type": "DCA",
+            "i": 5,
             "dst": 1
           },
           "4": {
@@ -26761,28 +26761,28 @@
             "dst": 1
           },
           "5": {
-            "type": "OFF",
-            "i": 0,
+            "type": "BUS",
+            "i": 1,
             "dst": 1
           },
           "6": {
-            "type": "OFF",
-            "i": 0,
+            "type": "BUS",
+            "i": 2,
             "dst": 1
           },
           "7": {
-            "type": "OFF",
-            "i": 0,
+            "type": "BUS",
+            "i": 3,
             "dst": 1
           },
           "8": {
-            "type": "OFF",
-            "i": 0,
+            "type": "BUS",
+            "i": 4,
             "dst": 1
           },
           "9": {
-            "type": "OFF",
-            "i": 0,
+            "type": "BUS",
+            "i": 9,
             "dst": 1
           },
           "10": {
@@ -26825,18 +26825,18 @@
           "ofs": 0,
           "name": "USER2",
           "1": {
-            "type": "OFF",
-            "i": 0,
+            "type": "DCA",
+            "i": 2,
             "dst": 1
           },
           "2": {
-            "type": "OFF",
-            "i": 0,
+            "type": "DCA",
+            "i": 3,
             "dst": 1
           },
           "3": {
-            "type": "OFF",
-            "i": 0,
+            "type": "DCA",
+            "i": 4,
             "dst": 1
           },
           "4": {
@@ -26907,7 +26907,7 @@
         }
       },
       "R": {
-        "sel": 2,
+        "sel": 1,
         "1": {
           "ofs": 0,
           "name": "MAIN",
@@ -26993,7 +26993,7 @@
           }
         },
         "2": {
-          "ofs": 4,
+          "ofs": 0,
           "name": "DCA",
           "1": {
             "type": "DCA",
