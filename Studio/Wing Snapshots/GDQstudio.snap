@@ -794,7 +794,7 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 4,
+            "col": 9,
             "name": "Remote Mic 5",
             "icon": 107,
             "tags": ""
@@ -805,9 +805,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Remote Game 5",
+            "icon": 614,
             "tags": ""
           },
           "27": {
@@ -816,7 +816,7 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 4,
+            "col": 7,
             "name": "Remote Mic 6",
             "icon": 107,
             "tags": ""
@@ -827,9 +827,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "Remote Game 6",
+            "icon": 614,
             "tags": ""
           },
           "29": {
@@ -838,7 +838,7 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 4,
+            "col": 5,
             "name": "Remote Mic 7",
             "icon": 107,
             "tags": ""
@@ -849,9 +849,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "Remote Game 7",
+            "icon": 614,
             "tags": ""
           },
           "31": {
@@ -860,7 +860,7 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 4,
+            "col": 3,
             "name": "Remote Mic 8",
             "icon": 107,
             "tags": ""
@@ -871,9 +871,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 3,
+            "name": "Remote Game 8",
+            "icon": 614,
             "tags": ""
           },
           "33": {
@@ -12640,7 +12640,7 @@
           },
           "conn": {
             "grp": "A",
-            "in": 18,
+            "in": 26,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -12951,7 +12951,7 @@
           },
           "conn": {
             "grp": "A",
-            "in": 20,
+            "in": 28,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -13262,7 +13262,7 @@
           },
           "conn": {
             "grp": "A",
-            "in": 22,
+            "in": 30,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -13573,7 +13573,7 @@
           },
           "conn": {
             "grp": "A",
-            "in": 24,
+            "in": 32,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -13593,7 +13593,7 @@
         "icon": 614,
         "led": true,
         "mute": true,
-        "fdr": -86.71875,
+        "fdr": -144,
         "pan": 0,
         "wid": 100,
         "solosafe": false,
@@ -25516,7 +25516,7 @@
     },
     "layer": {
       "L": {
-        "sel": 2,
+        "sel": 3,
         "1": {
           "ofs": 0,
           "name": "CH1-12",
@@ -26138,26 +26138,26 @@
           }
         },
         "6": {
-          "ofs": 4,
+          "ofs": 0,
           "name": "USER1",
           "1": {
-            "type": "CH",
-            "i": 1,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "2": {
-            "type": "CH",
-            "i": 2,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "3": {
-            "type": "CH",
-            "i": 3,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "4": {
-            "type": "CH",
-            "i": 4,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "5": {
