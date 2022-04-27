@@ -33,8 +33,6 @@
       "tilt": 0
     },
     "clink": false,
-    "col": 9,
-    "name": "Remote Game 1",
     "icon": 614,
     "led": true,
     "mute": true,
