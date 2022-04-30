@@ -4771,12 +4771,12 @@
             "out": {
                 "LCL": {
                     "1": {
-                        "grp": "MAIN",
-                        "in": 5
+                        "grp": "MTX",
+                        "in": 15
                     },
                     "2": {
-                        "grp": "MAIN",
-                        "in": 6
+                        "grp": "MTX",
+                        "in": 16
                     },
                     "3": {
                         "grp": "OFF",
@@ -10257,7 +10257,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -10570,7 +10570,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -10883,7 +10883,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -11196,7 +11196,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -11509,7 +11509,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -11822,7 +11822,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -12135,7 +12135,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -12448,7 +12448,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -12761,7 +12761,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -13074,7 +13074,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -13387,7 +13387,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -13700,7 +13700,7 @@
                     "on": true,
                     "mdl": "DUCK",
                     "thr": -24,
-                    "range": 6,
+                    "range": 4.5,
                     "att": 100,
                     "hld": 200,
                     "rel": 4000
@@ -24134,7 +24134,7 @@
                 "icon": 612,
                 "led": true,
                 "busmono": false,
-                "mute": true,
+                "mute": false,
                 "fdr": 1.907349e-6,
                 "pan": 0,
                 "wid": 100,
@@ -24267,8 +24267,8 @@
                 "icon": 512,
                 "led": true,
                 "busmono": false,
-                "mute": true,
-                "fdr": 1.907349e-6,
+                "mute": false,
+                "fdr": -0.006763,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -24372,8 +24372,8 @@
                         "pre": false
                     },
                     "MX8": {
-                        "on": false,
-                        "lvl": 0,
+                        "on": true,
+                        "lvl": -34.9681,
                         "pre": false
                     }
                 },
@@ -25295,13 +25295,13 @@
                         "tap": "PRE"
                     }
                 },
-                "col": 1,
-                "name": "",
-                "icon": 0,
-                "led": false,
+                "col": 5,
+                "name": "Studio Monitors",
+                "icon": 513,
+                "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -144,
+                "fdr": -0.038473,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -25800,7 +25800,7 @@
         },
         "layer": {
             "L": {
-                "sel": 6,
+                "sel": 7,
                 "1": {
                     "ofs": 0,
                     "name": "CH1-12",
@@ -26671,7 +26671,7 @@
                 }
             },
             "C": {
-                "sel": 5,
+                "sel": 2,
                 "1": {
                     "ofs": 0,
                     "name": "DCA",
@@ -26757,7 +26757,7 @@
                     }
                 },
                 "2": {
-                    "ofs": 0,
+                    "ofs": 4,
                     "name": "MAIN",
                     "1": {
                         "type": "BUS",
