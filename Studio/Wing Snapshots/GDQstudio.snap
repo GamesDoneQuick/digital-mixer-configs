@@ -19246,7 +19246,7 @@
                         "srcauto": false,
                         "altsrc": false,
                         "inv": false,
-                        "trim": 0,
+                        "trim": -11,
                         "bal": 0
                     },
                     "conn": {
@@ -25800,7 +25800,7 @@
         },
         "layer": {
             "L": {
-                "sel": 7,
+                "sel": 6,
                 "1": {
                     "ofs": 0,
                     "name": "CH1-12",
@@ -26671,7 +26671,7 @@
                 }
             },
             "C": {
-                "sel": 2,
+                "sel": 5,
                 "1": {
                     "ofs": 0,
                     "name": "DCA",
