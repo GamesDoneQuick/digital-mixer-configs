@@ -1,11 +1,11 @@
 {
   "type": "preset_ch.6",
-  "creator_fw": "1.12.5-0-gc92dac96:release",
-  "creator_sn": "WING-PP-1912062413",
+  "creator_fw": "1.12.6-0-gd3497a40:release",
+  "creator_sn": "S200300132BV2",
   "creator_model": "ngc-full",
   "creator_name": "GDQ",
   "index": 16,
-  "scopes": "001011111111111110",
+  "scopes": "000001111111111100",
   "ch_data": {
     "in": {
       "set": {
