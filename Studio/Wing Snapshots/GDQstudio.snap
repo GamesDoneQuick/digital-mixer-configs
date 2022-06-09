@@ -1,7 +1,7 @@
 {
     "type": "snapshot.6",
-    "creator_fw": "1.12.5-0-gc92dac96:release",
-    "creator_sn": "WING-PP-1912062413",
+    "creator_fw": "1.12.6-0-gd3497a40:release",
+    "creator_sn": "S200300132BV2",
     "creator_model": "ngc-full",
     "creator_name": "GDQ",
     "scopes": {
@@ -25788,10 +25788,14 @@
             "fdrsel": false,
             "fdrres": "NORM",
             "fdrspd": "FAST",
+            "fdrbanking": false,
             "soffdr": "L/C",
             "sofbutton": "AUTO",
             "sofframe": false,
+            "sofmode": false,
             "seldblclick": false,
+            "mousetchdis": false,
+            "mousespd": 1,
             "srcdisp": false,
             "lockmtr": false,
             "timefmt": "24H",
@@ -28141,8 +28145,9 @@
                         "dca": "Local"
                     },
                     "bu": {
-                        "mode": "OFF",
-                        "name": ""
+                        "mode": "SOF",
+                        "name": "Headset1 Mix",
+                        "ch": 49
                     },
                     "bd": {
                         "mode": "OFF",
@@ -28158,8 +28163,9 @@
                         "dca": "Remote 1"
                     },
                     "bu": {
-                        "mode": "OFF",
-                        "name": ""
+                        "mode": "SOF",
+                        "name": "Headset2 Mix",
+                        "ch": 50
                     },
                     "bd": {
                         "mode": "OFF",
@@ -28175,8 +28181,9 @@
                         "dca": "Remote 2"
                     },
                     "bu": {
-                        "mode": "OFF",
-                        "name": ""
+                        "mode": "SOF",
+                        "name": "Headset3 Mix",
+                        "ch": 51
                     },
                     "bd": {
                         "mode": "OFF",
@@ -28192,12 +28199,14 @@
                         "dca": "Music"
                     },
                     "bu": {
-                        "mode": "OFF",
-                        "name": ""
+                        "mode": "SOF",
+                        "name": "Headset4 Mix",
+                        "ch": 52
                     },
                     "bd": {
-                        "mode": "OFF",
-                        "name": ""
+                        "mode": "SOF",
+                        "name": "Discord Mix",
+                        "ch": 57
                     }
                 }
             },

@@ -1,7 +1,7 @@
 {
     "type": "snapshot.6",
-    "creator_fw": "1.12.5-0-gc92dac96:release",
-    "creator_sn": "WING-PP-1912062413",
+    "creator_fw": "1.12.6-0-gd3497a40:release",
+    "creator_sn": "S200300132BV2",
     "creator_model": "ngc-full",
     "creator_name": "GDQ",
     "scopes": {
@@ -333,7 +333,7 @@
             },
             "osc": {
                 "1": {
-                    "lvl": -8,
+                    "lvl": -6,
                     "mode": "PINK",
                     "f": 999.992
                 },
@@ -25723,8 +25723,8 @@
             },
             "mainmtr": "MAIN.1",
             "mainpos": "AUTO",
-            "soloexcl": true,
-            "selfsolo": true,
+            "soloexcl": false,
+            "selfsolo": false,
             "solofsel": false,
             "sof2solo": false,
             "layerlinkl": false,
@@ -25737,10 +25737,14 @@
             "fdrsel": false,
             "fdrres": "NORM",
             "fdrspd": "FAST",
+            "fdrbanking": false,
             "soffdr": "L/C",
             "sofbutton": "AUTO",
             "sofframe": false,
+            "sofmode": false,
             "seldblclick": false,
+            "mousetchdis": false,
+            "mousespd": 1,
             "srcdisp": false,
             "lockmtr": false,
             "timefmt": "24H",
