@@ -6740,8 +6740,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_X",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -7051,8 +7051,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_X",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -7362,8 +7362,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_X",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -7673,8 +7673,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_X",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -14264,8 +14264,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_Y",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -14579,8 +14579,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_Y",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -14894,8 +14894,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_Y",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -15209,8 +15209,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_Y",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -15524,8 +15524,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_Y",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -16150,8 +16150,8 @@
                     }
                 },
                 "postins": {
-                    "on": false,
-                    "mode": "FX",
+                    "on": true,
+                    "mode": "AUTO_X",
                     "ins": "NONE",
                     "w": 0
                 },
@@ -25396,8 +25396,8 @@
                 "mon": "A"
             },
             "4": {
-                "name": "DCA.4",
-                "col": 1,
+                "name": "Intervie",
+                "col": 7,
                 "icon": 5,
                 "led": true,
                 "mute": false,
@@ -25405,9 +25405,9 @@
                 "mon": "A"
             },
             "5": {
-                "name": "Intervie",
-                "col": 7,
-                "icon": 5,
+                "name": "DCA.5",
+                "col": 1,
+                "icon": 0,
                 "led": false,
                 "mute": false,
                 "fdr": -144,
@@ -25792,7 +25792,7 @@
         },
         "layer": {
             "L": {
-                "sel": 4,
+                "sel": 1,
                 "1": {
                     "ofs": 0,
                     "name": "CH1-12",
@@ -26663,7 +26663,7 @@
                 }
             },
             "C": {
-                "sel": 4,
+                "sel": 6,
                 "1": {
                     "ofs": 0,
                     "name": "DCA",
@@ -26917,7 +26917,7 @@
                     }
                 },
                 "4": {
-                    "ofs": 0,
+                    "ofs": 8,
                     "name": "BUSES",
                     "1": {
                         "type": "BUS",
@@ -27170,7 +27170,7 @@
                 }
             },
             "R": {
-                "sel": 1,
+                "sel": 6,
                 "1": {
                     "ofs": 0,
                     "name": "MAIN",
@@ -27256,7 +27256,7 @@
                     }
                 },
                 "2": {
-                    "ofs": 0,
+                    "ofs": 4,
                     "name": "DCA",
                     "1": {
                         "type": "DCA",
@@ -27731,7 +27731,7 @@
                     },
                     "4": {
                         "type": "DCA",
-                        "i": 5,
+                        "i": 4,
                         "dst": 1
                     },
                     "5": {
@@ -27815,7 +27815,7 @@
                     },
                     "4": {
                         "type": "DCA",
-                        "i": 5,
+                        "i": 4,
                         "dst": 1
                     },
                     "5": {
@@ -28184,7 +28184,7 @@
                     "enc": {
                         "mode": "DCA",
                         "name": "",
-                        "dca": "DCA.4"
+                        "dca": "Intervie"
                     },
                     "bu": {
                         "mode": "SOF",
