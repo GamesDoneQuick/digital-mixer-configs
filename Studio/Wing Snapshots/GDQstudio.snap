@@ -1,9 +1,9 @@
 {
     "type": "snapshot.6",
-    "creator_fw": "1.12.6-0-gd3497a40:release",
+    "creator_fw": "1.12.8-0-g33589c9e:release",
     "creator_sn": "S200300132BV2",
     "creator_model": "ngc-full",
-    "creator_name": "GDQ",
+    "creator_name": "GDQ-WING",
     "scopes": {
         "ch": {
             "1": true,
@@ -444,192 +444,14 @@
                         "vph": false,
                         "mute": false,
                         "pol": false,
-                        "col": 9,
-                        "name": "Remote Mic 1",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "2": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 7,
-                        "name": "Remote Mic 2",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "3": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 5,
-                        "name": "Remote Mic 3",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "4": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 3,
-                        "name": "Remote Mic 4",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "5": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 4,
-                        "name": "Remote Mic 5",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "6": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 4,
-                        "name": "Remote Mic 6",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "7": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 4,
-                        "name": "Remote Mic 7",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "8": {
-                        "mode": "M",
-                        "g": 0,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 4,
-                        "name": "Remote Mic 8",
-                        "icon": 107,
-                        "tags": ""
-                    }
-                },
-                "A": {
-                    "1": {
-                        "mode": "M",
-                        "g": 43,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 9,
-                        "name": "Headset 1",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "2": {
-                        "mode": "M",
-                        "g": 43,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 7,
-                        "name": "Headset 2",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "3": {
-                        "mode": "M",
-                        "g": 43,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 5,
-                        "name": "Headset 3",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "4": {
-                        "mode": "M",
-                        "g": 43,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 3,
-                        "name": "Headset 4",
-                        "icon": 108,
-                        "tags": ""
-                    },
-                    "5": {
-                        "mode": "M",
-                        "g": 0.5,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 1,
-                        "name": "",
-                        "icon": 0,
-                        "tags": ""
-                    },
-                    "6": {
-                        "mode": "M",
-                        "g": 0.5,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 1,
-                        "name": "",
-                        "icon": 0,
-                        "tags": ""
-                    },
-                    "7": {
-                        "mode": "ST",
-                        "g": 0.5,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 9,
-                        "name": "Ads/Playback",
-                        "icon": 613,
-                        "tags": ""
-                    },
-                    "8": {
-                        "mode": "ST",
-                        "g": 0.5,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
-                        "col": 9,
-                        "name": "Ads/Playback",
-                        "icon": 613,
-                        "tags": ""
-                    },
-                    "9": {
-                        "mode": "M",
-                        "g": 0.5,
-                        "vph": false,
-                        "mute": false,
-                        "pol": false,
                         "col": 12,
                         "name": "Remote Mic 1B",
                         "icon": 107,
                         "tags": ""
                     },
-                    "10": {
+                    "2": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -638,9 +460,9 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "11": {
+                    "3": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -649,9 +471,9 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "12": {
+                    "4": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -660,9 +482,9 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "13": {
+                    "5": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -671,9 +493,9 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "14": {
+                    "6": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -682,9 +504,9 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "15": {
+                    "7": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -693,9 +515,9 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "16": {
+                    "8": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -703,8 +525,10 @@
                         "name": "Remote Mic 8B",
                         "icon": 107,
                         "tags": ""
-                    },
-                    "17": {
+                    }
+                },
+                "A": {
+                    "1": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -715,7 +539,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "18": {
+                    "2": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -726,7 +550,7 @@
                         "icon": 614,
                         "tags": ""
                     },
-                    "19": {
+                    "3": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -737,7 +561,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "20": {
+                    "4": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -748,7 +572,7 @@
                         "icon": 614,
                         "tags": ""
                     },
-                    "21": {
+                    "5": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -759,7 +583,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "22": {
+                    "6": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -770,7 +594,7 @@
                         "icon": 614,
                         "tags": ""
                     },
-                    "23": {
+                    "7": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -781,7 +605,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "24": {
+                    "8": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -792,7 +616,7 @@
                         "icon": 614,
                         "tags": ""
                     },
-                    "25": {
+                    "9": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -803,7 +627,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "26": {
+                    "10": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -814,7 +638,7 @@
                         "icon": 614,
                         "tags": ""
                     },
-                    "27": {
+                    "11": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -825,7 +649,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "28": {
+                    "12": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -836,7 +660,7 @@
                         "icon": 614,
                         "tags": ""
                     },
-                    "29": {
+                    "13": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -847,7 +671,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "30": {
+                    "14": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -858,7 +682,7 @@
                         "icon": 614,
                         "tags": ""
                     },
-                    "31": {
+                    "15": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -869,7 +693,7 @@
                         "icon": 107,
                         "tags": ""
                     },
-                    "32": {
+                    "16": {
                         "mode": "M",
                         "g": 0.5,
                         "vph": false,
@@ -878,6 +702,182 @@
                         "col": 3,
                         "name": "Remote Game 8",
                         "icon": 614,
+                        "tags": ""
+                    },
+                    "17": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "18": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "19": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "20": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "21": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "22": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "23": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "24": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "25": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "26": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "27": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "28": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "29": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "30": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "31": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
+                        "tags": ""
+                    },
+                    "32": {
+                        "mode": "M",
+                        "g": 0,
+                        "vph": false,
+                        "mute": false,
+                        "pol": false,
+                        "col": 1,
+                        "name": "",
+                        "icon": 0,
                         "tags": ""
                     },
                     "33": {
@@ -7693,8 +7693,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 9,
+                        "grp": "AUX",
+                        "in": 1,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -8008,8 +8008,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 10,
+                        "grp": "AUX",
+                        "in": 2,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -8323,8 +8323,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 11,
+                        "grp": "AUX",
+                        "in": 3,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -8638,8 +8638,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 12,
+                        "grp": "AUX",
+                        "in": 4,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -8953,8 +8953,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 13,
+                        "grp": "AUX",
+                        "in": 5,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -9268,8 +9268,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 14,
+                        "grp": "AUX",
+                        "in": 6,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -9583,8 +9583,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 15,
+                        "grp": "AUX",
+                        "in": 7,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -9898,8 +9898,8 @@
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 16,
+                        "grp": "AUX",
+                        "in": 8,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -9919,7 +9919,7 @@
                 "icon": 107,
                 "led": true,
                 "mute": true,
-                "fdr": -87.539,
+                "fdr": -144,
                 "pan": 0,
                 "wid": 100,
                 "solosafe": false,
@@ -11466,7 +11466,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 18,
+                        "in": 2,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -11779,7 +11779,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 20,
+                        "in": 4,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -12092,7 +12092,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 22,
+                        "in": 6,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -12405,7 +12405,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 24,
+                        "in": 8,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -12718,7 +12718,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 26,
+                        "in": 10,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -13031,7 +13031,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 28,
+                        "in": 12,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -13344,7 +13344,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 30,
+                        "in": 14,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -13657,7 +13657,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 32,
+                        "in": 16,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -13970,7 +13970,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 17,
+                        "in": 1,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -14285,7 +14285,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 19,
+                        "in": 3,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -14600,7 +14600,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 21,
+                        "in": 5,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -14915,7 +14915,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 23,
+                        "in": 7,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -15230,7 +15230,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 25,
+                        "in": 9,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -15545,7 +15545,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 27,
+                        "in": 11,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -15860,7 +15860,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 29,
+                        "in": 13,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -16175,7 +16175,7 @@
                     },
                     "conn": {
                         "grp": "A",
-                        "in": 31,
+                        "in": 15,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -19498,8 +19498,8 @@
                         "bal": 0
                     },
                     "conn": {
-                        "grp": "A",
-                        "in": 7,
+                        "grp": "OFF",
+                        "in": 1,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -25413,7 +25413,7 @@
                 "icon": 5,
                 "led": true,
                 "mute": false,
-                "fdr": 0.030594,
+                "fdr": -0.761719,
                 "mon": "A"
             },
             "5": {
@@ -26430,82 +26430,82 @@
                     "name": "USER1",
                     "1": {
                         "type": "CH",
-                        "i": 25,
+                        "i": 39,
                         "dst": 1
                     },
                     "2": {
                         "type": "CH",
-                        "i": 17,
+                        "i": 44,
                         "dst": 1
                     },
                     "3": {
-                        "type": "CH",
-                        "i": 26,
+                        "type": "OFF",
+                        "i": 0,
                         "dst": 1
                     },
                     "4": {
-                        "type": "CH",
-                        "i": 18,
+                        "type": "OFF",
+                        "i": 0,
                         "dst": 1
                     },
                     "5": {
                         "type": "CH",
-                        "i": 27,
+                        "i": 25,
                         "dst": 1
                     },
                     "6": {
                         "type": "CH",
-                        "i": 19,
+                        "i": 17,
                         "dst": 1
                     },
                     "7": {
                         "type": "CH",
-                        "i": 28,
+                        "i": 26,
                         "dst": 1
                     },
                     "8": {
                         "type": "CH",
-                        "i": 20,
+                        "i": 18,
                         "dst": 1
                     },
                     "9": {
                         "type": "CH",
-                        "i": 29,
+                        "i": 27,
                         "dst": 1
                     },
                     "10": {
                         "type": "CH",
-                        "i": 21,
+                        "i": 19,
                         "dst": 1
                     },
                     "11": {
                         "type": "CH",
-                        "i": 30,
+                        "i": 28,
                         "dst": 1
                     },
                     "12": {
                         "type": "CH",
-                        "i": 22,
+                        "i": 20,
                         "dst": 1
                     },
                     "13": {
-                        "type": "OFF",
-                        "i": 0,
+                        "type": "CH",
+                        "i": 29,
                         "dst": 1
                     },
                     "14": {
-                        "type": "OFF",
-                        "i": 0,
+                        "type": "CH",
+                        "i": 21,
                         "dst": 1
                     },
                     "15": {
-                        "type": "OFF",
-                        "i": 0,
+                        "type": "CH",
+                        "i": 30,
                         "dst": 1
                     },
                     "16": {
-                        "type": "OFF",
-                        "i": 0,
+                        "type": "CH",
+                        "i": 22,
                         "dst": 1
                     },
                     "17": {
@@ -28146,7 +28146,7 @@
                     },
                     "bu": {
                         "mode": "SOF",
-                        "name": "Headset1 Mix",
+                        "name": "",
                         "ch": 49
                     },
                     "bd": {
@@ -28164,7 +28164,7 @@
                     },
                     "bu": {
                         "mode": "SOF",
-                        "name": "Headset2 Mix",
+                        "name": "",
                         "ch": 50
                     },
                     "bd": {
@@ -28182,7 +28182,7 @@
                     },
                     "bu": {
                         "mode": "SOF",
-                        "name": "Headset3 Mix",
+                        "name": "",
                         "ch": 51
                     },
                     "bd": {
@@ -28200,13 +28200,12 @@
                     },
                     "bu": {
                         "mode": "SOF",
-                        "name": "Headset4 Mix",
+                        "name": "",
                         "ch": 52
                     },
                     "bd": {
-                        "mode": "SOF",
-                        "name": "Discord Mix",
-                        "ch": 57
+                        "mode": "OFF",
+                        "name": ""
                     }
                 }
             },
