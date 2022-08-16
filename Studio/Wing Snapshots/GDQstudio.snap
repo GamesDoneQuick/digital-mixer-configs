@@ -1060,7 +1060,7 @@
                 "B": {
                     "1": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1071,7 +1071,7 @@
                     },
                     "2": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1082,7 +1082,7 @@
                     },
                     "3": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1093,7 +1093,7 @@
                     },
                     "4": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1104,7 +1104,7 @@
                     },
                     "5": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1115,7 +1115,7 @@
                     },
                     "6": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1126,7 +1126,7 @@
                     },
                     "7": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1137,7 +1137,7 @@
                     },
                     "8": {
                         "mode": "M",
-                        "g": 0,
+                        "g": 0.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -5033,36 +5033,36 @@
                 },
                 "B": {
                     "1": {
-                        "grp": "OFF",
+                        "grp": "BUS",
                         "in": 1
                     },
                     "2": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "BUS",
+                        "in": 2
                     },
                     "3": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "BUS",
+                        "in": 3
                     },
                     "4": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "BUS",
+                        "in": 4
                     },
                     "5": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "BUS",
+                        "in": 5
                     },
                     "6": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "BUS",
+                        "in": 6
                     },
                     "7": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "BUS",
+                        "in": 7
                     },
                     "8": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "BUS",
+                        "in": 8
                     },
                     "9": {
                         "grp": "OFF",
@@ -26677,7 +26677,7 @@
                 }
             },
             "C": {
-                "sel": 6,
+                "sel": 5,
                 "1": {
                     "ofs": 0,
                     "name": "DCA",
