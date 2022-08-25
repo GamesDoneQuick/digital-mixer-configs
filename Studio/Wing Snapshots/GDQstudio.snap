@@ -163,7 +163,7 @@
     "ae_data": {
         "cfg": {
             "clkrate": 48000,
-            "clksrc": "INT",
+            "clksrc": "CRD",
             "mainlink": "OFF",
             "dcamgrp": true,
             "muteovr": false,
@@ -483,25 +483,25 @@
                         "tags": ""
                     },
                     "5": {
-                        "mode": "M",
+                        "mode": "ST",
                         "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
-                        "col": 1,
-                        "name": "",
-                        "icon": 0,
+                        "col": 9,
+                        "name": "Local Game 1",
+                        "icon": 614,
                         "tags": ""
                     },
                     "6": {
-                        "mode": "M",
+                        "mode": "ST",
                         "g": 0,
                         "vph": false,
                         "mute": false,
                         "pol": false,
-                        "col": 1,
-                        "name": "",
-                        "icon": 0,
+                        "col": 9,
+                        "name": "Local Game 1",
+                        "icon": 614,
                         "tags": ""
                     },
                     "7": {
@@ -1060,7 +1060,7 @@
                 "B": {
                     "1": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 45.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1071,7 +1071,7 @@
                     },
                     "2": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 45.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1082,7 +1082,7 @@
                     },
                     "3": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 45.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -1093,7 +1093,7 @@
                     },
                     "4": {
                         "mode": "M",
-                        "g": 0.5,
+                        "g": 45.5,
                         "vph": false,
                         "mute": false,
                         "pol": false,
@@ -4795,12 +4795,12 @@
                         "in": 1
                     },
                     "7": {
-                        "grp": "OFF",
+                        "grp": "MAIN",
                         "in": 1
                     },
                     "8": {
-                        "grp": "OFF",
-                        "in": 1
+                        "grp": "MAIN",
+                        "in": 2
                     }
                 },
                 "AUX": {
@@ -10206,15 +10206,15 @@
                         "srcauto": false,
                         "altsrc": false,
                         "inv": false,
-                        "trim": 0,
+                        "trim": 18,
                         "bal": 0,
                         "dlymode": "M",
                         "dly": 0,
                         "dlyon": false
                     },
                     "conn": {
-                        "grp": "OFF",
-                        "in": 1,
+                        "grp": "AUX",
+                        "in": 5,
                         "altgrp": "OFF",
                         "altin": 1
                     }
@@ -10298,7 +10298,7 @@
                     "on": true,
                     "mdl": "COMP",
                     "mix": 100,
-                    "gain": 0,
+                    "gain": 12,
                     "thr": -30,
                     "ratio": 10,
                     "knee": 2,
@@ -17139,7 +17139,7 @@
                 "name": "Discord",
                 "icon": 7,
                 "led": false,
-                "mute": true,
+                "mute": false,
                 "fdr": -144,
                 "pan": 0,
                 "wid": 100,
@@ -17239,11 +17239,11 @@
                         "lvl": 0
                     },
                     "2": {
-                        "on": false,
+                        "on": true,
                         "lvl": 0
                     },
                     "3": {
-                        "on": false,
+                        "on": true,
                         "lvl": 0
                     },
                     "4": {
@@ -24270,7 +24270,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -0.006763,
+                "fdr": -0.283203,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -27729,13 +27729,13 @@
                     "ofs": 0,
                     "name": "USER1",
                     "1": {
-                        "type": "DCA",
-                        "i": 2,
+                        "type": "CH",
+                        "i": 42,
                         "dst": 4
                     },
                     "2": {
-                        "type": "CH",
-                        "i": 42,
+                        "type": "DCA",
+                        "i": 2,
                         "dst": 4
                     },
                     "3": {
