@@ -6745,7 +6745,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,mic,onsite"
             },
             "2": {
                 "in": {
@@ -7056,7 +7056,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,mic,onsite"
             },
             "3": {
                 "in": {
@@ -7367,7 +7367,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,mic,onsite"
             },
             "4": {
                 "in": {
@@ -7678,7 +7678,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,mic,onsite"
             },
             "5": {
                 "in": {
@@ -7993,7 +7993,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "6": {
                 "in": {
@@ -8308,7 +8308,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "7": {
                 "in": {
@@ -8623,7 +8623,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "8": {
                 "in": {
@@ -8938,7 +8938,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "9": {
                 "in": {
@@ -9253,7 +9253,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "10": {
                 "in": {
@@ -9568,7 +9568,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "11": {
                 "in": {
@@ -9883,7 +9883,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "12": {
                 "in": {
@@ -10198,7 +10198,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "13": {
                 "in": {
@@ -10511,7 +10511,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,game,onsite"
             },
             "14": {
                 "in": {
@@ -10824,7 +10824,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,game,onsite"
             },
             "15": {
                 "in": {
@@ -11137,7 +11137,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,game,onsite"
             },
             "16": {
                 "in": {
@@ -11450,7 +11450,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local"
+                "tags": "Local,game,onsite"
             },
             "17": {
                 "in": {
@@ -11763,7 +11763,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "18": {
                 "in": {
@@ -12076,7 +12076,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "19": {
                 "in": {
@@ -12389,7 +12389,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "20": {
                 "in": {
@@ -12702,7 +12702,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "21": {
                 "in": {
@@ -13015,7 +13015,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "22": {
                 "in": {
@@ -13328,7 +13328,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "23": {
                 "in": {
@@ -13641,7 +13641,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "24": {
                 "in": {
@@ -13954,7 +13954,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "game,online"
             },
             "25": {
                 "in": {
@@ -14269,7 +14269,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "26": {
                 "in": {
@@ -14584,7 +14584,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "27": {
                 "in": {
@@ -14899,7 +14899,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "28": {
                 "in": {
@@ -15214,7 +15214,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "29": {
                 "in": {
@@ -15529,7 +15529,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "30": {
                 "in": {
@@ -15844,7 +15844,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "31": {
                 "in": {
@@ -16159,7 +16159,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "32": {
                 "in": {
@@ -16474,7 +16474,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,online"
             },
             "33": {
                 "in": {
@@ -17419,7 +17419,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": ""
+                "tags": "mic,onsite"
             },
             "36": {
                 "in": {
