@@ -6745,7 +6745,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,mic,onsite"
+                "tags": "Local"
             },
             "2": {
                 "in": {
@@ -7056,7 +7056,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,mic,onsite"
+                "tags": "Local"
             },
             "3": {
                 "in": {
@@ -7367,7 +7367,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,mic,onsite"
+                "tags": "Local"
             },
             "4": {
                 "in": {
@@ -7678,7 +7678,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,mic,onsite"
+                "tags": "Local"
             },
             "5": {
                 "in": {
@@ -7993,7 +7993,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "6": {
                 "in": {
@@ -8308,7 +8308,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "7": {
                 "in": {
@@ -8623,7 +8623,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "8": {
                 "in": {
@@ -8938,7 +8938,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "9": {
                 "in": {
@@ -9253,7 +9253,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "10": {
                 "in": {
@@ -9568,7 +9568,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "11": {
                 "in": {
@@ -9883,7 +9883,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "12": {
                 "in": {
@@ -10198,7 +10198,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "13": {
                 "in": {
@@ -10511,7 +10511,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,game,onsite"
+                "tags": "Local"
             },
             "14": {
                 "in": {
@@ -10824,7 +10824,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,game,onsite"
+                "tags": "Local"
             },
             "15": {
                 "in": {
@@ -11137,7 +11137,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,game,onsite"
+                "tags": "Local"
             },
             "16": {
                 "in": {
@@ -11450,7 +11450,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "Local,game,onsite"
+                "tags": "Local"
             },
             "17": {
                 "in": {
@@ -11763,7 +11763,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "18": {
                 "in": {
@@ -12076,7 +12076,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "19": {
                 "in": {
@@ -12389,7 +12389,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "20": {
                 "in": {
@@ -12702,7 +12702,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "21": {
                 "in": {
@@ -13015,7 +13015,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "22": {
                 "in": {
@@ -13328,7 +13328,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "23": {
                 "in": {
@@ -13641,7 +13641,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "24": {
                 "in": {
@@ -13954,7 +13954,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "game,online"
+                "tags": ""
             },
             "25": {
                 "in": {
@@ -14269,7 +14269,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "26": {
                 "in": {
@@ -14584,7 +14584,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "27": {
                 "in": {
@@ -14899,7 +14899,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "28": {
                 "in": {
@@ -15214,7 +15214,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "29": {
                 "in": {
@@ -15529,7 +15529,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "30": {
                 "in": {
@@ -15844,7 +15844,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "31": {
                 "in": {
@@ -16159,7 +16159,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "32": {
                 "in": {
@@ -16474,7 +16474,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,online"
+                "tags": ""
             },
             "33": {
                 "in": {
@@ -17419,7 +17419,7 @@
                     "ins": "NONE",
                     "w": 0
                 },
-                "tags": "mic,onsite"
+                "tags": ""
             },
             "36": {
                 "in": {
@@ -24108,8 +24108,8 @@
                         "pre": false
                     },
                     "MX8": {
-                        "on": false,
-                        "lvl": 0,
+                        "on": true,
+                        "lvl": -35.11632,
                         "pre": false
                     }
                 },
@@ -24270,7 +24270,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -0.283203,
+                "fdr": -0.009766,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -24374,7 +24374,7 @@
                         "pre": false
                     },
                     "MX8": {
-                        "on": true,
+                        "on": false,
                         "lvl": -34.9681,
                         "pre": false
                     }
@@ -25303,7 +25303,7 @@
                 "led": true,
                 "busmono": false,
                 "mute": false,
-                "fdr": -0.038473,
+                "fdr": -0.136719,
                 "pan": 0,
                 "wid": 100,
                 "mon": "A",
@@ -26763,7 +26763,7 @@
                     }
                 },
                 "2": {
-                    "ofs": 4,
+                    "ofs": 0,
                     "name": "MAIN",
                     "1": {
                         "type": "BUS",
@@ -27184,7 +27184,7 @@
                 }
             },
             "R": {
-                "sel": 6,
+                "sel": 1,
                 "1": {
                     "ofs": 0,
                     "name": "MAIN",
@@ -27199,13 +27199,13 @@
                         "dst": 1
                     },
                     "3": {
-                        "type": "BUS",
-                        "i": 19,
+                        "type": "OFF",
+                        "i": 0,
                         "dst": 1
                     },
                     "4": {
                         "type": "BUS",
-                        "i": 20,
+                        "i": 28,
                         "dst": 1
                     },
                     "5": {
