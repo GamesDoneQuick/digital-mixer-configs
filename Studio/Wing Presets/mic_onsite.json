@@ -5,6 +5,7 @@
 			"trim": 0,
 			"bal": 0,
 			"dlymode": "M",
+			"$g": 45.5,
 			"dly": 0,
 			"dlyon": false
 		}
