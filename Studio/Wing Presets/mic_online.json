@@ -301,5 +301,6 @@
 		"mode": "FX",
 		"ins": "NONE",
 		"w": 0
-	}
+	},
+  "tags": "mic,online"
 }
