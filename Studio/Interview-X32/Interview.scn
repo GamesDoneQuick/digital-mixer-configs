@@ -12,14 +12,14 @@
 /config/talk/A +10.0 OFF OFF %000000000000110000
 /config/talk/B +10.0 OFF OFF %001111111100000000
 /config/osc -10.5 20k00 946.3 F2 PINK 18
-/config/userrout/out 175 176 187 188 189 190 191 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 194 195 196 0 0 0 0
-/config/userrout/in 33 34 35 36 133 38 39 135 9 10 11 12 13 14 47 48 129 130 41 42 43 44 45 46 0 0 0 0 0 0 0 0
+/config/userrout/out 175 176 187 188 189 190 191 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/config/userrout/in 33 34 35 36 0 38 39 136 9 10 11 12 13 14 47 48 129 130 41 42 43 44 45 46 0 0 0 0 0 0 0 0
 /config/routing REC
 /config/routing/IN UIN1-8 UIN9-16 UIN17-24 AN25-32 AUX1-4
 /config/routing/AES50A OUT1-8 OUT9-16 OUT9-16 A9-16 CARD25-32 P169-16
 /config/routing/AES50B OUT1-8 OUT9-16 OUT1-8 OUT9-16 P161-8 P169-16
 /config/routing/CARD P161-8 UOUT9-16 AN1-8 AN17-24
-/config/routing/OUT OUT1-4 OUT5-8 UOUT41-44 OUT13-16
+/config/routing/OUT OUT1-4 OUT5-8 OUT9-12 OUT13-16
 /config/routing/PLAY CARD1-8 CARD9-16 CARD17-24 CARD25-32 AUX1-4
 /config/userctrl/A YEi
 /config/userctrl/A/enc "F72" "F73" "F74" "F79"
@@ -164,7 +164,7 @@
 /ch/04/mix/16 ON   -oo
 /ch/04/grp %00000000 %000000
 /ch/04/automix X  +0.0
-/ch/05/config "Interview 5" 47 YE 5
+/ch/05/config "Interview 5" 47 YE 0
 /ch/05/delay OFF   0.3
 /ch/05/preamp +0.0 OFF ON 24  82
 /ch/05/gate OFF EXP2 -58.0 60.0 1  112  226 0
@@ -433,7 +433,7 @@
 /ch/13/eq/2 VEQ 654.7 -5.25 1.0
 /ch/13/eq/3 VEQ 2k11 +0.00 1.0
 /ch/13/eq/4 HShv 4k68 +6.50 1.0
-/ch/13/mix OFF   -oo ON +0 OFF -10.0
+/ch/13/mix OFF -67.9 ON +0 OFF -10.0
 /ch/13/mix/01 ON   0.0 +0 GRP 0
 /ch/13/mix/02 ON   0.0
 /ch/13/mix/03 ON   -oo +0 POST 0
@@ -1729,7 +1729,7 @@
 /bus/15/eq/4 PEQ 1k97 +0.00 2.0
 /bus/15/eq/5 PEQ 5k02 +0.00 2.0
 /bus/15/eq/6 HShv 10k02 +0.00 2.0
-/bus/15/mix ON  -5.0 OFF -100 OFF   -oo
+/bus/15/mix ON  -4.2 OFF -100 OFF   -oo
 /bus/15/mix/01 OFF   -oo -100 POST 0
 /bus/15/mix/02 OFF   -oo
 /bus/15/mix/03 OFF   -oo -100 POST 0
@@ -1748,7 +1748,7 @@
 /bus/16/eq/4 PEQ 1k97 +0.00 2.0
 /bus/16/eq/5 PEQ 5k02 +0.00 2.0
 /bus/16/eq/6 HShv 10k02 +0.00 2.0
-/bus/16/mix ON  -5.0 OFF +100 OFF   -oo
+/bus/16/mix ON  -4.2 OFF +100 OFF   -oo
 /bus/16/mix/01 OFF   -oo +100 POST 0
 /bus/16/mix/02 OFF   -oo
 /bus/16/mix/03 OFF   -oo +100 POST 0
@@ -1930,7 +1930,7 @@
 /outputs/main/07/delay ON 109.0
 /outputs/main/08 29 POST OFF
 /outputs/main/08/delay ON 109.0
-/outputs/main/09 30 POST OFF
+/outputs/main/09 12 POST OFF
 /outputs/main/09/delay ON 109.0
 /outputs/main/10 13 POST OFF
 /outputs/main/10/delay OFF   0.3
@@ -2116,11 +2116,9 @@
 /headamp/125 +0.0 OFF
 /headamp/126 +0.0 OFF
 /headamp/127 +0.0 OFF
-/-stat/selidx Aux5
+/-stat/selidx Ch05
 /-stat/chfaderbank 0
 /-stat/grpfaderbank 2
-/-stat/sendsonfader OFF
 /-stat/bussendbank 2
 /-stat/eqband 3
 /-stat/userbank 0
-/-stat/dcaspill 0
