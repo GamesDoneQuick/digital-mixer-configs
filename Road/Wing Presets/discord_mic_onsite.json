@@ -1,0 +1,279 @@
+{
+  "in": {
+    "set": {
+      "inv": false,
+      "trim": -8.4,
+      "bal": 0,
+      "dlymode": "M",
+      "dly": 0,
+      "dlyon": false
+    }
+  },
+  "flt": {
+    "lc": false,
+    "lcf": 100.2375,
+    "hc": false,
+    "hcf": 10090.67,
+    "tf": false,
+    "mdl": "TILT",
+    "tilt": 0
+  },
+  "clink": false,
+  "col": 11,
+  "name": "Discord",
+  "icon": 7,
+  "led": true,
+  "mute": true,
+  "fdr": 0,
+  "pan": 0,
+  "wid": 100,
+  "solosafe": false,
+  "mon": "A",
+  "proc": "GEDI",
+  "ptap": "4",
+  "peq": {
+    "on": false,
+    "1g": 0,
+    "1f": 99.68543,
+    "1q": 1.411322,
+    "2g": 0,
+    "2f": 999.2505,
+    "2q": 1.411322,
+    "3g": 0,
+    "3f": 10016.53,
+    "3q": 1.411322
+  },
+  "gate": {
+    "on": true,
+    "mdl": "DS902",
+    "f": 6012.555,
+    "range": 4.5,
+    "mode": "HF"
+  },
+  "gatesc": {
+    "type": "OFF",
+    "f": 1002.374,
+    "q": 1.411322,
+    "src": "SELF",
+    "tap": "IN"
+  },
+  "eq": {
+    "on": false,
+    "mdl": "STD",
+    "mix": 100,
+    "lg": 0,
+    "lf": 80.19642,
+    "lq": 1.411322,
+    "leq": "SHV",
+    "1g": 0,
+    "1f": 200,
+    "1q": 1.411322,
+    "2g": 0,
+    "2f": 601.3884,
+    "2q": 1.411322,
+    "3g": 0,
+    "3f": 1499.788,
+    "3q": 1.411322,
+    "4g": 0,
+    "4f": 3990.524,
+    "4q": 1.411322,
+    "hg": 0,
+    "hf": 11994.42,
+    "hq": 1.411322,
+    "heq": "SHV"
+  },
+  "dyn": {
+    "on": false,
+    "mdl": "COMP",
+    "mix": 100,
+    "gain": 0,
+    "thr": -10,
+    "ratio": 3,
+    "knee": 3,
+    "det": "RMS",
+    "att": 50,
+    "hld": 20,
+    "rel": 152.5652,
+    "env": "LOG",
+    "auto": true
+  },
+  "dynxo": { "depth": 6, "type": "OFF", "f": 1002.374 },
+  "dynsc": {
+    "type": "OFF",
+    "f": 1002.374,
+    "q": 1.411322,
+    "src": "SELF",
+    "tap": "IN"
+  },
+  "preins": { "on": false, "ins": "NONE" },
+  "main": {
+    "1": { "on": false, "lvl": 0 },
+    "2": { "on": false, "lvl": 0 },
+    "3": { "on": false, "lvl": 0 },
+    "4": { "on": false, "lvl": 0 }
+  },
+  "send": {
+    "1": {
+      "on": true,
+      "lvl": 0,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "2": {
+      "on": true,
+      "lvl": 0,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "3": {
+      "on": true,
+      "lvl": 0,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "4": {
+      "on": true,
+      "lvl": 0,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "5": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "6": {
+      "on": true,
+      "lvl": 0.1,
+      "pon": false,
+      "ind": false,
+      "mode": "POST",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "7": {
+      "on": true,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "GRP",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "8": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "GRP",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "9": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "10": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "11": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "12": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "POST",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "13": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "14": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "15": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "16": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    }
+  },
+  "postins": { "on": false, "mode": "FX", "ins": "NONE", "w": 0 },
+  "tags": "Local,discord,mic,onsite"
+}
