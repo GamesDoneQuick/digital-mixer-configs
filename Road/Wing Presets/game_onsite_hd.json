@@ -2,10 +2,10 @@
   "in": {
     "set": {
       "inv": false,
-      "trim": -5,
+      "trim": 0,
       "bal": 0,
       "dlymode": "M",
-      "$g": 13,
+      "$g": 8,
       "dly": 0,
       "dlyon": false
     }
