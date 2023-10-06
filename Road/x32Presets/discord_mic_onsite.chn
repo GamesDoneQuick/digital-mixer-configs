@@ -1,0 +1,33 @@
+/preamp -13.0 ON OFF 24 101
+/delay OFF 0.3
+/gate OFF EXP4 -58.0 60.0 1 112 226 0
+/gate/filter ON 5.0 496.6
+/dyn OFF COMP PEAK LIN -42.0 5.0 2 12.0 0 6.32 22 POST 0 100 OFF
+/dyn/filter ON 10.0 328.1
+/insert OFF POST OFF
+/eq OFF
+/eq/1 PEQ 39.9 +0.00 0.5
+/eq/2 PEQ 153.5 +3.75 0.7
+/eq/3 PEQ 496.6 -2.25 1.2
+/eq/4 PEQ 4k37 -0.25 10
+/mix OFF -oo OFF +0 OFF -oo
+/mix/01 ON 0.0 +0 GRP 0
+/mix/02 ON 0.0
+/mix/03 ON -oo +0 POST 0
+/mix/04 ON -oo
+/mix/05 ON -oo +0 POST 0
+/mix/06 ON -oo
+/mix/07 OFF -oo -100 POST 0
+/mix/08 ON 0.0
+/mix/09 ON -1.0 +0 POST 0
+/mix/10 ON -1.0
+/mix/11 ON 0.0 +0 POST 0
+/mix/12 ON 0.0
+/mix/13 ON -0.8 +0 POST 0
+/mix/14 ON -0.8
+/mix/15 ON 0.0 +0 POST 0
+/mix/16 ON 0.0
+/grp %00000010 %000000
+/automix X +0.0
+/automix/group X
+/automix/weight +0.0
