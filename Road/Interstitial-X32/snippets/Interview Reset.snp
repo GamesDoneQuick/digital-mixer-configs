@@ -20,7 +20,7 @@
 /ch/01/gate/filter OFF 3.0 990.9
 /ch/01/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/01/dyn/filter ON 2.0 1k49
-/ch/01/insert ON POST FX5L
+/ch/01/insert ON PRE FX5L
 /ch/01/grp %00000001 %110001
 /ch/01/mix/fader  -5.0
 /ch/01/mix/pan +0
@@ -39,8 +39,8 @@
 /ch/01/mix/12 ON   0.0
 /ch/01/mix/13 OFF   -oo +0 PRE 0
 /ch/01/mix/14 OFF   -oo
-/ch/01/mix/15 ON   -oo +0 GRP 0
-/ch/01/mix/16 ON   -oo
+/ch/01/mix/15 OFF   -oo +0 GRP 0
+/ch/01/mix/16 OFF   -oo
 /ch/01/mix/st OFF
 /ch/01/mix/mono OFF
 /ch/01/mix/mlevel   -oo
@@ -57,7 +57,7 @@
 /ch/02/gate/filter OFF 3.0 990.9
 /ch/02/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/02/dyn/filter ON 2.0 1k49
-/ch/02/insert ON POST FX5R
+/ch/02/insert ON PRE FX5R
 /ch/02/grp %00000001 %110001
 /ch/02/mix/fader  -5.0
 /ch/02/mix/pan +0
@@ -76,8 +76,8 @@
 /ch/02/mix/12 ON   0.0
 /ch/02/mix/13 OFF   -oo +0 PRE 0
 /ch/02/mix/14 OFF   -oo
-/ch/02/mix/15 ON   -oo +0 GRP 0
-/ch/02/mix/16 ON   -oo
+/ch/02/mix/15 OFF   -oo +0 GRP 0
+/ch/02/mix/16 OFF   -oo
 /ch/02/mix/st OFF
 /ch/02/mix/mono OFF
 /ch/02/mix/mlevel   -oo
@@ -94,7 +94,7 @@
 /ch/03/gate/filter OFF 3.0 990.9
 /ch/03/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/03/dyn/filter ON 2.0 1k49
-/ch/03/insert ON POST FX6L
+/ch/03/insert ON PRE FX6L
 /ch/03/grp %00000001 %110001
 /ch/03/mix/fader  -5.0
 /ch/03/mix/pan +0
@@ -113,8 +113,8 @@
 /ch/03/mix/12 ON   0.0
 /ch/03/mix/13 OFF   -oo +0 PRE 0
 /ch/03/mix/14 OFF   -oo
-/ch/03/mix/15 ON   -oo +0 GRP 0
-/ch/03/mix/16 ON   -oo
+/ch/03/mix/15 OFF   -oo +0 GRP 0
+/ch/03/mix/16 OFF   -oo
 /ch/03/mix/st OFF
 /ch/03/mix/mono OFF
 /ch/03/mix/mlevel   -oo
@@ -131,7 +131,7 @@
 /ch/04/gate/filter OFF 3.0 990.9
 /ch/04/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/04/dyn/filter ON 2.0 1k49
-/ch/04/insert ON POST FX6R
+/ch/04/insert ON PRE FX6R
 /ch/04/grp %00000001 %110001
 /ch/04/mix/fader  -5.0
 /ch/04/mix/pan +0
@@ -150,8 +150,8 @@
 /ch/04/mix/12 ON   0.0
 /ch/04/mix/13 OFF   -oo +0 PRE 0
 /ch/04/mix/14 OFF   -oo
-/ch/04/mix/15 ON   -oo +0 GRP 0
-/ch/04/mix/16 ON   -oo
+/ch/04/mix/15 OFF   -oo +0 GRP 0
+/ch/04/mix/16 OFF   -oo
 /ch/04/mix/st OFF
 /ch/04/mix/mono OFF
 /ch/04/mix/mlevel   -oo
@@ -168,7 +168,7 @@
 /ch/05/gate/filter OFF 3.0 990.9
 /ch/05/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/05/dyn/filter ON 2.0 1k49
-/ch/05/insert ON POST FX7L
+/ch/05/insert ON PRE FX7L
 /ch/05/grp %00000001 %110010
 /ch/05/mix/fader  -5.0
 /ch/05/mix/pan +0
@@ -187,8 +187,8 @@
 /ch/05/mix/12 ON   0.0
 /ch/05/mix/13 OFF   -oo +0 PRE 0
 /ch/05/mix/14 OFF   -oo
-/ch/05/mix/15 ON   -oo +0 GRP 0
-/ch/05/mix/16 ON   -oo
+/ch/05/mix/15 OFF   -oo +0 GRP 0
+/ch/05/mix/16 OFF   -oo
 /ch/05/mix/st OFF
 /ch/05/mix/mono OFF
 /ch/05/mix/mlevel   -oo
@@ -205,7 +205,7 @@
 /ch/06/gate/filter OFF 3.0 990.9
 /ch/06/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/06/dyn/filter ON 2.0 1k49
-/ch/06/insert ON POST FX7R
+/ch/06/insert ON PRE FX7R
 /ch/06/grp %00000001 %110010
 /ch/06/mix/fader  -5.0
 /ch/06/mix/pan +0
@@ -224,8 +224,8 @@
 /ch/06/mix/12 ON   0.0
 /ch/06/mix/13 OFF   -oo +0 PRE 0
 /ch/06/mix/14 OFF   -oo
-/ch/06/mix/15 ON   -oo +0 GRP 0
-/ch/06/mix/16 ON   -oo
+/ch/06/mix/15 OFF   -oo +0 GRP 0
+/ch/06/mix/16 OFF   -oo
 /ch/06/mix/st OFF
 /ch/06/mix/mono OFF
 /ch/06/mix/mlevel   -oo
@@ -242,7 +242,7 @@
 /ch/07/gate/filter OFF 3.0 990.9
 /ch/07/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/07/dyn/filter ON 2.0 1k49
-/ch/07/insert ON POST FX8L
+/ch/07/insert ON PRE FX8L
 /ch/07/grp %00000001 %110010
 /ch/07/mix/fader  -5.0
 /ch/07/mix/pan +0
@@ -261,8 +261,8 @@
 /ch/07/mix/12 ON   0.0
 /ch/07/mix/13 OFF   -oo +0 PRE 0
 /ch/07/mix/14 OFF   -oo
-/ch/07/mix/15 ON   -oo +0 GRP 0
-/ch/07/mix/16 ON   -oo
+/ch/07/mix/15 OFF   -oo +0 GRP 0
+/ch/07/mix/16 OFF   -oo
 /ch/07/mix/st OFF
 /ch/07/mix/mono OFF
 /ch/07/mix/mlevel   -oo
@@ -279,7 +279,7 @@
 /ch/08/gate/filter OFF 3.0 990.9
 /ch/08/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
 /ch/08/dyn/filter ON 2.0 1k49
-/ch/08/insert ON POST FX8R
+/ch/08/insert ON PRE FX8R
 /ch/08/grp %00000001 %110010
 /ch/08/mix/fader  -5.0
 /ch/08/mix/pan +0
@@ -298,8 +298,8 @@
 /ch/08/mix/12 ON   0.0
 /ch/08/mix/13 OFF   -oo +0 PRE 0
 /ch/08/mix/14 OFF   -oo
-/ch/08/mix/15 ON   -oo +0 GRP 0
-/ch/08/mix/16 ON   -oo
+/ch/08/mix/15 OFF   -oo +0 GRP 0
+/ch/08/mix/16 OFF   -oo
 /ch/08/mix/st OFF
 /ch/08/mix/mono OFF
 /ch/08/mix/mlevel   -oo
@@ -334,8 +334,8 @@
 /ch/13/mix/12 ON   0.0
 /ch/13/mix/13 OFF   -oo -100 PRE 0
 /ch/13/mix/14 OFF   -oo
-/ch/13/mix/15 ON   -oo -100 GRP 0
-/ch/13/mix/16 ON   -oo
+/ch/13/mix/15 OFF   -oo -100 GRP 0
+/ch/13/mix/16 OFF   -oo
 /ch/13/mix/st ON
 /ch/13/mix/mono OFF
 /ch/13/mix/mlevel   -oo
@@ -370,8 +370,8 @@
 /ch/14/mix/12 ON   0.0
 /ch/14/mix/13 OFF   -oo +100 PRE 0
 /ch/14/mix/14 OFF   -oo
-/ch/14/mix/15 ON   -oo +100 GRP 0
-/ch/14/mix/16 ON   -oo
+/ch/14/mix/15 OFF   -oo +100 GRP 0
+/ch/14/mix/16 OFF   -oo
 /ch/14/mix/st ON
 /ch/14/mix/mono OFF
 /ch/14/mix/mlevel   -oo
@@ -478,8 +478,8 @@
 /ch/19/mix/12 ON   0.0
 /ch/19/mix/13 OFF   -oo -100 IN/LC 0
 /ch/19/mix/14 OFF   -oo
-/ch/19/mix/15 ON   -oo -100 GRP 0
-/ch/19/mix/16 ON   -oo
+/ch/19/mix/15 OFF   -oo -100 GRP 0
+/ch/19/mix/16 OFF   -oo
 /ch/19/mix/st ON
 /ch/19/mix/mono OFF
 /ch/19/mix/mlevel   -oo
@@ -514,8 +514,8 @@
 /ch/20/mix/12 ON   0.0
 /ch/20/mix/13 OFF   -oo +100 IN/LC 0
 /ch/20/mix/14 OFF   -oo
-/ch/20/mix/15 ON   -oo +100 GRP 0
-/ch/20/mix/16 ON   -oo
+/ch/20/mix/15 OFF   -oo +100 GRP 0
+/ch/20/mix/16 OFF   -oo
 /ch/20/mix/st ON
 /ch/20/mix/mono OFF
 /ch/20/mix/mlevel   -oo
@@ -550,8 +550,8 @@
 /ch/21/mix/12 ON   0.0
 /ch/21/mix/13 OFF   -oo -100 PRE 0
 /ch/21/mix/14 OFF   -oo
-/ch/21/mix/15 ON   -oo -100 GRP 0
-/ch/21/mix/16 ON   -oo
+/ch/21/mix/15 OFF   -oo -100 GRP 0
+/ch/21/mix/16 OFF   -oo
 /ch/21/mix/st ON
 /ch/21/mix/mono OFF
 /ch/21/mix/mlevel   -oo
@@ -586,8 +586,8 @@
 /ch/22/mix/12 ON   0.0
 /ch/22/mix/13 OFF   -oo +100 PRE 0
 /ch/22/mix/14 OFF   -oo
-/ch/22/mix/15 ON   -oo +100 GRP 0
-/ch/22/mix/16 ON   -oo
+/ch/22/mix/15 OFF   -oo +100 GRP 0
+/ch/22/mix/16 OFF   -oo
 /ch/22/mix/st ON
 /ch/22/mix/mono OFF
 /ch/22/mix/mlevel   -oo
