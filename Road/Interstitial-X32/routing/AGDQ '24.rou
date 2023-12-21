@@ -1,0 +1,82 @@
+#4.0# 1 "AGDQ '24" 2 %0000000000000000 1                                                                                       
+/config/routing REC
+/config/routing/IN AN1-8 UIN9-16 UIN17-24 UIN25-32 AUX1-4
+/config/routing/AES50A OUT1-8 OUT9-16 P161-8 P169-16 OUT1-8 OUT9-16
+/config/routing/AES50B A1-8 A9-16 A17-24 A25-32 A33-40 A41-48
+/config/routing/CARD P161-8 UOUT25-32 OUT1-8 OUT9-16
+/config/routing/OUT UOUT1-4 UOUT5-8 UOUT9-12 UOUT13-16
+/config/routing/PLAY CARD1-8 CARD9-16 CARD17-24 CARD25-32 AUX1-4
+/outputs/main/01 26 POST OFF
+/outputs/main/01/delay OFF 113.1
+/outputs/main/02 27 POST OFF
+/outputs/main/02/delay OFF 113.1
+/outputs/main/03 28 POST OFF
+/outputs/main/03/delay OFF 113.1
+/outputs/main/04 29 POST OFF
+/outputs/main/04/delay OFF 113.1
+/outputs/main/05 30 POST OFF
+/outputs/main/05/delay OFF 113.1
+/outputs/main/06 31 POST OFF
+/outputs/main/06/delay OFF 113.1
+/outputs/main/07 32 POST OFF
+/outputs/main/07/delay OFF 113.1
+/outputs/main/08 33 POST OFF
+/outputs/main/08/delay OFF 113.1
+/outputs/main/09 38 POST OFF
+/outputs/main/09/delay OFF 113.1
+/outputs/main/10 39 POST OFF
+/outputs/main/10/delay OFF 113.1
+/outputs/main/11 46 POST OFF
+/outputs/main/11/delay OFF 113.1
+/outputs/main/12 47 POST OFF
+/outputs/main/12/delay OFF 113.1
+/outputs/main/13 42 POST OFF
+/outputs/main/13/delay OFF   0.3
+/outputs/main/14 43 POST OFF
+/outputs/main/14/delay OFF   0.3
+/outputs/main/15 1 POST OFF
+/outputs/main/15/delay OFF   0.3
+/outputs/main/16 2 POST OFF
+/outputs/main/16/delay OFF   0.3
+/outputs/aux/01 22 POST OFF
+/outputs/aux/02 23 POST OFF
+/outputs/aux/03 24 POST OFF
+/outputs/aux/04 25 POST OFF
+/outputs/aux/05 62 POST OFF
+/outputs/aux/06 63 POST OFF
+/outputs/p16/01 1 PRE OFF
+/outputs/p16/01/iQ OFF none Linear 0
+/outputs/p16/02 2 PRE OFF
+/outputs/p16/02/iQ OFF none Linear 0
+/outputs/p16/03 4 PRE OFF
+/outputs/p16/03/iQ OFF none Linear 0
+/outputs/p16/04 5 PRE OFF
+/outputs/p16/04/iQ OFF none Linear 0
+/outputs/p16/05 6 PRE OFF
+/outputs/p16/05/iQ OFF none Linear 0
+/outputs/p16/06 7 PRE OFF
+/outputs/p16/06/iQ OFF none Linear 0
+/outputs/p16/07 18 PRE OFF
+/outputs/p16/07/iQ OFF none Linear 0
+/outputs/p16/08 19 PRE OFF
+/outputs/p16/08/iQ OFF none Linear 0
+/outputs/p16/09 20 POST OFF
+/outputs/p16/09/iQ OFF none Linear 0
+/outputs/p16/10 21 POST OFF
+/outputs/p16/10/iQ OFF none Linear 0
+/outputs/p16/11 22 POST OFF
+/outputs/p16/11/iQ OFF none Linear 0
+/outputs/p16/12 23 POST OFF
+/outputs/p16/12/iQ OFF none Linear 0
+/outputs/p16/13 24 POST OFF
+/outputs/p16/13/iQ OFF none Linear 0
+/outputs/p16/14 25 POST OFF
+/outputs/p16/14/iQ OFF none Linear 0
+/outputs/p16/15 54 POST OFF
+/outputs/p16/15/iQ OFF none Linear 0
+/outputs/p16/16 54 POST OFF
+/outputs/p16/16/iQ OFF none Linear 0
+/outputs/aes/01 1 POST OFF
+/outputs/aes/02 2 POST OFF
+/config/userrout/in 1 2 3 4 5 6 7 8 0 0 33 34 161 162 35 16 129 130 131 132 0 0 37 38 39 40 41 42 168 164 168 44
+/config/userrout/out 193 194 195 196 197 198 195 196 199 200 205 206 207 208 183 184 0 0 0 0 0 0 0 0 169 169 170 170 171 171 172 172 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
