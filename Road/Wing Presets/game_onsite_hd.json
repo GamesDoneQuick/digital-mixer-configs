@@ -275,6 +275,5 @@
       "wid": 100
     }
   },
-  "postins": { "on": false, "mode": "FX", "ins": "NONE", "w": 0 },
-  "tags": "Local,game,onsite,hd"
+  "postins": { "on": false, "mode": "FX", "ins": "NONE", "w": 0 }
 }

@@ -273,6 +273,5 @@
       "wid": 100
     }
   },
-  "postins": { "on": true, "mode": "AUTO_X", "ins": "NONE", "w": 0 },
-  "tags": "Local,mic,onsite"
+  "postins": { "on": true, "mode": "AUTO_X", "ins": "NONE", "w": 0 }
 }

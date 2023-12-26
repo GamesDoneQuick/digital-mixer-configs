@@ -277,6 +277,5 @@
       "wid": 100
     }
   },
-  "postins": { "on": false, "mode": "FX", "ins": "NONE", "w": 0 },
-  "tags": "mic,online"
+  "postins": { "on": false, "mode": "FX", "ins": "NONE", "w": 0 }
 }
