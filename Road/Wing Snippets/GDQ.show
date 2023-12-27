@@ -1,1 +1,52 @@
-{"type":"showfile.1","creator_fw":"2.0-0-g6617206f:release","creator_sn":"WING-PP-1912062413","creator_model":"ngc-full","creator_version":"SX45-XU2","creator_name":"3rdFloor","created":"2023-12-23 04:59:19","active_show":"I:/GDQ.show","active_scene":"I:/library/global/snapshots/GDQ/Post Event.snap","scenes":{"count":4,"1":{"name":"Near Game SD","skip":false,"link":false,"type":"SNIP","info":"10 PARS","tag":"#1","midi_tx":"","file":"Near Game SD.snip"},"2":{"name":"Near Game HD","skip":false,"link":false,"type":"SNIP","info":"10 PARS","tag":"#2","midi_tx":"","file":"Near Game HD.snip"},"3":{"name":"Far Game SD","skip":false,"link":false,"type":"SNIP","info":"10 PARS","tag":"#3","midi_tx":"","file":"Far Game SD.snip"},"4":{"name":"Far Game HD","skip":false,"link":false,"type":"SNIP","info":"10 PARS","tag":"#4","midi_tx":"","file":"Far Game HD.snip"}}}
+{
+  "type": "showfile.1",
+  "creator_fw": "2.0-0-g6617206f:release",
+  "creator_sn": "WING-PP-1912062413",
+  "creator_model": "ngc-full",
+  "creator_version": "SX45-XU2",
+  "creator_name": "3rdFloor",
+  "created": "2023-12-23 04:59:19",
+  "scenes": {
+    "count": 4,
+    "1": {
+      "name": "Near Game SD",
+      "skip": false,
+      "link": false,
+      "type": "SNIP",
+      "info": "10 PARS",
+      "tag": "#1",
+      "midi_tx": "",
+      "file": "Near Game SD.snip"
+    },
+    "2": {
+      "name": "Near Game HD",
+      "skip": false,
+      "link": false,
+      "type": "SNIP",
+      "info": "10 PARS",
+      "tag": "#2",
+      "midi_tx": "",
+      "file": "Near Game HD.snip"
+    },
+    "3": {
+      "name": "Far Game SD",
+      "skip": false,
+      "link": false,
+      "type": "SNIP",
+      "info": "10 PARS",
+      "tag": "#3",
+      "midi_tx": "",
+      "file": "Far Game SD.snip"
+    },
+    "4": {
+      "name": "Far Game HD",
+      "skip": false,
+      "link": false,
+      "type": "SNIP",
+      "info": "10 PARS",
+      "tag": "#4",
+      "midi_tx": "",
+      "file": "Far Game HD.snip"
+    }
+  }
+}
