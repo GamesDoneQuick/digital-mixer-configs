@@ -206,7 +206,7 @@
     },
     "10": {
       "on": true,
-      "lvl": 0,
+      "lvl": -5,
       "pon": false,
       "ind": false,
       "mode": "POST",
