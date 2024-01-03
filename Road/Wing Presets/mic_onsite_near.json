@@ -163,21 +163,21 @@
       "wid": 100
     },
     "6": {
-      "on": true,
-      "lvl": 0,
+      "on": false,
+      "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "POST",
+      "mode": "PRE",
       "plink": false,
       "pan": 0,
       "wid": 100
     },
     "7": {
-      "on": true,
+      "on": false,
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "GRP",
+      "mode": "PRE",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -187,13 +187,13 @@
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "GRP",
+      "mode": "PRE",
       "plink": false,
       "pan": 0,
       "wid": 100
     },
     "9": {
-      "on": true,
+      "on": false,
       "lvl": 0,
       "pon": false,
       "ind": false,
@@ -203,11 +203,11 @@
       "wid": 100
     },
     "10": {
-      "on": false,
-      "lvl": -144,
+      "on": true,
+      "lvl": 0,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "POST",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -253,21 +253,21 @@
       "wid": 100
     },
     "15": {
-      "on": false,
-      "lvl": -144,
+      "on": true,
+      "lvl": 0,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "GRP",
       "plink": false,
       "pan": 0,
       "wid": 100
     },
     "16": {
       "on": false,
-      "lvl": -144,
+      "lvl": 0,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "GRP",
       "plink": false,
       "pan": 0,
       "wid": 100
