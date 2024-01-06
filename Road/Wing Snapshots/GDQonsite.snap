@@ -5,7 +5,7 @@
   "creator_model": "ngc-full",
   "creator_version": "SX45-XU2",
   "creator_name": "GDQ-WING",
-  "created": "2024-01-04 06:28:11",
+  "created": "2024-01-07 02:36:19",
   "active_show": "",
   "active_scene": "I:/GDQonsite.snap",
   "ae_data": {
@@ -157,7 +157,7 @@
           "B6": false,
           "B7": false,
           "B8": false,
-          "B9": false,
+          "B9": true,
           "B10": false,
           "B11": false,
           "B12": false,
@@ -178,10 +178,10 @@
           "B2": false,
           "B3": false,
           "B4": false,
-          "B5": false,
-          "B6": false,
-          "B7": false,
-          "B8": false,
+          "B5": true,
+          "B6": true,
+          "B7": true,
+          "B8": true,
           "B9": true,
           "B10": false,
           "B11": false,
@@ -25992,7 +25992,7 @@
     },
     "layer": {
       "L": {
-        "sel": 1,
+        "sel": 6,
         "1": {
           "ofs": 0,
           "name": "CH1-12",
@@ -26617,33 +26617,33 @@
           "ofs": 0,
           "name": "USER1",
           "1": {
-            "type": "CH",
-            "i": 13,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "2": {
-            "type": "CH",
-            "i": 14,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "3": {
-            "type": "CH",
-            "i": 17,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "4": {
-            "type": "CH",
-            "i": 18,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "5": {
-            "type": "CH",
-            "i": 21,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "6": {
-            "type": "CH",
-            "i": 22,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "7": {
@@ -26863,7 +26863,7 @@
         }
       },
       "C": {
-        "sel": 4,
+        "sel": 5,
         "1": {
           "ofs": 0,
           "name": "DCA",
@@ -27209,8 +27209,8 @@
             "dst": 1
           },
           "2": {
-            "type": "CH",
-            "i": 39,
+            "type": "OFF",
+            "i": 0,
             "dst": 1
           },
           "3": {
@@ -27370,7 +27370,7 @@
         }
       },
       "R": {
-        "sel": 7,
+        "sel": 6,
         "1": {
           "ofs": 0,
           "name": "MAIN",
@@ -28082,7 +28082,7 @@
       }
     },
     "user": {
-      "sel": 2,
+      "sel": 3,
       "mode": "MGRP",
       "cmode": "HA",
       "gpio": {
