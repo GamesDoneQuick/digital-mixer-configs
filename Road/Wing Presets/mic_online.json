@@ -157,7 +157,7 @@
       "wid": 100
     },
     "5": {
-      "on": false,
+      "on": true,
       "lvl": -144,
       "pon": false,
       "ind": false,
@@ -168,10 +168,10 @@
     },
     "6": {
       "on": true,
-      "lvl": 0,
+      "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "POST",
+      "mode": "PRE",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -181,17 +181,17 @@
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "GRP",
+      "mode": "PRE",
       "plink": false,
       "pan": 0,
       "wid": 100
     },
     "8": {
-      "on": false,
+      "on": true,
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "GRP",
+      "mode": "PRE",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -207,11 +207,11 @@
       "wid": 100
     },
     "10": {
-      "on": false,
-      "lvl": -144,
+      "on": true,
+      "lvl": 0,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "POST",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -257,11 +257,11 @@
       "wid": 100
     },
     "15": {
-      "on": false,
-      "lvl": -144,
+      "on": true,
+      "lvl": 0,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "GRP",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -271,7 +271,7 @@
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "GRP",
       "plink": false,
       "pan": 0,
       "wid": 100
