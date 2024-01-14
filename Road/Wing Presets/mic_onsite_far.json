@@ -109,7 +109,7 @@
     "1": { "on": false, "lvl": 0 },
     "2": { "on": false, "lvl": 0 },
     "3": { "on": false, "lvl": 0 },
-    "4": { "on": false, "lvl": 0 }
+    "4": { "on": true, "lvl": 0 }
   },
   "send": {
     "1": {
