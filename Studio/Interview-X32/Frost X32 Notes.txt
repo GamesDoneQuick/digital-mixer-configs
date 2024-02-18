@@ -1,0 +1,18 @@
+Frost X32 Notes
+
+AES50:
+1-4: Local 1-4
+5-8: Remote 5-8 (not planning to use these)
+9/10: HyperDeck L/R
+
+Dante
+1-2: Main L/R
+3-4: Interview Production Discord L/R
+
+5-6: Streaming PC Discord L/R
+9-12: Local 1-4
+13-16: Game 1 & 2 L/R
+
+Local Outs:
+1-8: Headsets 1-4 L/R
+9/10: Cam Ops L/R

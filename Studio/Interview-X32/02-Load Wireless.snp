@@ -1,0 +1,37 @@
+#4.0# "Load Wireless" 262271 12 0 0 1                                                                                          
+/fx/6 DES2
+/fx/6/par 10.0 10.0 10.0 10.0 FEM FEM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/headamp/002 +45.0 OFF
+/ch/03/preamp +0.0 OFF ON 24  82
+/ch/03/delay OFF   0.3
+/ch/03/config "Headset 3" 42 YE 3
+/ch/03/eq ON
+/ch/03/eq/1 PEQ 138.4 +0.00 2.0
+/ch/03/eq/2 PEQ 632.5 -6.00 1.0
+/ch/03/eq/3 PEQ 2k11 +0.00 2.0
+/ch/03/eq/4 HShv 5k02 +6.00 0.3
+/ch/03/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/03/gate/filter ON 3.0 990.9
+/ch/03/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
+/ch/03/dyn/filter ON 3.0 990.9
+/ch/03/insert ON PRE FX6L
+/ch/03/grp %00000001 %000000
+/ch/03/mix/fader   0.0
+/ch/03/mix/pan +0
+/headamp/015 +39.0 OFF
+/ch/04/preamp +0.0 OFF ON 24  82
+/ch/04/delay OFF   0.3
+/ch/04/config "Wireless Mic" 42 BLi 24
+/ch/04/eq ON
+/ch/04/eq/1 PEQ 138.4 +0.00 2.0
+/ch/04/eq/2 PEQ 632.5 -6.00 1.0
+/ch/04/eq/3 PEQ 2k11 +0.00 2.0
+/ch/04/eq/4 HShv 5k02 +6.00 0.3
+/ch/04/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/04/gate/filter ON 3.0 990.9
+/ch/04/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
+/ch/04/dyn/filter ON 3.0 990.9
+/ch/04/insert ON PRE FX6R
+/ch/04/grp %00000001 %000000
+/ch/04/mix/fader   0.0
+/ch/04/mix/pan +0
