@@ -1,0 +1,35 @@
+#4.0# "Load Lavs" 127 3 0 0 1                                                                                                  
+/headamp/008 +25.0 OFF
+/ch/01/preamp +0.0 OFF ON 24  82
+/ch/01/delay OFF   0.3
+/ch/01/config "Lav 1" 51 RDi 17
+/ch/01/eq ON
+/ch/01/eq/1 PEQ 138.4 +0.00 2.0
+/ch/01/eq/2 PEQ 632.5 -6.00 1.0
+/ch/01/eq/3 PEQ 2k11 +0.00 2.0
+/ch/01/eq/4 HShv 5k02 +6.00 0.3
+/ch/01/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/01/gate/filter ON 3.0 990.9
+/ch/01/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
+/ch/01/dyn/filter ON 3.0 990.9
+/ch/01/insert ON PRE FX5L
+/ch/01/grp %00000001 %000000
+/ch/01/mix/fader   0.0
+/ch/01/mix/pan +0
+/headamp/009 +25.0 OFF
+/ch/02/preamp +0.0 OFF ON 24  82
+/ch/02/delay OFF   0.3
+/ch/02/config "Lav 2" 51 GNi 18
+/ch/02/eq ON
+/ch/02/eq/1 PEQ 138.4 +0.00 2.0
+/ch/02/eq/2 PEQ 632.5 -6.00 1.0
+/ch/02/eq/3 PEQ 2k11 +0.00 2.0
+/ch/02/eq/4 HShv 5k02 +6.00 0.3
+/ch/02/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/02/gate/filter ON 3.0 990.9
+/ch/02/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
+/ch/02/dyn/filter ON 3.0 990.9
+/ch/02/insert ON PRE FX5R
+/ch/02/grp %00000001 %000000
+/ch/02/mix/fader   0.0
+/ch/02/mix/pan +0
