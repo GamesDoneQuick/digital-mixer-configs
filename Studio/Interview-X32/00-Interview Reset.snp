@@ -1,4 +1,4 @@
-#4.0# "Interview Reset" 397311 15615 0 3904 1                                                                                  
+#4.0# "00-Interview Res" 397311 15615 0 3904 1                                                                                 
 /fx/5 DES2
 /fx/5/par 10.0 10.0 10.0 10.0 FEM FEM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /fx/6 DES2
@@ -12,7 +12,7 @@
 /ch/01/eq/2 PEQ 632.5 -6.00 1.0
 /ch/01/eq/3 PEQ 2k11 +0.00 2.0
 /ch/01/eq/4 HShv 5k02 +6.00 0.3
-/ch/01/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/01/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/01/gate/filter ON 3.0 990.9
 /ch/01/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/01/dyn/filter ON 3.0 990.9
@@ -29,8 +29,8 @@
 /ch/01/mix/06 OFF   -oo
 /ch/01/mix/07 OFF   -oo +0 GRP 0
 /ch/01/mix/08 OFF   -oo
-/ch/01/mix/09 ON   0.0 +0 PRE 1
-/ch/01/mix/10 ON   0.0
+/ch/01/mix/09 ON  -5.0 +0 PRE 1
+/ch/01/mix/10 ON  -5.0
 /ch/01/mix/11 ON  -5.0 +0 PRE 1
 /ch/01/mix/12 ON  -5.0
 /ch/01/mix/13 ON  -5.0 +0 PRE 1
@@ -49,7 +49,7 @@
 /ch/02/eq/2 PEQ 632.5 -6.00 1.0
 /ch/02/eq/3 PEQ 2k11 +0.00 2.0
 /ch/02/eq/4 HShv 5k02 +6.00 0.3
-/ch/02/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/02/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/02/gate/filter ON 3.0 990.9
 /ch/02/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/02/dyn/filter ON 3.0 990.9
@@ -68,8 +68,8 @@
 /ch/02/mix/08 OFF   -oo
 /ch/02/mix/09 ON  -5.0 +0 PRE 1
 /ch/02/mix/10 ON  -5.0
-/ch/02/mix/11 ON   0.0 +0 PRE 1
-/ch/02/mix/12 ON   0.0
+/ch/02/mix/11 ON  -5.0 +0 PRE 1
+/ch/02/mix/12 ON  -5.0
 /ch/02/mix/13 ON  -5.0 +0 PRE 1
 /ch/02/mix/14 ON  -5.0
 /ch/02/mix/15 ON  -5.0 +0 PRE 1
@@ -86,7 +86,7 @@
 /ch/03/eq/2 PEQ 632.5 -6.00 1.0
 /ch/03/eq/3 PEQ 2k11 +0.00 2.0
 /ch/03/eq/4 HShv 5k02 +6.00 0.3
-/ch/03/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/03/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/03/gate/filter ON 3.0 990.9
 /ch/03/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/03/dyn/filter ON 3.0 990.9
@@ -107,8 +107,8 @@
 /ch/03/mix/10 ON  -5.0
 /ch/03/mix/11 ON  -5.0 +0 PRE 1
 /ch/03/mix/12 ON  -5.0
-/ch/03/mix/13 ON   0.0 +0 PRE 1
-/ch/03/mix/14 ON   0.0
+/ch/03/mix/13 ON  -5.0 +0 PRE 1
+/ch/03/mix/14 ON  -5.0
 /ch/03/mix/15 ON  -5.0 +0 PRE 1
 /ch/03/mix/16 ON  -5.0
 /ch/03/mix/st OFF
@@ -123,7 +123,7 @@
 /ch/04/eq/2 PEQ 632.5 -6.00 1.0
 /ch/04/eq/3 PEQ 2k11 +0.00 2.0
 /ch/04/eq/4 HShv 5k02 +6.00 0.3
-/ch/04/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/04/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/04/gate/filter ON 3.0 990.9
 /ch/04/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/04/dyn/filter ON 3.0 990.9
@@ -146,8 +146,8 @@
 /ch/04/mix/12 ON  -5.0
 /ch/04/mix/13 ON  -5.0 +0 PRE 1
 /ch/04/mix/14 ON  -5.0
-/ch/04/mix/15 ON   0.0 +0 PRE 1
-/ch/04/mix/16 ON   0.0
+/ch/04/mix/15 ON  -5.0 +0 PRE 1
+/ch/04/mix/16 ON  -5.0
 /ch/04/mix/st OFF
 /ch/04/mix/mono OFF
 /ch/04/mix/mlevel   -oo
@@ -297,6 +297,7 @@
 /ch/08/mix/st OFF
 /ch/08/mix/mono OFF
 /ch/08/mix/mlevel   -oo
+/headamp/022 +10.0 OFF
 /ch/11/preamp +0.0 OFF ON 24  66
 /ch/11/delay OFF   0.3
 /ch/11/config "Hyperdeck L" 63 CY 11
@@ -313,7 +314,7 @@
 /ch/11/grp %00000100 %000000
 /ch/11/mix/fader   0.0
 /ch/11/mix/pan -100
-/ch/11/mix/on OFF
+/ch/11/mix/on ON
 /ch/11/mix/01 OFF   -oo -100 GRP 0
 /ch/11/mix/02 OFF   -oo
 /ch/11/mix/03 ON -10.0 -100 PRE 0
@@ -333,6 +334,7 @@
 /ch/11/mix/st ON
 /ch/11/mix/mono OFF
 /ch/11/mix/mlevel   -oo
+/headamp/023 +10.0 OFF
 /ch/12/preamp +0.0 OFF ON 24  66
 /ch/12/delay OFF   0.3
 /ch/12/config "Hyperdeck R" 63 CY 12
@@ -349,7 +351,7 @@
 /ch/12/grp %00000100 %000000
 /ch/12/mix/fader   0.0
 /ch/12/mix/pan +100
-/ch/12/mix/on OFF
+/ch/12/mix/on ON
 /ch/12/mix/01 OFF   -oo +100 GRP 0
 /ch/12/mix/02 OFF   -oo
 /ch/12/mix/03 ON -10.0 +100 PRE 0
@@ -453,7 +455,7 @@
 /main/st/dyn/filter OFF 3.0 990.9
 /main/st/insert ON PRE FX2L
 /main/st/grp %00000000 %000000
-/main/st/mix/fader   -oo
+/main/st/mix/fader   0.0
 /main/st/mix/pan +0
 /main/st/mix/on ON
 /dca/1/config "Local" 70 RD
