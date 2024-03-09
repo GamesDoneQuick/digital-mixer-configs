@@ -1,4 +1,4 @@
-#4.0# "Reset Loads" 393343 15 0 0 1                                                                                            
+#4.0# "05-Reset Loads" 393343 15 0 0 1                                                                                         
 /fx/5 DES2
 /fx/5/par 10.0 10.0 10.0 10.0 FEM FEM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /fx/6 DES2
@@ -12,7 +12,7 @@
 /ch/01/eq/2 PEQ 632.5 -6.00 1.0
 /ch/01/eq/3 PEQ 2k11 +0.00 2.0
 /ch/01/eq/4 HShv 5k02 +6.00 0.3
-/ch/01/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/01/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/01/gate/filter ON 3.0 990.9
 /ch/01/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/01/dyn/filter ON 3.0 990.9
@@ -29,7 +29,7 @@
 /ch/02/eq/2 PEQ 632.5 -6.00 1.0
 /ch/02/eq/3 PEQ 2k11 +0.00 2.0
 /ch/02/eq/4 HShv 5k02 +6.00 0.3
-/ch/02/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/02/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/02/gate/filter ON 3.0 990.9
 /ch/02/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/02/dyn/filter ON 3.0 990.9
@@ -46,7 +46,7 @@
 /ch/03/eq/2 PEQ 632.5 -6.00 1.0
 /ch/03/eq/3 PEQ 2k11 +0.00 2.0
 /ch/03/eq/4 HShv 5k02 +6.00 0.3
-/ch/03/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/03/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/03/gate/filter ON 3.0 990.9
 /ch/03/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/03/dyn/filter ON 3.0 990.9
@@ -63,7 +63,7 @@
 /ch/04/eq/2 PEQ 632.5 -6.00 1.0
 /ch/04/eq/3 PEQ 2k11 +0.00 2.0
 /ch/04/eq/4 HShv 5k02 +6.00 0.3
-/ch/04/gate ON EXP3 -47.0 60.0 10 50.2  258 0
+/ch/04/gate ON EXP3 -54.0 60.0 10 50.2  258 0
 /ch/04/gate/filter ON 3.0 990.9
 /ch/04/dyn ON COMP PEAK LOG -35.0 4.0 3 5.00 10 6.32  72 POST 0 100 OFF
 /ch/04/dyn/filter ON 3.0 990.9
