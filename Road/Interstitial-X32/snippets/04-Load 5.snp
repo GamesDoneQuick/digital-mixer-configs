@@ -1,0 +1,5 @@
+#4.0# "Load 5" 3 16 0 0 1                                                                                                      
+/headamp/004 +43.0 OFF
+/ch/05/preamp +0.0 OFF ON 24  82
+/ch/05/delay OFF   0.3
+/ch/05/config "Wireless 5" 42 RDi 5

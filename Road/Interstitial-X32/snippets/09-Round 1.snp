@@ -1,0 +1,135 @@
+#4.0# "Round 1" 1966206 50334751 0 0 1                                                                                         
+/fx/5 DES2
+/fx/5/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/6 DES2
+/fx/6/par 10.0 10.0 10.0 10.0 FEM MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/7 DES2
+/fx/7/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/8 IMG
+/fx/8/par 0 0 0 0.0 261 1.96 0.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/ch/01/config "adef" 42 RD 1
+/ch/01/eq ON
+/ch/01/eq/1 PEQ 138.4 +0.00 0.3
+/ch/01/eq/2 PEQ 632.5 -6.00 1.0
+/ch/01/eq/3 PEQ 2k11 +0.00 2.0
+/ch/01/eq/4 HShv 5k02 +6.00 0.3
+/ch/01/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/01/gate/filter OFF 3.0 990.9
+/ch/01/dyn ON COMP PEAK LOG -30.0 4.0 2 6.50 0 6.32  77 POST 0 100 OFF
+/ch/01/dyn/filter ON 2.0 1k49
+/ch/01/insert ON POST FX5L
+/ch/01/grp %00000001 %110001
+/ch/01/mix/fader  +2.3
+/ch/01/mix/pan +0
+/ch/02/config "Keiz" 42 GN 2
+/ch/02/eq ON
+/ch/02/eq/1 PEQ 138.4 +0.00 2.0
+/ch/02/eq/2 PEQ 632.5 -6.00 1.0
+/ch/02/eq/3 PEQ 2k11 +0.00 2.0
+/ch/02/eq/4 HShv 5k02 +6.00 0.3
+/ch/02/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/02/gate/filter OFF 3.0 990.9
+/ch/02/dyn ON COMP PEAK LOG -29.0 4.0 2 6.50 0 6.32  77 POST 0 100 OFF
+/ch/02/dyn/filter ON 2.0 1k49
+/ch/02/insert ON POST FX5R
+/ch/02/grp %00000001 %110001
+/ch/02/mix/fader  +1.0
+/ch/02/mix/pan +0
+/ch/03/config "RUBIE" 42 YE 3
+/ch/03/eq ON
+/ch/03/eq/1 PEQ 138.4 +0.00 2.0
+/ch/03/eq/2 PEQ 632.5 -6.00 1.0
+/ch/03/eq/3 PEQ 2k11 +0.00 2.0
+/ch/03/eq/4 HShv 5k02 +6.00 0.3
+/ch/03/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/03/gate/filter OFF 3.0 990.9
+/ch/03/dyn ON COMP PEAK LOG -31.5 4.0 2 6.50 0 6.32  77 POST 0 100 OFF
+/ch/03/dyn/filter ON 2.0 1k49
+/ch/03/insert ON POST FX6L
+/ch/03/grp %00000001 %110001
+/ch/03/mix/fader  +1.6
+/ch/03/mix/pan +0
+/ch/04/config "Interview 4" 42 BL 0
+/ch/04/eq ON
+/ch/04/eq/1 PEQ 138.4 +0.00 2.0
+/ch/04/eq/2 PEQ 632.5 -6.00 1.0
+/ch/04/eq/3 PEQ 2k11 +0.00 2.0
+/ch/04/eq/4 HShv 5k02 +6.00 0.3
+/ch/04/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/04/gate/filter OFF 3.0 990.9
+/ch/04/dyn ON COMP PEAK LOG -26.0 4.0 2 0.00 0 6.32  77 POST 0 100 OFF
+/ch/04/dyn/filter ON 2.0 1k49
+/ch/04/insert ON POST FX6R
+/ch/04/grp %00000001 %110001
+/ch/04/mix/fader   -oo
+/ch/04/mix/pan +0
+/ch/05/config "Melo" 42 RDi 6
+/ch/05/eq ON
+/ch/05/eq/1 PEQ 138.4 +0.00 2.0
+/ch/05/eq/2 PEQ 632.5 -6.00 1.0
+/ch/05/eq/3 PEQ 2k11 +0.00 2.0
+/ch/05/eq/4 HShv 5k02 +6.00 0.3
+/ch/05/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/05/gate/filter OFF 3.0 990.9
+/ch/05/dyn ON COMP PEAK LOG -33.0 4.0 2 7.00 0 6.32  77 POST 0 100 OFF
+/ch/05/dyn/filter ON 2.0 1k49
+/ch/05/insert ON POST FX7L
+/ch/05/grp %00000001 %110010
+/ch/05/mix/fader  +0.7
+/ch/05/mix/pan +0
+/ch/11/config "Hyperdeck L" 68 BL 11
+/ch/11/eq OFF
+/ch/11/eq/1 PEQ 124.7 +0.00 2.0
+/ch/11/eq/2 PEQ 496.6 +0.00 2.0
+/ch/11/eq/3 PEQ 1k97 +0.00 2.0
+/ch/11/eq/4 HShv 10k02 +0.00 2.0
+/ch/11/gate ON DUCK -30.0 10.0 101 2000 4000 49
+/ch/11/gate/filter ON 3.0 805.4
+/ch/11/dyn ON COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/ch/11/dyn/filter OFF 3.0 990.9
+/ch/11/insert OFF POST OFF
+/ch/11/grp %00000100 %110000
+/ch/11/mix/fader -20.8
+/ch/11/mix/pan -100
+/ch/12/config "Hyperdeck R" 68 BL 12
+/ch/12/eq OFF
+/ch/12/eq/1 PEQ 124.7 +0.00 2.0
+/ch/12/eq/2 PEQ 496.6 +0.00 2.0
+/ch/12/eq/3 PEQ 1k97 +0.00 2.0
+/ch/12/eq/4 HShv 10k02 +0.00 2.0
+/ch/12/gate ON DUCK -30.0 10.0 101 2000 4000 50
+/ch/12/gate/filter ON 3.0 805.4
+/ch/12/dyn ON COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/ch/12/dyn/filter OFF 3.0 990.9
+/ch/12/insert OFF POST OFF
+/ch/12/grp %00000100 %110000
+/ch/12/mix/fader -20.8
+/ch/12/mix/pan +100
+/ch/25/config "PC In L" 62 MG 25
+/ch/25/eq OFF
+/ch/25/eq/1 PEQ 124.7 +0.00 2.0
+/ch/25/eq/2 PEQ 496.6 +0.00 2.0
+/ch/25/eq/3 PEQ 1k97 +0.00 2.0
+/ch/25/eq/4 HShv 10k02 +0.00 2.0
+/ch/25/gate OFF GATE -80.0 60.0 10 50.2  258 0
+/ch/25/gate/filter OFF 3.0 990.9
+/ch/25/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/ch/25/dyn/filter OFF 3.0 990.9
+/ch/25/insert OFF POST OFF
+/ch/25/grp %00000000 %110000
+/ch/25/mix/fader -11.1
+/ch/25/mix/pan -100
+/ch/26/config "PC In R" 62 MG 26
+/ch/26/eq OFF
+/ch/26/eq/1 PEQ 124.7 +0.00 2.0
+/ch/26/eq/2 PEQ 496.6 +0.00 2.0
+/ch/26/eq/3 PEQ 1k97 +0.00 2.0
+/ch/26/eq/4 HShv 10k02 +0.00 2.0
+/ch/26/gate OFF GATE -80.0 60.0 10 50.2  258 0
+/ch/26/gate/filter OFF 3.0 990.9
+/ch/26/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
+/ch/26/dyn/filter OFF 3.0 990.9
+/ch/26/insert OFF POST OFF
+/ch/26/grp %00000000 %110000
+/ch/26/mix/fader -11.1
+/ch/26/mix/pan +100
