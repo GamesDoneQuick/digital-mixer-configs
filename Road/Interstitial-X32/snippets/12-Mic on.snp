@@ -1,0 +1,5 @@
+#4.0# "Mic on" 512 -2147483648 0 0 1                                                                                           
+/ch/32/mix/09 ON  -6.0 +0 PRE 0
+/ch/32/mix/10 ON  -6.0
+/ch/32/mix/11 OFF   -oo +0 PRE 0
+/ch/32/mix/12 OFF   -oo

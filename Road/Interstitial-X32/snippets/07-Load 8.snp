@@ -1,0 +1,5 @@
+#4.0# "Load 8" 3 16 0 0 1                                                                                                      
+/headamp/006 +43.0 OFF
+/ch/05/preamp +0.0 OFF ON 24  82
+/ch/05/delay OFF   0.3
+/ch/05/config "Interview 7" 42 YEi 7

@@ -1,0 +1,51 @@
+#4.0# "Round 2" 1966206 7 0 0 1                                                                                                
+/fx/5 DES2
+/fx/5/par 10.0 10.0 10.0 10.0 MALE FEM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/6 DES2
+/fx/6/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/7 DES2
+/fx/7/par 10.0 10.0 10.0 10.0 MALE MALE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/fx/8 IMG
+/fx/8/par 0 0 0 0.0 261 1.96 0.0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+/ch/01/config "Hobz" 42 RD 1
+/ch/01/eq ON
+/ch/01/eq/1 PEQ 138.4 +0.00 0.3
+/ch/01/eq/2 PEQ 632.5 -6.00 1.0
+/ch/01/eq/3 PEQ 2k11 +0.00 2.0
+/ch/01/eq/4 HShv 5k02 +6.00 0.3
+/ch/01/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/01/gate/filter OFF 3.0 990.9
+/ch/01/dyn ON COMP PEAK LOG -31.0 4.0 2 7.50 0 6.32  77 POST 0 100 OFF
+/ch/01/dyn/filter ON 2.0 1k49
+/ch/01/insert ON POST FX5L
+/ch/01/grp %00000001 %110001
+/ch/01/mix/fader  +2.3
+/ch/01/mix/pan +0
+/ch/02/config "Fu" 42 GN 2
+/ch/02/eq ON
+/ch/02/eq/1 PEQ 138.4 +0.00 2.0
+/ch/02/eq/2 PEQ 632.5 -6.00 1.0
+/ch/02/eq/3 PEQ 2k11 +0.00 2.0
+/ch/02/eq/4 HShv 5k02 +6.00 0.3
+/ch/02/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/02/gate/filter OFF 3.0 990.9
+/ch/02/dyn ON COMP PEAK LOG -30.0 4.0 2 7.00 0 6.32  77 POST 0 100 OFF
+/ch/02/dyn/filter ON 2.0 1k49
+/ch/02/insert ON POST FX5R
+/ch/02/grp %00000001 %110001
+/ch/02/mix/fader  +1.6
+/ch/02/mix/pan +0
+/ch/03/config "Spike" 42 YE 3
+/ch/03/eq ON
+/ch/03/eq/1 PEQ 138.4 +0.00 2.0
+/ch/03/eq/2 PEQ 632.5 -6.00 1.0
+/ch/03/eq/3 PEQ 2k11 +0.00 2.0
+/ch/03/eq/4 HShv 5k02 +6.00 0.3
+/ch/03/gate ON EXP3 -58.0 60.0 10 50.2  258 0
+/ch/03/gate/filter OFF 3.0 990.9
+/ch/03/dyn ON COMP PEAK LOG -31.5 4.0 2 6.00 0 6.32  77 POST 0 100 OFF
+/ch/03/dyn/filter ON 2.0 1k49
+/ch/03/insert ON POST FX6L
+/ch/03/grp %00000001 %110001
+/ch/03/mix/fader  +1.5
+/ch/03/mix/pan +0
