@@ -87,7 +87,7 @@
     "mdl": "COMP",
     "mix": 100,
     "gain": 6,
-    "thr": -49,
+    "thr": -45,
     "ratio": 3,
     "knee": 1,
     "det": "RMS",
