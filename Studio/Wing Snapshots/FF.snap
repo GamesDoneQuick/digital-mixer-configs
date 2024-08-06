@@ -704,9 +704,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 9,
-            "name": "Headset 1",
-            "icon": 107,
+            "col": 1,
+            "name": "",
+            "icon": 0,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -717,9 +717,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 7,
-            "name": "Headset 2",
-            "icon": 107,
+            "col": 1,
+            "name": "",
+            "icon": 0,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -730,9 +730,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 5,
-            "name": "Headset 3",
-            "icon": 107,
+            "col": 1,
+            "name": "",
+            "icon": 0,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -743,9 +743,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 3,
-            "name": "Headset 4",
-            "icon": 107,
+            "col": 1,
+            "name": "",
+            "icon": 0,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1018,9 +1018,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 12,
+            "name": "Remote Mic 1B",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1044,9 +1044,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 12,
+            "name": "Remote Mic 2B",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1070,8 +1070,8 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 10,
-            "name": "Interview 1",
+            "col": 12,
+            "name": "Remote Mic 3B",
             "icon": 107,
             "tags": "",
             "rmt": "OFF",
@@ -1096,8 +1096,8 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 10,
-            "name": "Interview 3",
+            "col": 12,
+            "name": "Remote Mic 4B",
             "icon": 107,
             "tags": "",
             "rmt": "OFF",
@@ -1122,9 +1122,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 12,
+            "name": "Remote Mic 5B",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1148,9 +1148,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 12,
+            "name": "Remote Mic 6B",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1174,9 +1174,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 12,
+            "name": "Remote Mic 7B",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1200,9 +1200,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 12,
+            "name": "Remote Mic 8B",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1644,9 +1644,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Headset 1",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1657,9 +1657,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "Headset 2",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1670,9 +1670,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "Headset 3",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1683,9 +1683,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 3,
+            "name": "Headset 4",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1743,105 +1743,105 @@
             "rcvc": false
           },
           "9": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Local Game 1",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
           },
           "10": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 9,
+            "name": "Local Game 1",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
           },
           "11": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "Local Game 2",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
           },
           "12": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 7,
+            "name": "Local Game 2",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
           },
           "13": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "Local Game 3",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
           },
           "14": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 5,
+            "name": "Local Game 3",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
           },
           "15": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 12,
-            "name": "Remote Mic 1B",
-            "icon": 107,
+            "col": 3,
+            "name": "Local Game 4",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
           },
           "16": {
-            "mode": "M",
+            "mode": "ST",
             "g": 0,
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 12,
-            "name": "Remote Mic 2B",
-            "icon": 107,
+            "col": 3,
+            "name": "Local Game 4",
+            "icon": 614,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1852,9 +1852,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 10,
+            "name": "Interview 1",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1865,9 +1865,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 10,
+            "name": "Interview 2",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1878,9 +1878,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 10,
+            "name": "Interview 3",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1891,9 +1891,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 10,
+            "name": "Interview 4",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -1904,9 +1904,9 @@
             "vph": false,
             "mute": false,
             "pol": false,
-            "col": 1,
-            "name": "",
-            "icon": 0,
+            "col": 10,
+            "name": "Interview 5",
+            "icon": 107,
             "tags": "",
             "rmt": "OFF",
             "rcvc": false
@@ -4975,36 +4975,36 @@
         },
         "A": {
           "1": {
-            "grp": "BUS",
+            "grp": "OFF",
             "in": 1
           },
           "2": {
-            "grp": "BUS",
-            "in": 2
+            "grp": "OFF",
+            "in": 1
           },
           "3": {
-            "grp": "BUS",
-            "in": 3
+            "grp": "OFF",
+            "in": 1
           },
           "4": {
-            "grp": "BUS",
-            "in": 4
+            "grp": "OFF",
+            "in": 1
           },
           "5": {
-            "grp": "BUS",
-            "in": 5
+            "grp": "OFF",
+            "in": 1
           },
           "6": {
-            "grp": "BUS",
-            "in": 6
+            "grp": "OFF",
+            "in": 1
           },
           "7": {
-            "grp": "BUS",
-            "in": 7
+            "grp": "OFF",
+            "in": 1
           },
           "8": {
-            "grp": "BUS",
-            "in": 8
+            "grp": "OFF",
+            "in": 1
           },
           "9": {
             "grp": "OFF",
@@ -5015,12 +5015,12 @@
             "in": 1
           },
           "11": {
-            "grp": "BUS",
-            "in": 11
+            "grp": "OFF",
+            "in": 1
           },
           "12": {
-            "grp": "BUS",
-            "in": 12
+            "grp": "OFF",
+            "in": 1
           },
           "13": {
             "grp": "OFF",
@@ -5039,12 +5039,12 @@
             "in": 1
           },
           "17": {
-            "grp": "MTX",
-            "in": 15
+            "grp": "OFF",
+            "in": 1
           },
           "18": {
-            "grp": "MTX",
-            "in": 16
+            "grp": "OFF",
+            "in": 1
           },
           "19": {
             "grp": "OFF",
@@ -5169,44 +5169,44 @@
         },
         "B": {
           "1": {
-            "grp": "LCL",
-            "in": 5
+            "grp": "OFF",
+            "in": 1
           },
           "2": {
-            "grp": "LCL",
-            "in": 6
+            "grp": "OFF",
+            "in": 1
           },
           "3": {
-            "grp": "LCL",
-            "in": 7
+            "grp": "OFF",
+            "in": 1
           },
           "4": {
             "grp": "OFF",
             "in": 1
           },
           "5": {
-            "grp": "A",
-            "in": 15
+            "grp": "OFF",
+            "in": 1
           },
           "6": {
-            "grp": "USR",
+            "grp": "OFF",
             "in": 1
           },
           "7": {
-            "grp": "USR",
-            "in": 2
+            "grp": "OFF",
+            "in": 1
           },
           "8": {
             "grp": "OFF",
             "in": 1
           },
           "9": {
-            "grp": "BUS",
-            "in": 9
+            "grp": "OFF",
+            "in": 1
           },
           "10": {
-            "grp": "BUS",
-            "in": 10
+            "grp": "OFF",
+            "in": 1
           },
           "11": {
             "grp": "OFF",
@@ -5217,52 +5217,52 @@
             "in": 1
           },
           "13": {
-            "grp": "CRD",
-            "in": 5
+            "grp": "OFF",
+            "in": 1
           },
           "14": {
-            "grp": "CRD",
-            "in": 6
+            "grp": "OFF",
+            "in": 1
           },
           "15": {
-            "grp": "MAIN",
+            "grp": "OFF",
             "in": 1
           },
           "16": {
-            "grp": "MAIN",
-            "in": 2
+            "grp": "OFF",
+            "in": 1
           },
           "17": {
-            "grp": "BUS",
+            "grp": "OFF",
             "in": 1
           },
           "18": {
-            "grp": "BUS",
-            "in": 2
+            "grp": "OFF",
+            "in": 1
           },
           "19": {
-            "grp": "BUS",
-            "in": 3
+            "grp": "OFF",
+            "in": 1
           },
           "20": {
-            "grp": "BUS",
-            "in": 4
+            "grp": "OFF",
+            "in": 1
           },
           "21": {
-            "grp": "BUS",
-            "in": 5
+            "grp": "OFF",
+            "in": 1
           },
           "22": {
-            "grp": "BUS",
-            "in": 6
+            "grp": "OFF",
+            "in": 1
           },
           "23": {
-            "grp": "BUS",
-            "in": 7
+            "grp": "OFF",
+            "in": 1
           },
           "24": {
-            "grp": "BUS",
-            "in": 8
+            "grp": "OFF",
+            "in": 1
           },
           "25": {
             "grp": "OFF",
@@ -5363,44 +5363,44 @@
         },
         "C": {
           "1": {
-            "grp": "OFF",
+            "grp": "BUS",
             "in": 1
           },
           "2": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 2
           },
           "3": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 3
           },
           "4": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 4
           },
           "5": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 5
           },
           "6": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 6
           },
           "7": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 7
           },
           "8": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 8
           },
           "9": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 9
           },
           "10": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "BUS",
+            "in": 10
           },
           "11": {
             "grp": "OFF",
@@ -5411,20 +5411,20 @@
             "in": 1
           },
           "13": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "CRD",
+            "in": 5
           },
           "14": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "CRD",
+            "in": 6
           },
           "15": {
-            "grp": "OFF",
+            "grp": "MAIN",
             "in": 1
           },
           "16": {
-            "grp": "OFF",
-            "in": 1
+            "grp": "MAIN",
+            "in": 2
           },
           "17": {
             "grp": "OFF",
@@ -6439,8 +6439,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "A",
-            "in": 25,
+            "grp": "C",
+            "in": 1,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -6754,8 +6754,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "A",
-            "in": 26,
+            "grp": "C",
+            "in": 2,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -7069,8 +7069,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "A",
-            "in": 27,
+            "grp": "C",
+            "in": 3,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -7384,8 +7384,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "A",
-            "in": 28,
+            "grp": "C",
+            "in": 4,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -7699,8 +7699,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "C",
-            "in": 15,
+            "grp": "B",
+            "in": 1,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -7719,8 +7719,8 @@
         "name": "Remote Mic 1B",
         "icon": 107,
         "led": true,
-        "mute": false,
-        "fdr": 0.322265625,
+        "mute": true,
+        "fdr": -144,
         "pan": 0,
         "wid": 100,
         "solosafe": false,
@@ -8003,7 +8003,7 @@
           "ins": "NONE",
           "w": 0
         },
-        "tags": "#D1,mic,online"
+        "tags": "mic,online"
       },
       "6": {
         "in": {
@@ -8018,8 +8018,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "C",
-            "in": 16,
+            "grp": "B",
+            "in": 3,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -8038,8 +8038,8 @@
         "name": "Remote Mic 2B",
         "icon": 107,
         "led": true,
-        "mute": false,
-        "fdr": 0.166015625,
+        "mute": true,
+        "fdr": -144,
         "pan": 0,
         "wid": 100,
         "solosafe": false,
@@ -8059,7 +8059,7 @@
           "3q": 1.411322355
         },
         "gate": {
-          "on": false,
+          "on": true,
           "mdl": "GATE",
           "thr": -80,
           "range": 40,
@@ -8077,7 +8077,7 @@
           "tap": "IN"
         },
         "eq": {
-          "on": false,
+          "on": true,
           "mdl": "STD",
           "mix": 100,
           "lg": 0,
@@ -8102,7 +8102,7 @@
           "heq": "SHV"
         },
         "dyn": {
-          "on": false,
+          "on": true,
           "mdl": "COMP",
           "mix": 100,
           "gain": 6,
@@ -8322,7 +8322,7 @@
           "ins": "NONE",
           "w": 0
         },
-        "tags": "#D1,mic,online"
+        "tags": "mic,online"
       },
       "7": {
         "in": {
@@ -8337,8 +8337,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "B",
+            "in": 5,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -8656,8 +8656,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "B",
+            "in": 7,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -8976,7 +8976,7 @@
           },
           "conn": {
             "grp": "B",
-            "in": 5,
+            "in": 9,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -8991,8 +8991,8 @@
           "tilt": 0
         },
         "clink": false,
-        "col": 10,
-        "name": "Interview 1",
+        "col": 12,
+        "name": "Remote Mic 5B",
         "icon": 107,
         "led": true,
         "mute": true,
@@ -9019,17 +9019,17 @@
           "on": true,
           "mdl": "GATE",
           "thr": -80,
-          "range": 60,
-          "att": 1,
-          "hld": 102,
-          "rel": 221.9454193,
+          "range": 40,
+          "att": 10,
+          "hld": 10,
+          "rel": 199.4042816,
           "acc": 0,
-          "ratio": "1:2"
+          "ratio": "1:3"
         },
         "gatesc": {
-          "type": "BP",
-          "f": 498.5361328,
-          "q": 2.871897459,
+          "type": "OFF",
+          "f": 1002.37439,
+          "q": 1.411322355,
           "src": "SELF",
           "tap": "IN"
         },
@@ -9063,7 +9063,7 @@
           "mdl": "COMP",
           "mix": 100,
           "gain": 6,
-          "thr": -34,
+          "thr": -49,
           "ratio": 3,
           "knee": 1,
           "det": "RMS",
@@ -9080,7 +9080,7 @@
         },
         "dynsc": {
           "type": "BP",
-          "f": 1528.844971,
+          "f": 1505.555176,
           "q": 1.961595416,
           "src": "SELF",
           "tap": "IN"
@@ -9164,7 +9164,7 @@
           },
           "6": {
             "on": true,
-            "lvl": 0.029315948,
+            "lvl": 0,
             "pon": false,
             "ind": false,
             "mode": "POST",
@@ -9295,7 +9295,7 @@
           },
           "conn": {
             "grp": "B",
-            "in": 6,
+            "in": 11,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -9310,8 +9310,8 @@
           "tilt": 0
         },
         "clink": false,
-        "col": 10,
-        "name": "Interview 2",
+        "col": 12,
+        "name": "Remote Mic 6B",
         "icon": 107,
         "led": true,
         "mute": true,
@@ -9338,17 +9338,17 @@
           "on": true,
           "mdl": "GATE",
           "thr": -80,
-          "range": 60,
-          "att": 1,
-          "hld": 102,
-          "rel": 221.9454193,
+          "range": 40,
+          "att": 10,
+          "hld": 10,
+          "rel": 199.4042816,
           "acc": 0,
-          "ratio": "1:2"
+          "ratio": "1:3"
         },
         "gatesc": {
-          "type": "BP",
-          "f": 498.5361328,
-          "q": 2.871897459,
+          "type": "OFF",
+          "f": 1002.37439,
+          "q": 1.411322355,
           "src": "SELF",
           "tap": "IN"
         },
@@ -9382,7 +9382,7 @@
           "mdl": "COMP",
           "mix": 100,
           "gain": 6,
-          "thr": -34,
+          "thr": -49,
           "ratio": 3,
           "knee": 1,
           "det": "RMS",
@@ -9399,7 +9399,7 @@
         },
         "dynsc": {
           "type": "BP",
-          "f": 1528.844971,
+          "f": 1505.555176,
           "q": 1.961595416,
           "src": "SELF",
           "tap": "IN"
@@ -9483,7 +9483,7 @@
           },
           "6": {
             "on": true,
-            "lvl": 0.029315948,
+            "lvl": 0,
             "pon": false,
             "ind": false,
             "mode": "POST",
@@ -9614,7 +9614,7 @@
           },
           "conn": {
             "grp": "B",
-            "in": 7,
+            "in": 13,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -9629,8 +9629,8 @@
           "tilt": 0
         },
         "clink": false,
-        "col": 10,
-        "name": "Interview 3",
+        "col": 12,
+        "name": "Remote Mic 7B",
         "icon": 107,
         "led": true,
         "mute": true,
@@ -9657,17 +9657,17 @@
           "on": true,
           "mdl": "GATE",
           "thr": -80,
-          "range": 60,
-          "att": 1,
-          "hld": 102,
-          "rel": 221.9454193,
+          "range": 40,
+          "att": 10,
+          "hld": 10,
+          "rel": 199.4042816,
           "acc": 0,
-          "ratio": "1:2"
+          "ratio": "1:3"
         },
         "gatesc": {
-          "type": "BP",
-          "f": 498.5361328,
-          "q": 2.871897459,
+          "type": "OFF",
+          "f": 1002.37439,
+          "q": 1.411322355,
           "src": "SELF",
           "tap": "IN"
         },
@@ -9701,7 +9701,7 @@
           "mdl": "COMP",
           "mix": 100,
           "gain": 6,
-          "thr": -34,
+          "thr": -49,
           "ratio": 3,
           "knee": 1,
           "det": "RMS",
@@ -9718,7 +9718,7 @@
         },
         "dynsc": {
           "type": "BP",
-          "f": 1528.844971,
+          "f": 1505.555176,
           "q": 1.961595416,
           "src": "SELF",
           "tap": "IN"
@@ -9802,7 +9802,7 @@
           },
           "6": {
             "on": true,
-            "lvl": 0.029315948,
+            "lvl": 0,
             "pon": false,
             "ind": false,
             "mode": "POST",
@@ -9933,7 +9933,7 @@
           },
           "conn": {
             "grp": "B",
-            "in": 8,
+            "in": 15,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -9948,8 +9948,8 @@
           "tilt": 0
         },
         "clink": false,
-        "col": 10,
-        "name": "Interview 4",
+        "col": 12,
+        "name": "Remote Mic 8B",
         "icon": 107,
         "led": true,
         "mute": true,
@@ -9976,17 +9976,17 @@
           "on": true,
           "mdl": "GATE",
           "thr": -80,
-          "range": 60,
-          "att": 1,
-          "hld": 102,
-          "rel": 221.9454193,
+          "range": 40,
+          "att": 10,
+          "hld": 10,
+          "rel": 199.4042816,
           "acc": 0,
-          "ratio": "1:2"
+          "ratio": "1:3"
         },
         "gatesc": {
-          "type": "BP",
-          "f": 498.5361328,
-          "q": 2.871897459,
+          "type": "OFF",
+          "f": 1002.37439,
+          "q": 1.411322355,
           "src": "SELF",
           "tap": "IN"
         },
@@ -10020,7 +10020,7 @@
           "mdl": "COMP",
           "mix": 100,
           "gain": 6,
-          "thr": -34,
+          "thr": -49,
           "ratio": 3,
           "knee": 1,
           "det": "RMS",
@@ -10037,7 +10037,7 @@
         },
         "dynsc": {
           "type": "BP",
-          "f": 1528.844971,
+          "f": 1505.555176,
           "q": 1.961595416,
           "src": "SELF",
           "tap": "IN"
@@ -10121,7 +10121,7 @@
           },
           "6": {
             "on": true,
-            "lvl": 0.029315948,
+            "lvl": 0,
             "pon": false,
             "ind": false,
             "mode": "POST",
@@ -10251,8 +10251,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "C",
+            "in": 9,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -10277,7 +10277,7 @@
         "wid": 100,
         "solosafe": false,
         "mon": "A",
-        "proc": "GEDI",
+        "proc": "EDIG",
         "ptap": "4",
         "peq": {
           "on": false,
@@ -10304,7 +10304,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -10568,8 +10568,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "C",
+            "in": 11,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -10594,7 +10594,7 @@
         "wid": 100,
         "solosafe": false,
         "mon": "A",
-        "proc": "GEDI",
+        "proc": "EDIG",
         "ptap": "4",
         "peq": {
           "on": false,
@@ -10621,7 +10621,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -10885,8 +10885,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "C",
+            "in": 13,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -10911,7 +10911,7 @@
         "wid": 100,
         "solosafe": false,
         "mon": "A",
-        "proc": "GEDI",
+        "proc": "EDIG",
         "ptap": "4",
         "peq": {
           "on": false,
@@ -10938,7 +10938,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -11202,8 +11202,8 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "C",
+            "in": 15,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -11228,7 +11228,7 @@
         "wid": 100,
         "solosafe": false,
         "mon": "A",
-        "proc": "GEDI",
+        "proc": "EDIG",
         "ptap": "4",
         "peq": {
           "on": false,
@@ -11255,7 +11255,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -11572,7 +11572,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -11889,7 +11889,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -12206,7 +12206,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -12523,7 +12523,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -12840,7 +12840,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -13157,7 +13157,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -13474,7 +13474,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -13791,7 +13791,7 @@
           "type": "OFF",
           "f": 1002.37439,
           "q": 1.411322355,
-          "src": "CH.36",
+          "src": "CH.39",
           "tap": "IN"
         },
         "eq": {
@@ -16607,8 +16607,1284 @@
             "dlyon": false
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "C",
+            "in": 17,
+            "altgrp": "OFF",
+            "altin": 1
+          }
+        },
+        "flt": {
+          "lc": true,
+          "lcf": 80.7755661,
+          "hc": false,
+          "hcf": 10090.66504,
+          "tf": false,
+          "mdl": "TILT",
+          "tilt": 0
+        },
+        "clink": false,
+        "col": 10,
+        "name": "Interview 1",
+        "icon": 107,
+        "led": true,
+        "mute": true,
+        "fdr": -144,
+        "pan": 0,
+        "wid": 100,
+        "solosafe": false,
+        "mon": "A",
+        "proc": "GEDI",
+        "ptap": "4",
+        "peq": {
+          "on": false,
+          "1g": 0,
+          "1f": 99.68543243,
+          "1q": 1.411322355,
+          "2g": 0,
+          "2f": 999.2504883,
+          "2q": 1.411322355,
+          "3g": 0,
+          "3f": 10016.52734,
+          "3q": 1.411322355
+        },
+        "gate": {
+          "on": true,
+          "mdl": "GATE",
+          "thr": -80,
+          "range": 60,
+          "att": 1,
+          "hld": 102,
+          "rel": 221.9454193,
+          "acc": 0,
+          "ratio": "1:2"
+        },
+        "gatesc": {
+          "type": "BP",
+          "f": 498.5361328,
+          "q": 2.871897459,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "eq": {
+          "on": true,
+          "mdl": "STD",
+          "mix": 100,
+          "lg": 0,
+          "lf": 230.9564209,
+          "lq": 0.997970223,
+          "leq": "SHV",
+          "1g": 0,
+          "1f": 407.760376,
+          "1q": 0.997970223,
+          "2g": 0,
+          "2f": 837.3460693,
+          "2q": 0.997970223,
+          "3g": 0,
+          "3f": 1499.78833,
+          "3q": 0.997970223,
+          "4g": 0,
+          "4f": 2446.414063,
+          "4q": 0.997970223,
+          "hg": 0,
+          "hf": 3990.524414,
+          "hq": 0.997970223,
+          "heq": "SHV"
+        },
+        "dyn": {
+          "on": true,
+          "mdl": "COMP",
+          "mix": 100,
+          "gain": 6,
+          "thr": -34,
+          "ratio": 3,
+          "knee": 1,
+          "det": "RMS",
+          "att": 0,
+          "hld": 7,
+          "rel": 76.05535126,
+          "env": "LOG",
+          "auto": false
+        },
+        "dynxo": {
+          "depth": 3.5,
+          "type": "HI12",
+          "f": 1002.37439
+        },
+        "dynsc": {
+          "type": "BP",
+          "f": 1528.844971,
+          "q": 1.961595416,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "preins": {
+          "on": false,
+          "ins": "NONE"
+        },
+        "main": {
+          "1": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "2": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "3": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "4": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          }
+        },
+        "send": {
+          "1": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "2": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "3": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "4": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "5": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "6": {
+            "on": true,
+            "lvl": 0.029315948,
+            "pon": false,
+            "ind": false,
+            "mode": "POST",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "7": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "8": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "9": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "10": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "11": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "12": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "13": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "14": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "15": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "16": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          }
+        },
+        "postins": {
+          "on": false,
+          "mode": "FX",
+          "ins": "NONE",
+          "w": 0
+        },
+        "tags": "mic,online"
+      },
+      "34": {
+        "in": {
+          "set": {
+            "srcauto": false,
+            "altsrc": false,
+            "inv": false,
+            "trim": 0,
+            "bal": 0,
+            "dlymode": "M",
+            "dly": 0,
+            "dlyon": false
+          },
+          "conn": {
+            "grp": "C",
+            "in": 18,
+            "altgrp": "OFF",
+            "altin": 1
+          }
+        },
+        "flt": {
+          "lc": true,
+          "lcf": 80.7755661,
+          "hc": false,
+          "hcf": 10090.66504,
+          "tf": false,
+          "mdl": "TILT",
+          "tilt": 0
+        },
+        "clink": false,
+        "col": 10,
+        "name": "Interview 2",
+        "icon": 107,
+        "led": true,
+        "mute": true,
+        "fdr": -144,
+        "pan": 0,
+        "wid": 100,
+        "solosafe": false,
+        "mon": "A",
+        "proc": "GEDI",
+        "ptap": "4",
+        "peq": {
+          "on": false,
+          "1g": 0,
+          "1f": 99.68543243,
+          "1q": 1.411322355,
+          "2g": 0,
+          "2f": 999.2504883,
+          "2q": 1.411322355,
+          "3g": 0,
+          "3f": 10016.52734,
+          "3q": 1.411322355
+        },
+        "gate": {
+          "on": true,
+          "mdl": "GATE",
+          "thr": -80,
+          "range": 60,
+          "att": 1,
+          "hld": 102,
+          "rel": 221.9454193,
+          "acc": 0,
+          "ratio": "1:2"
+        },
+        "gatesc": {
+          "type": "BP",
+          "f": 498.5361328,
+          "q": 2.871897459,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "eq": {
+          "on": true,
+          "mdl": "STD",
+          "mix": 100,
+          "lg": 0,
+          "lf": 230.9564209,
+          "lq": 0.997970223,
+          "leq": "SHV",
+          "1g": 0,
+          "1f": 407.760376,
+          "1q": 0.997970223,
+          "2g": 0,
+          "2f": 837.3460693,
+          "2q": 0.997970223,
+          "3g": 0,
+          "3f": 1499.78833,
+          "3q": 0.997970223,
+          "4g": 0,
+          "4f": 2446.414063,
+          "4q": 0.997970223,
+          "hg": 0,
+          "hf": 3990.524414,
+          "hq": 0.997970223,
+          "heq": "SHV"
+        },
+        "dyn": {
+          "on": true,
+          "mdl": "COMP",
+          "mix": 100,
+          "gain": 6,
+          "thr": -34,
+          "ratio": 3,
+          "knee": 1,
+          "det": "RMS",
+          "att": 0,
+          "hld": 7,
+          "rel": 76.05535126,
+          "env": "LOG",
+          "auto": false
+        },
+        "dynxo": {
+          "depth": 3.5,
+          "type": "HI12",
+          "f": 1002.37439
+        },
+        "dynsc": {
+          "type": "BP",
+          "f": 1528.844971,
+          "q": 1.961595416,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "preins": {
+          "on": false,
+          "ins": "NONE"
+        },
+        "main": {
+          "1": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "2": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "3": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "4": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          }
+        },
+        "send": {
+          "1": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "2": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "3": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "4": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "5": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "6": {
+            "on": true,
+            "lvl": 0.029315948,
+            "pon": false,
+            "ind": false,
+            "mode": "POST",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "7": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "8": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "9": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "10": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "11": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "12": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "13": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "14": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "15": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "16": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          }
+        },
+        "postins": {
+          "on": false,
+          "mode": "FX",
+          "ins": "NONE",
+          "w": 0
+        },
+        "tags": "mic,online"
+      },
+      "35": {
+        "in": {
+          "set": {
+            "srcauto": false,
+            "altsrc": false,
+            "inv": false,
+            "trim": 0,
+            "bal": 0,
+            "dlymode": "M",
+            "dly": 0,
+            "dlyon": false
+          },
+          "conn": {
+            "grp": "C",
+            "in": 19,
+            "altgrp": "OFF",
+            "altin": 1
+          }
+        },
+        "flt": {
+          "lc": true,
+          "lcf": 80.7755661,
+          "hc": false,
+          "hcf": 10090.66504,
+          "tf": false,
+          "mdl": "TILT",
+          "tilt": 0
+        },
+        "clink": false,
+        "col": 10,
+        "name": "Interview 3",
+        "icon": 107,
+        "led": true,
+        "mute": true,
+        "fdr": -144,
+        "pan": 0,
+        "wid": 100,
+        "solosafe": false,
+        "mon": "A",
+        "proc": "GEDI",
+        "ptap": "4",
+        "peq": {
+          "on": false,
+          "1g": 0,
+          "1f": 99.68543243,
+          "1q": 1.411322355,
+          "2g": 0,
+          "2f": 999.2504883,
+          "2q": 1.411322355,
+          "3g": 0,
+          "3f": 10016.52734,
+          "3q": 1.411322355
+        },
+        "gate": {
+          "on": true,
+          "mdl": "GATE",
+          "thr": -80,
+          "range": 60,
+          "att": 1,
+          "hld": 102,
+          "rel": 221.9454193,
+          "acc": 0,
+          "ratio": "1:2"
+        },
+        "gatesc": {
+          "type": "BP",
+          "f": 498.5361328,
+          "q": 2.871897459,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "eq": {
+          "on": true,
+          "mdl": "STD",
+          "mix": 100,
+          "lg": 0,
+          "lf": 230.9564209,
+          "lq": 0.997970223,
+          "leq": "SHV",
+          "1g": 0,
+          "1f": 407.760376,
+          "1q": 0.997970223,
+          "2g": 0,
+          "2f": 837.3460693,
+          "2q": 0.997970223,
+          "3g": 0,
+          "3f": 1499.78833,
+          "3q": 0.997970223,
+          "4g": 0,
+          "4f": 2446.414063,
+          "4q": 0.997970223,
+          "hg": 0,
+          "hf": 3990.524414,
+          "hq": 0.997970223,
+          "heq": "SHV"
+        },
+        "dyn": {
+          "on": true,
+          "mdl": "COMP",
+          "mix": 100,
+          "gain": 6,
+          "thr": -34,
+          "ratio": 3,
+          "knee": 1,
+          "det": "RMS",
+          "att": 0,
+          "hld": 7,
+          "rel": 76.05535126,
+          "env": "LOG",
+          "auto": false
+        },
+        "dynxo": {
+          "depth": 3.5,
+          "type": "HI12",
+          "f": 1002.37439
+        },
+        "dynsc": {
+          "type": "BP",
+          "f": 1528.844971,
+          "q": 1.961595416,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "preins": {
+          "on": false,
+          "ins": "NONE"
+        },
+        "main": {
+          "1": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "2": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "3": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "4": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          }
+        },
+        "send": {
+          "1": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "2": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "3": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "4": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "5": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "6": {
+            "on": true,
+            "lvl": 0.029315948,
+            "pon": false,
+            "ind": false,
+            "mode": "POST",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "7": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "8": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "9": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "10": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "11": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "12": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "13": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "14": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "15": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "16": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          }
+        },
+        "postins": {
+          "on": false,
+          "mode": "FX",
+          "ins": "NONE",
+          "w": 0
+        },
+        "tags": "mic,online"
+      },
+      "36": {
+        "in": {
+          "set": {
+            "srcauto": false,
+            "altsrc": false,
+            "inv": false,
+            "trim": 0,
+            "bal": 0,
+            "dlymode": "M",
+            "dly": 0,
+            "dlyon": false
+          },
+          "conn": {
+            "grp": "C",
+            "in": 20,
+            "altgrp": "OFF",
+            "altin": 1
+          }
+        },
+        "flt": {
+          "lc": true,
+          "lcf": 80.7755661,
+          "hc": false,
+          "hcf": 10090.66504,
+          "tf": false,
+          "mdl": "TILT",
+          "tilt": 0
+        },
+        "clink": false,
+        "col": 10,
+        "name": "Interview 4",
+        "icon": 107,
+        "led": true,
+        "mute": true,
+        "fdr": -144,
+        "pan": 0,
+        "wid": 100,
+        "solosafe": false,
+        "mon": "A",
+        "proc": "GEDI",
+        "ptap": "4",
+        "peq": {
+          "on": false,
+          "1g": 0,
+          "1f": 99.68543243,
+          "1q": 1.411322355,
+          "2g": 0,
+          "2f": 999.2504883,
+          "2q": 1.411322355,
+          "3g": 0,
+          "3f": 10016.52734,
+          "3q": 1.411322355
+        },
+        "gate": {
+          "on": true,
+          "mdl": "GATE",
+          "thr": -80,
+          "range": 60,
+          "att": 1,
+          "hld": 102,
+          "rel": 221.9454193,
+          "acc": 0,
+          "ratio": "1:2"
+        },
+        "gatesc": {
+          "type": "BP",
+          "f": 498.5361328,
+          "q": 2.871897459,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "eq": {
+          "on": true,
+          "mdl": "STD",
+          "mix": 100,
+          "lg": 0,
+          "lf": 230.9564209,
+          "lq": 0.997970223,
+          "leq": "SHV",
+          "1g": 0,
+          "1f": 407.760376,
+          "1q": 0.997970223,
+          "2g": 0,
+          "2f": 837.3460693,
+          "2q": 0.997970223,
+          "3g": 0,
+          "3f": 1499.78833,
+          "3q": 0.997970223,
+          "4g": 0,
+          "4f": 2446.414063,
+          "4q": 0.997970223,
+          "hg": 0,
+          "hf": 3990.524414,
+          "hq": 0.997970223,
+          "heq": "SHV"
+        },
+        "dyn": {
+          "on": true,
+          "mdl": "COMP",
+          "mix": 100,
+          "gain": 6,
+          "thr": -34,
+          "ratio": 3,
+          "knee": 1,
+          "det": "RMS",
+          "att": 0,
+          "hld": 7,
+          "rel": 76.05535126,
+          "env": "LOG",
+          "auto": false
+        },
+        "dynxo": {
+          "depth": 3.5,
+          "type": "HI12",
+          "f": 1002.37439
+        },
+        "dynsc": {
+          "type": "BP",
+          "f": 1528.844971,
+          "q": 1.961595416,
+          "src": "SELF",
+          "tap": "IN"
+        },
+        "preins": {
+          "on": false,
+          "ins": "NONE"
+        },
+        "main": {
+          "1": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "2": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "3": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          },
+          "4": {
+            "on": false,
+            "lvl": 0,
+            "pre": false
+          }
+        },
+        "send": {
+          "1": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "2": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "3": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "4": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "5": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "6": {
+            "on": true,
+            "lvl": 0.029315948,
+            "pon": false,
+            "ind": false,
+            "mode": "POST",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "7": {
+            "on": true,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "8": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "GRP",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "9": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "10": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "11": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "12": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "13": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "14": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "15": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          },
+          "16": {
+            "on": false,
+            "lvl": -144,
+            "pon": false,
+            "ind": false,
+            "mode": "PRE",
+            "plink": false,
+            "pan": 0,
+            "wid": 100
+          }
+        },
+        "postins": {
+          "on": false,
+          "mode": "FX",
+          "ins": "NONE",
+          "w": 0
+        },
+        "tags": "mic,online"
+      },
+      "37": {
+        "in": {
+          "set": {
+            "srcauto": false,
+            "altsrc": false,
+            "inv": false,
+            "trim": 0,
+            "bal": 0,
+            "dlymode": "M",
+            "dly": 0,
+            "dlyon": false
+          },
+          "conn": {
+            "grp": "C",
+            "in": 21,
             "altgrp": "OFF",
             "altin": 1
           }
@@ -16913,326 +18189,7 @@
         },
         "tags": "mic,online"
       },
-      "34": {
-        "in": {
-          "set": {
-            "srcauto": false,
-            "altsrc": false,
-            "inv": false,
-            "trim": -7,
-            "bal": 0,
-            "dlymode": "M",
-            "dly": 0,
-            "dlyon": false
-          },
-          "conn": {
-            "grp": "AUX",
-            "in": 7,
-            "altgrp": "OFF",
-            "altin": 1
-          }
-        },
-        "flt": {
-          "lc": false,
-          "lcf": 100.2374573,
-          "hc": false,
-          "hcf": 10018.26074,
-          "tf": false,
-          "mdl": "TILT",
-          "tilt": 0
-        },
-        "clink": false,
-        "col": 9,
-        "name": "Ads/Playback",
-        "icon": 613,
-        "led": true,
-        "mute": false,
-        "fdr": -0.15625,
-        "pan": 0,
-        "wid": 100,
-        "solosafe": false,
-        "mon": "A",
-        "proc": "GEDI",
-        "ptap": "4",
-        "peq": {
-          "on": false,
-          "1g": 0,
-          "1f": 99.68543243,
-          "1q": 0.997970223,
-          "2g": 0,
-          "2f": 999.2504883,
-          "2q": 0.997970223,
-          "3g": 0,
-          "3f": 10016.52734,
-          "3q": 0.997970223
-        },
-        "gate": {
-          "on": false,
-          "mdl": "GATE",
-          "thr": -40,
-          "range": 40,
-          "att": 10,
-          "hld": 10,
-          "rel": 199.4042816,
-          "acc": 0,
-          "ratio": "1:3"
-        },
-        "gatesc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.995881796,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "eq": {
-          "on": false,
-          "mdl": "STD",
-          "mix": 100,
-          "lg": 0,
-          "lf": 80.19641876,
-          "lq": 0.997970223,
-          "leq": "SHV",
-          "1g": 0,
-          "1f": 200,
-          "1q": 0.997970223,
-          "2g": 0,
-          "2f": 601.3883667,
-          "2q": 0.997970223,
-          "3g": 0,
-          "3f": 1499.78833,
-          "3q": 0.997970223,
-          "4g": 0,
-          "4f": 3990.524414,
-          "4q": 0.997970223,
-          "hg": 0,
-          "hf": 11999.27539,
-          "hq": 0.997970223,
-          "heq": "SHV"
-        },
-        "dyn": {
-          "on": false,
-          "mdl": "COMP",
-          "mix": 100,
-          "gain": 0,
-          "thr": -10,
-          "ratio": 3,
-          "knee": 3,
-          "det": "RMS",
-          "att": 50,
-          "hld": 20,
-          "rel": 152.5651855,
-          "env": "LOG",
-          "auto": true
-        },
-        "dynxo": {
-          "depth": 6,
-          "type": "OFF",
-          "f": 1002.37439
-        },
-        "dynsc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.995881796,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "preins": {
-          "on": false,
-          "ins": "NONE"
-        },
-        "main": {
-          "1": {
-            "on": true,
-            "lvl": 0,
-            "pre": false
-          },
-          "2": {
-            "on": true,
-            "lvl": 0,
-            "pre": false
-          },
-          "3": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "4": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          }
-        },
-        "send": {
-          "1": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "2": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "3": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "4": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "5": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "6": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "POST",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "7": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "8": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "9": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "10": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "11": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "12": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "13": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "14": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "15": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "16": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          }
-        },
-        "postins": {
-          "on": false,
-          "mode": "FX",
-          "ins": "NONE",
-          "w": 0
-        },
-        "tags": "ads"
-      },
-      "35": {
+      "38": {
         "in": {
           "set": {
             "srcauto": false,
@@ -17551,7 +18508,7 @@
         },
         "tags": "mic,onsite"
       },
-      "36": {
+      "39": {
         "in": {
           "set": {
             "srcauto": false,
@@ -17583,963 +18540,6 @@
         "col": 8,
         "name": "VoxDuckKey",
         "icon": 112,
-        "led": true,
-        "mute": true,
-        "fdr": -144,
-        "pan": 0,
-        "wid": 100,
-        "solosafe": false,
-        "mon": "A",
-        "proc": "GEDI",
-        "ptap": "4",
-        "peq": {
-          "on": false,
-          "1g": 0,
-          "1f": 99.68543243,
-          "1q": 1.411322355,
-          "2g": 0,
-          "2f": 999.2504883,
-          "2q": 1.411322355,
-          "3g": 0,
-          "3f": 10016.52734,
-          "3q": 1.411322355
-        },
-        "gate": {
-          "on": false,
-          "mdl": "GATE",
-          "thr": -40,
-          "range": 40,
-          "att": 10,
-          "hld": 10,
-          "rel": 199.4042816,
-          "acc": 0,
-          "ratio": "1:3"
-        },
-        "gatesc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.411322355,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "eq": {
-          "on": false,
-          "mdl": "STD",
-          "mix": 100,
-          "lg": 0,
-          "lf": 80.19641876,
-          "lq": 1.411322355,
-          "leq": "SHV",
-          "1g": 0,
-          "1f": 200,
-          "1q": 1.411322355,
-          "2g": 0,
-          "2f": 601.3883667,
-          "2q": 1.411322355,
-          "3g": 0,
-          "3f": 1499.78833,
-          "3q": 1.411322355,
-          "4g": 0,
-          "4f": 3990.524414,
-          "4q": 1.411322355,
-          "hg": 0,
-          "hf": 11999.27539,
-          "hq": 1.411322355,
-          "heq": "SHV"
-        },
-        "dyn": {
-          "on": false,
-          "mdl": "COMP",
-          "mix": 100,
-          "gain": 0,
-          "thr": -10,
-          "ratio": 3,
-          "knee": 3,
-          "det": "RMS",
-          "att": 50,
-          "hld": 20,
-          "rel": 152.5651855,
-          "env": "LOG",
-          "auto": true
-        },
-        "dynxo": {
-          "depth": 6,
-          "type": "OFF",
-          "f": 1002.37439
-        },
-        "dynsc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.411322355,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "preins": {
-          "on": false,
-          "ins": "NONE"
-        },
-        "main": {
-          "1": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "2": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "3": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "4": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          }
-        },
-        "send": {
-          "1": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "2": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "3": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "4": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "5": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "6": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "POST",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "7": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "8": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "9": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "10": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "11": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "12": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "13": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "14": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "15": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "16": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          }
-        },
-        "postins": {
-          "on": false,
-          "mode": "FX",
-          "ins": "NONE",
-          "w": 0
-        },
-        "tags": ""
-      },
-      "37": {
-        "in": {
-          "set": {
-            "srcauto": false,
-            "altsrc": false,
-            "inv": false,
-            "trim": 0,
-            "bal": 0,
-            "dlymode": "M",
-            "dly": 0,
-            "dlyon": false
-          },
-          "conn": {
-            "grp": "OFF",
-            "in": 1,
-            "altgrp": "OFF",
-            "altin": 1
-          }
-        },
-        "flt": {
-          "lc": false,
-          "lcf": 100.2374573,
-          "hc": false,
-          "hcf": 10090.66504,
-          "tf": false,
-          "mdl": "TILT",
-          "tilt": 0
-        },
-        "clink": false,
-        "col": 1,
-        "name": "ProducerCOMM",
-        "icon": 604,
-        "led": true,
-        "mute": true,
-        "fdr": -144,
-        "pan": 0,
-        "wid": 100,
-        "solosafe": false,
-        "mon": "A",
-        "proc": "GEDI",
-        "ptap": "4",
-        "peq": {
-          "on": false,
-          "1g": 0,
-          "1f": 99.68543243,
-          "1q": 1.411322355,
-          "2g": 0,
-          "2f": 999.2504883,
-          "2q": 1.411322355,
-          "3g": 0,
-          "3f": 10016.52734,
-          "3q": 1.411322355
-        },
-        "gate": {
-          "on": false,
-          "mdl": "GATE",
-          "thr": -40,
-          "range": 40,
-          "att": 10,
-          "hld": 10,
-          "rel": 199.4042816,
-          "acc": 0,
-          "ratio": "1:3"
-        },
-        "gatesc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.411322355,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "eq": {
-          "on": false,
-          "mdl": "STD",
-          "mix": 100,
-          "lg": 0,
-          "lf": 80.19641876,
-          "lq": 1.411322355,
-          "leq": "SHV",
-          "1g": 0,
-          "1f": 200,
-          "1q": 1.411322355,
-          "2g": 0,
-          "2f": 601.3883667,
-          "2q": 1.411322355,
-          "3g": 0,
-          "3f": 1499.78833,
-          "3q": 1.411322355,
-          "4g": 0,
-          "4f": 3990.524414,
-          "4q": 1.411322355,
-          "hg": 0,
-          "hf": 11999.27539,
-          "hq": 1.411322355,
-          "heq": "SHV"
-        },
-        "dyn": {
-          "on": false,
-          "mdl": "COMP",
-          "mix": 100,
-          "gain": 0,
-          "thr": -10,
-          "ratio": 3,
-          "knee": 3,
-          "det": "RMS",
-          "att": 50,
-          "hld": 20,
-          "rel": 152.5651855,
-          "env": "LOG",
-          "auto": true
-        },
-        "dynxo": {
-          "depth": 6,
-          "type": "OFF",
-          "f": 1002.37439
-        },
-        "dynsc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.411322355,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "preins": {
-          "on": false,
-          "ins": "NONE"
-        },
-        "main": {
-          "1": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "2": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "3": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "4": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          }
-        },
-        "send": {
-          "1": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "2": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "3": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "4": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "5": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "6": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "POST",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "7": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "8": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "9": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "10": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "11": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "12": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "13": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "14": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "15": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "16": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          }
-        },
-        "postins": {
-          "on": false,
-          "mode": "FX",
-          "ins": "NONE",
-          "w": 0
-        },
-        "tags": ""
-      },
-      "38": {
-        "in": {
-          "set": {
-            "srcauto": false,
-            "altsrc": false,
-            "inv": false,
-            "trim": 0,
-            "bal": 0,
-            "dlymode": "M",
-            "dly": 0,
-            "dlyon": false
-          },
-          "conn": {
-            "grp": "OFF",
-            "in": 1,
-            "altgrp": "OFF",
-            "altin": 1
-          }
-        },
-        "flt": {
-          "lc": false,
-          "lcf": 100.2374573,
-          "hc": false,
-          "hcf": 10090.66504,
-          "tf": false,
-          "mdl": "TILT",
-          "tilt": 0
-        },
-        "clink": false,
-        "col": 1,
-        "name": "Stream COMM",
-        "icon": 604,
-        "led": true,
-        "mute": true,
-        "fdr": -144,
-        "pan": 0,
-        "wid": 100,
-        "solosafe": false,
-        "mon": "A",
-        "proc": "GEDI",
-        "ptap": "4",
-        "peq": {
-          "on": false,
-          "1g": 0,
-          "1f": 99.68543243,
-          "1q": 1.411322355,
-          "2g": 0,
-          "2f": 999.2504883,
-          "2q": 1.411322355,
-          "3g": 0,
-          "3f": 10016.52734,
-          "3q": 1.411322355
-        },
-        "gate": {
-          "on": false,
-          "mdl": "GATE",
-          "thr": -40,
-          "range": 40,
-          "att": 10,
-          "hld": 10,
-          "rel": 199.4042816,
-          "acc": 0,
-          "ratio": "1:3"
-        },
-        "gatesc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.411322355,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "eq": {
-          "on": false,
-          "mdl": "STD",
-          "mix": 100,
-          "lg": 0,
-          "lf": 80.19641876,
-          "lq": 1.411322355,
-          "leq": "SHV",
-          "1g": 0,
-          "1f": 200,
-          "1q": 1.411322355,
-          "2g": 0,
-          "2f": 601.3883667,
-          "2q": 1.411322355,
-          "3g": 0,
-          "3f": 1499.78833,
-          "3q": 1.411322355,
-          "4g": 0,
-          "4f": 3990.524414,
-          "4q": 1.411322355,
-          "hg": 0,
-          "hf": 11999.27539,
-          "hq": 1.411322355,
-          "heq": "SHV"
-        },
-        "dyn": {
-          "on": false,
-          "mdl": "COMP",
-          "mix": 100,
-          "gain": 0,
-          "thr": -10,
-          "ratio": 3,
-          "knee": 3,
-          "det": "RMS",
-          "att": 50,
-          "hld": 20,
-          "rel": 152.5651855,
-          "env": "LOG",
-          "auto": true
-        },
-        "dynxo": {
-          "depth": 6,
-          "type": "OFF",
-          "f": 1002.37439
-        },
-        "dynsc": {
-          "type": "OFF",
-          "f": 1002.37439,
-          "q": 1.411322355,
-          "src": "SELF",
-          "tap": "IN"
-        },
-        "preins": {
-          "on": false,
-          "ins": "NONE"
-        },
-        "main": {
-          "1": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "2": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "3": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          },
-          "4": {
-            "on": false,
-            "lvl": 0,
-            "pre": false
-          }
-        },
-        "send": {
-          "1": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "2": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "3": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "4": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "5": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "6": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "POST",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "7": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "8": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "9": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "10": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "11": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "12": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "13": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "14": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "15": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          },
-          "16": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "PRE",
-            "plink": false,
-            "pan": 0,
-            "wid": 100
-          }
-        },
-        "postins": {
-          "on": false,
-          "mode": "FX",
-          "ins": "NONE",
-          "w": 0
-        },
-        "tags": ""
-      },
-      "39": {
-        "in": {
-          "set": {
-            "srcauto": false,
-            "altsrc": false,
-            "inv": false,
-            "trim": 0,
-            "bal": 0,
-            "dlymode": "M",
-            "dly": 0,
-            "dlyon": false
-          },
-          "conn": {
-            "grp": "OFF",
-            "in": 1,
-            "altgrp": "OFF",
-            "altin": 1
-          }
-        },
-        "flt": {
-          "lc": false,
-          "lcf": 100.2374573,
-          "hc": false,
-          "hcf": 10090.66504,
-          "tf": false,
-          "mdl": "TILT",
-          "tilt": 0
-        },
-        "clink": false,
-        "col": 1,
-        "name": "Aux COMM",
-        "icon": 604,
         "led": true,
         "mute": true,
         "fdr": -144,
@@ -19658,17 +19658,17 @@
             "bal": 0
           },
           "conn": {
-            "grp": "OFF",
-            "in": 1,
+            "grp": "AUX",
+            "in": 7,
             "altgrp": "OFF",
             "altin": 1
           }
         },
-        "clink": true,
-        "col": 1,
-        "name": "",
-        "icon": 0,
-        "led": false,
+        "clink": false,
+        "col": 9,
+        "name": "Ads/Playback",
+        "icon": 613,
+        "led": true,
         "mute": false,
         "fdr": -144,
         "pan": 0,
@@ -19721,7 +19721,7 @@
             "pre": false
           },
           "2": {
-            "on": false,
+            "on": true,
             "lvl": 0,
             "pre": false
           },
@@ -27293,7 +27293,7 @@
           },
           "4": {
             "type": "CH",
-            "i": 34,
+            "i": 43,
             "dst": 1
           },
           "5": {
