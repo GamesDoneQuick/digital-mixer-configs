@@ -1,4 +1,4 @@
-#4.0# "Flame'24 Intervi" "" %000000000 1                                                                                       
+#4.0# "Flame 2024" "" %000000000 1                                                                                             
 /config/chlink OFF OFF OFF OFF ON ON ON ON OFF OFF OFF OFF OFF ON ON ON
 /config/auxlink ON ON OFF ON
 /config/fxlink ON ON ON ON
@@ -13,7 +13,7 @@
 /config/talk/B +10.0 OFF ON %000000000000100000
 /config/osc -34.0 100.2 1k00 F1 PINK 1
 /config/userrout/out 183 184 195 196 193 194 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/userrout/in 45 46 0 0 0 0 0 0 161 162 163 164 41 42 43 44 9 10 11 12 13 14 15 16 165 168 45 46 131 132 129 130
+/config/userrout/in 45 46 0 0 0 0 0 0 161 162 11 12 41 42 43 44 9 10 11 12 13 14 15 16 165 168 45 46 131 132 129 130
 /config/routing REC
 /config/routing/IN AN1-8 UIN9-16 AN9-16 UIN25-32 UIN1-6
 /config/routing/AES50A OUT1-8 OUT9-16 P161-8 P169-16 A33-40 A41-48
@@ -23,7 +23,7 @@
 /config/routing/PLAY CARD1-8 CARD9-16 CARD17-24 CARD25-32 UIN1-6
 /config/userctrl/A GNi
 /config/userctrl/A/enc "F72" "F73" "F74" "F75"
-/config/userctrl/A/btn "S200" "S202" "S203" "S204" "S205" "" "S209" "S210"
+/config/userctrl/A/btn "S200" "" "" "" "" "" "S209" "S210"
 /config/userctrl/B RDi
 /config/userctrl/B/enc "" "" "" ""
 /config/userctrl/B/btn "S030" "S031" "S038" "" "" "" "" ""
@@ -34,7 +34,7 @@
 /config/amixenable ON ON
 /config/dp48 %0000 0 AESA
 /config/dp48/assign 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/dp48/link 0 0 0 0 1 0 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0
+/config/dp48/link 1 1 0 1 1 1 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Headset 1" 42 RD 1
 /ch/01/delay OFF   0.3
@@ -361,7 +361,7 @@
 /ch/11/preamp +0.0 OFF ON 24  66
 /ch/11/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/11/gate/filter OFF 3.0 990.9
-/ch/11/dyn ON COMP PEAK LOG -15.0 100 5 5.00 10 10.0  151 POST 0 90 OFF
+/ch/11/dyn ON COMP PEAK LOG -15.0 100 5 2.00 10 10.0  151 POST 0 90 OFF
 /ch/11/dyn/filter ON 3.0 990.9
 /ch/11/insert OFF POST OFF
 /ch/11/eq OFF
@@ -393,7 +393,7 @@
 /ch/12/preamp +0.0 OFF ON 24  66
 /ch/12/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/12/gate/filter OFF 3.0 990.9
-/ch/12/dyn ON COMP PEAK LOG -15.0 100 5 5.00 10 10.0  151 POST 0 90 OFF
+/ch/12/dyn ON COMP PEAK LOG -15.0 100 5 2.00 10 10.0  151 POST 0 90 OFF
 /ch/12/dyn/filter ON 3.0 990.9
 /ch/12/insert OFF POST OFF
 /ch/12/eq OFF
@@ -433,17 +433,17 @@
 /ch/13/eq/2 PEQ 496.6 +0.00 2.0
 /ch/13/eq/3 PEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 10k02 +0.00 2.0
-/ch/13/mix ON -11.1 OFF -100 OFF   -oo
-/ch/13/mix/01 OFF   -oo -100 GRP 0
-/ch/13/mix/02 OFF   -oo
+/ch/13/mix ON  -6.1 OFF -100 OFF   -oo
+/ch/13/mix/01 ON -44.0 -100 GRP 0
+/ch/13/mix/02 ON -44.0
 /ch/13/mix/03 OFF -10.0 -100 PRE 0
 /ch/13/mix/04 OFF -10.0
 /ch/13/mix/05 OFF   -oo -100 GRP 0
 /ch/13/mix/06 OFF   -oo
 /ch/13/mix/07 ON   -oo -100 GRP 0
 /ch/13/mix/08 ON   -oo
-/ch/13/mix/09 OFF -10.0 -100 PRE 0
-/ch/13/mix/10 OFF -10.0
+/ch/13/mix/09 ON  -9.8 -100 PRE 0
+/ch/13/mix/10 ON  -9.8
 /ch/13/mix/11 OFF -10.0 -100 PRE 0
 /ch/13/mix/12 OFF -10.0
 /ch/13/mix/13 OFF -10.0 -100 PRE 0
@@ -465,17 +465,17 @@
 /ch/14/eq/2 PEQ 496.6 +0.00 2.0
 /ch/14/eq/3 PEQ 1k97 +0.00 2.0
 /ch/14/eq/4 HShv 10k02 +0.00 2.0
-/ch/14/mix ON -11.1 OFF +100 OFF   -oo
-/ch/14/mix/01 OFF   -oo +100 GRP 0
-/ch/14/mix/02 OFF   -oo
+/ch/14/mix ON  -6.1 OFF +100 OFF   -oo
+/ch/14/mix/01 ON -44.0 +100 GRP 0
+/ch/14/mix/02 ON -44.0
 /ch/14/mix/03 OFF -10.0 +100 PRE 0
 /ch/14/mix/04 OFF -10.0
 /ch/14/mix/05 OFF   -oo +100 GRP 0
 /ch/14/mix/06 OFF   -oo
 /ch/14/mix/07 ON   -oo +100 GRP 0
 /ch/14/mix/08 ON   -oo
-/ch/14/mix/09 OFF -10.0 +100 PRE 0
-/ch/14/mix/10 OFF -10.0
+/ch/14/mix/09 ON  -9.8 +100 PRE 0
+/ch/14/mix/10 ON  -9.8
 /ch/14/mix/11 OFF -10.0 +100 PRE 0
 /ch/14/mix/12 OFF -10.0
 /ch/14/mix/13 OFF -10.0 +100 PRE 0
@@ -497,7 +497,7 @@
 /ch/15/eq/2 PEQ 496.6 +0.00 2.0
 /ch/15/eq/3 PEQ 1k97 +0.00 2.0
 /ch/15/eq/4 HShv 10k02 +0.00 2.0
-/ch/15/mix OFF  -5.0 OFF -100 OFF   -oo
+/ch/15/mix OFF  -5.2 OFF -100 OFF   -oo
 /ch/15/mix/01 OFF   -oo -100 GRP 0
 /ch/15/mix/02 OFF   -oo
 /ch/15/mix/03 OFF  -5.0 -100 PRE 0
@@ -529,7 +529,7 @@
 /ch/16/eq/2 PEQ 496.6 +0.00 2.0
 /ch/16/eq/3 PEQ 1k97 +0.00 2.0
 /ch/16/eq/4 HShv 10k02 +0.00 2.0
-/ch/16/mix OFF  -5.0 OFF +100 OFF   -oo
+/ch/16/mix OFF  -5.2 OFF +100 OFF   -oo
 /ch/16/mix/01 OFF   -oo +100 GRP 0
 /ch/16/mix/02 OFF   -oo
 /ch/16/mix/03 OFF  -5.0 +100 PRE 0
@@ -561,7 +561,7 @@
 /ch/17/eq/2 PEQ 496.6 +0.00 2.0
 /ch/17/eq/3 PEQ 1k97 +0.00 2.0
 /ch/17/eq/4 HShv 10k02 +0.00 2.0
-/ch/17/mix OFF   -oo OFF +0 OFF   -oo
+/ch/17/mix OFF -81.1 OFF +0 OFF   -oo
 /ch/17/mix/01 OFF   -oo +0 GRP 0
 /ch/17/mix/02 OFF   -oo
 /ch/17/mix/03 OFF   -oo +0 PRE 0
@@ -1061,7 +1061,7 @@
 /ch/32/grp %00000000 %000000
 /ch/32/automix OFF  +0.0
 /auxin/01/config "Reference L" 53 MG 33
-/auxin/01/preamp -8.0 OFF
+/auxin/01/preamp -10.0 OFF
 /auxin/01/eq OFF
 /auxin/01/eq/1 PEQ 124.7 +0.00 2.0
 /auxin/01/eq/2 PEQ 496.6 +0.00 2.0
@@ -1086,7 +1086,7 @@
 /auxin/01/mix/16 OFF   -oo
 /auxin/01/grp %00000000 %000000
 /auxin/02/config "Reference R" 53 MG 34
-/auxin/02/preamp -8.0 OFF
+/auxin/02/preamp -10.0 OFF
 /auxin/02/eq OFF
 /auxin/02/eq/1 PEQ 124.7 +0.00 2.0
 /auxin/02/eq/2 PEQ 496.6 +0.00 2.0
@@ -1851,7 +1851,7 @@
 /main/st/eq/4 PEQ 1k97 +0.00 2.0
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
-/main/st/mix ON  +2.3 +0
+/main/st/mix ON  -0.4 +0
 /main/st/mix/01 ON   -oo +0 POST 0
 /main/st/mix/02 ON   -oo
 /main/st/mix/03 ON   -oo +0 POST 0
@@ -1998,8 +1998,8 @@
 /headamp/007 +0.0 OFF
 /headamp/008 +0.0 OFF
 /headamp/009 +0.0 OFF
-/headamp/010 +0.0 OFF
-/headamp/011 +0.0 OFF
+/headamp/010 -12.0 OFF
+/headamp/011 -12.0 OFF
 /headamp/012 +31.0 OFF
 /headamp/013 +34.0 OFF
 /headamp/014 +0.0 OFF
@@ -2116,3 +2116,9 @@
 /headamp/125 +0.0 OFF
 /headamp/126 +0.0 OFF
 /headamp/127 +0.0 OFF
+/-stat/selidx Ch14
+/-stat/chfaderbank 0
+/-stat/grpfaderbank 0
+/-stat/bussendbank 0
+/-stat/eqband 0
+/-stat/userbank 0
