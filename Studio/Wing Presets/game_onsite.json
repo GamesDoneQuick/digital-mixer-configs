@@ -223,11 +223,11 @@
 			"wid": 100
 		},
 		"10": {
-			"on": false,
+			"on": true,
 			"lvl": -144,
 			"pon": false,
 			"ind": false,
-			"mode": "PRE",
+			"mode": "GRP",
 			"plink": false,
 			"pan": 0,
 			"wid": 100
@@ -237,17 +237,17 @@
 			"lvl": -144,
 			"pon": false,
 			"ind": false,
-			"mode": "PRE",
+			"mode": "GRP",
 			"plink": false,
 			"pan": 0,
 			"wid": 100
 		},
 		"12": {
-			"on": false,
+			"on": true,
 			"lvl": -144,
 			"pon": false,
 			"ind": false,
-			"mode": "PRE",
+			"mode": "GRP",
 			"plink": false,
 			"pan": 0,
 			"wid": 100
