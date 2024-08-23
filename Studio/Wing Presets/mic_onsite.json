@@ -212,8 +212,8 @@
       "wid": 100
     },
     "9": {
-      "on": true,
-      "lvl": 0.029144,
+      "on": false,
+      "lvl": -144,
       "pon": false,
       "ind": false,
       "mode": "PRE",
