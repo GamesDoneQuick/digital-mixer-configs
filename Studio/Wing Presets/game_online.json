@@ -55,7 +55,7 @@
     "type": "OFF",
     "f": 1002.374,
     "q": 1.411322,
-    "src": "CH.36",
+    "src": "CH.39",
     "tap": "IN"
   },
   "eq": {
@@ -224,11 +224,11 @@
       "wid": 100
     },
     "10": {
-      "on": false,
+      "on": true,
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "GRP",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -238,7 +238,7 @@
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "GRP",
       "plink": false,
       "pan": 0,
       "wid": 100
@@ -248,7 +248,7 @@
       "lvl": -144,
       "pon": false,
       "ind": false,
-      "mode": "PRE",
+      "mode": "GRP",
       "plink": false,
       "pan": 0,
       "wid": 100

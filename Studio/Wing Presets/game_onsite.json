@@ -1,303 +1,303 @@
 {
-	"in": {
-		"set": {
-			"inv": false,
-			"trim": 18,
-			"bal": 0,
-			"dlymode": "M",
-			"dly": 0,
-			"dlyon": false
-		}
-	},
-	"flt": {
-		"lc": false,
-		"lcf": 100.2375,
-		"hc": false,
-		"hcf": 10090.67,
-		"tf": false,
-		"mdl": "TILT",
-		"tilt": 0
-	},
-	"clink": false,
-	"icon": 614,
-	"led": true,
-	"mute": true,
-	"fdr": -144,
-	"pan": 0,
-	"wid": 100,
-	"solosafe": false,
-	"mon": "A",
-	"proc": "GEDI",
-	"ptap": "4",
-	"peq": {
-		"on": false,
-		"1g": 0,
-		"1f": 99.68543,
-		"1q": 1.411322,
-		"2g": 0,
-		"2f": 999.2505,
-		"2q": 1.411322,
-		"3g": 0,
-		"3f": 10016.53,
-		"3q": 1.411322
-	},
-	"gate": {
-		"on": true,
-		"mdl": "DUCK",
-		"thr": -24,
-		"range": 4.5,
-		"att": 100,
-		"hld": 200,
-		"rel": 4000
-	},
-	"gatesc": {
-		"type": "OFF",
-		"f": 1002.374,
-		"q": 1.411322,
-		"src": "CH.36",
-		"tap": "IN"
-	},
-	"eq": {
-		"on": true,
-		"mdl": "STD",
-		"mix": 100,
-		"lg": 0,
-		"lf": 80.19642,
-		"lq": 1.411322,
-		"leq": "SHV",
-		"1g": 0,
-		"1f": 200,
-		"1q": 1.411322,
-		"2g": 0,
-		"2f": 601.3884,
-		"2q": 1.411322,
-		"3g": 0,
-		"3f": 1499.788,
-		"3q": 1.411322,
-		"4g": 0,
-		"4f": 3990.524,
-		"4q": 1.411322,
-		"hg": 0,
-		"hf": 11994.42,
-		"hq": 1.411322,
-		"heq": "SHV"
-	},
-	"dyn": {
-		"on": true,
-		"mdl": "COMP",
-		"mix": 100,
-		"gain": 12,
-		"thr": -30,
-		"ratio": 10,
-		"knee": 2,
-		"det": "PEAK",
-		"att": 3,
-		"hld": 13,
-		"rel": 152.5652,
-		"env": "LOG",
-		"auto": true
-	},
-	"dynxo": {
-		"depth": 6,
-		"type": "OFF",
-		"f": 1002.374
-	},
-	"dynsc": {
-		"type": "OFF",
-		"f": 1002.374,
-		"q": 1.411322,
-		"src": "SELF",
-		"tap": "IN"
-	},
-	"preins": {
-		"on": false,
-		"ins": "NONE"
-	},
-	"main": {
-		"1": {
-			"on": false,
-			"lvl": 0
-		},
-		"2": {
-			"on": false,
-			"lvl": 0
-		},
-		"3": {
-			"on": false,
-			"lvl": 0
-		},
-		"4": {
-			"on": false,
-			"lvl": 0
-		}
-	},
-	"send": {
-		"1": {
-			"on": true,
-			"lvl": 0.035017,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"2": {
-			"on": true,
-			"lvl": -0.019646,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"3": {
-			"on": true,
-			"lvl": 0.018387,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"4": {
-			"on": true,
-			"lvl": -0.01049,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"5": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"6": {
-			"on": true,
-			"lvl": 0.036613,
-			"pon": false,
-			"ind": false,
-			"mode": "POST",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"7": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "GRP",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"8": {
-			"on": true,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "GRP",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"9": {
-			"on": true,
-			"lvl": -0.019646,
-			"pon": false,
-			"ind": true,
-			"mode": "POST",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"10": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"11": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"12": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"13": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"14": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"15": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		},
-		"16": {
-			"on": false,
-			"lvl": -144,
-			"pon": false,
-			"ind": false,
-			"mode": "PRE",
-			"plink": false,
-			"pan": 0,
-			"wid": 100
-		}
-	},
-	"postins": {
-		"on": false,
-		"mode": "FX",
-		"ins": "NONE",
-		"w": 0
-	},
+  "in": {
+    "set": {
+      "inv": false,
+      "trim": 18,
+      "bal": 0,
+      "dlymode": "M",
+      "dly": 0,
+      "dlyon": false
+    }
+  },
+  "flt": {
+    "lc": false,
+    "lcf": 100.2375,
+    "hc": false,
+    "hcf": 10090.67,
+    "tf": false,
+    "mdl": "TILT",
+    "tilt": 0
+  },
+  "clink": false,
+  "icon": 614,
+  "led": true,
+  "mute": true,
+  "fdr": -144,
+  "pan": 0,
+  "wid": 100,
+  "solosafe": false,
+  "mon": "A",
+  "proc": "GEDI",
+  "ptap": "4",
+  "peq": {
+    "on": false,
+    "1g": 0,
+    "1f": 99.68543,
+    "1q": 1.411322,
+    "2g": 0,
+    "2f": 999.2505,
+    "2q": 1.411322,
+    "3g": 0,
+    "3f": 10016.53,
+    "3q": 1.411322
+  },
+  "gate": {
+    "on": true,
+    "mdl": "DUCK",
+    "thr": -24,
+    "range": 4.5,
+    "att": 100,
+    "hld": 200,
+    "rel": 4000
+  },
+  "gatesc": {
+    "type": "OFF",
+    "f": 1002.374,
+    "q": 1.411322,
+    "src": "CH.39",
+    "tap": "IN"
+  },
+  "eq": {
+    "on": true,
+    "mdl": "STD",
+    "mix": 100,
+    "lg": 0,
+    "lf": 80.19642,
+    "lq": 1.411322,
+    "leq": "SHV",
+    "1g": 0,
+    "1f": 200,
+    "1q": 1.411322,
+    "2g": 0,
+    "2f": 601.3884,
+    "2q": 1.411322,
+    "3g": 0,
+    "3f": 1499.788,
+    "3q": 1.411322,
+    "4g": 0,
+    "4f": 3990.524,
+    "4q": 1.411322,
+    "hg": 0,
+    "hf": 11994.42,
+    "hq": 1.411322,
+    "heq": "SHV"
+  },
+  "dyn": {
+    "on": true,
+    "mdl": "COMP",
+    "mix": 100,
+    "gain": 12,
+    "thr": -30,
+    "ratio": 10,
+    "knee": 2,
+    "det": "PEAK",
+    "att": 3,
+    "hld": 13,
+    "rel": 152.5652,
+    "env": "LOG",
+    "auto": true
+  },
+  "dynxo": {
+    "depth": 6,
+    "type": "OFF",
+    "f": 1002.374
+  },
+  "dynsc": {
+    "type": "OFF",
+    "f": 1002.374,
+    "q": 1.411322,
+    "src": "SELF",
+    "tap": "IN"
+  },
+  "preins": {
+    "on": false,
+    "ins": "NONE"
+  },
+  "main": {
+    "1": {
+      "on": false,
+      "lvl": 0
+    },
+    "2": {
+      "on": false,
+      "lvl": 0
+    },
+    "3": {
+      "on": false,
+      "lvl": 0
+    },
+    "4": {
+      "on": false,
+      "lvl": 0
+    }
+  },
+  "send": {
+    "1": {
+      "on": true,
+      "lvl": 0.035017,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "2": {
+      "on": true,
+      "lvl": -0.019646,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "3": {
+      "on": true,
+      "lvl": 0.018387,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "4": {
+      "on": true,
+      "lvl": -0.01049,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "5": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "6": {
+      "on": true,
+      "lvl": 0.036613,
+      "pon": false,
+      "ind": false,
+      "mode": "POST",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "7": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "GRP",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "8": {
+      "on": true,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "GRP",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "9": {
+      "on": true,
+      "lvl": -0.019646,
+      "pon": false,
+      "ind": true,
+      "mode": "POST",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "10": {
+      "on": true,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "GRP",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "11": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "GRP",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "12": {
+      "on": true,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "GRP",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "13": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "14": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "15": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    },
+    "16": {
+      "on": false,
+      "lvl": -144,
+      "pon": false,
+      "ind": false,
+      "mode": "PRE",
+      "plink": false,
+      "pan": 0,
+      "wid": 100
+    }
+  },
+  "postins": {
+    "on": false,
+    "mode": "FX",
+    "ins": "NONE",
+    "w": 0
+  },
   "tags": "game,onsite"
 }

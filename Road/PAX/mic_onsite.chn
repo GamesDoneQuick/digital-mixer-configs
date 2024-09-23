@@ -1,0 +1,34 @@
+/preamp +0.0 OFF ON 24  82
+/delay OFF   0.3
+/gate OFF EXP4 -58.0 60.0 1  112  226 0
+/gate/filter ON 5.0 496.6
+/dyn ON COMP PEAK LOG -34.0 3.0 1 8.00 0 6.32  77 POST 0 100 OFF
+/dyn/filter ON 2.0 1k49
+/eq ON
+/eq/1 LShv 306.2 +0.00 1.0
+/eq/2 VEQ 654.7 -5.25 1.0
+/eq/3 VEQ 2k11 +0.00 1.0
+/eq/4 HShv 4k68 +6.50 1.0
+/mix OFF   0.0 OFF +0 OFF -oo
+/mix/01 ON   -oo +0 GRP 0
+/mix/02 ON   -oo
+/mix/03 OFF   -oo +0 GRP 0
+/mix/04 OFF   -oo
+/mix/05 OFF   -oo +0 POST 0
+/mix/06 OFF   -oo
+/mix/07 OFF   -oo +0 POST 0
+/mix/08 OFF   -oo
+/mix/09 ON  -5.0 +0 PRE 0
+/mix/10 ON  -5.0
+/mix/11 ON  -5.0 +0 PRE 0
+/mix/12 ON  -5.0
+/mix/13 ON  -5.0 +0 PRE 0
+/mix/14 ON  -5.0
+/mix/15 ON  -5.0 +0 PRE 0
+/mix/16 ON  -5.0
+/mix/fader   0.0
+/mix/st OFF
+/mix/pan +0
+/mix/mono OFF
+/mix/mlevel -10.0
+/headamp/000 +45.5 OFF
