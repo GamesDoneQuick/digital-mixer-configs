@@ -1,0 +1,9 @@
+#2.1# "SD Far" 8388611 65280 0 0 1                                                                                                
+/config/userrout/in/05 41
+/config/userrout/in/06 42
+/config/userrout/in/07 43
+/config/userrout/in/08 44
+/ch/09/config "SDGameFar1" 5 RD 5
+/ch/10/config "SDGameFar1" 5 RD 6
+/ch/11/config "SDGameFar2" 5 WH 7
+/ch/12/config "SDGameFar2" 5 WH 8

@@ -1,0 +1,31 @@
+/preamp +0.0 OFF OFF 24 20
+/delay OFF 0.3
+/gate ON DUCK -24.0 6.0 100 2000 4000 45
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP PEAK LIN -30.0 10 2 0.00 15 10.0 151 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/insert OFF POST OFF
+/eq OFF
+/eq/1 LShv 124.7 +0.00 1.0
+/eq/2 PEQ 496.6 +0.00 1.0
+/eq/3 PEQ 1k97 +0.00 1.0
+/eq/4 HShv 10k02 +0.00 1.0
+/mix OFF 0.0 ON -100 OFF -14.0
+/mix/01 ON -5.0 -100 IN/LC 0
+/mix/02 ON -5.0
+/mix/03 ON -5.0 -100 IN/LC 0
+/mix/04 ON -5.0
+/mix/05 ON -5.0 -100 IN/LC 0
+/mix/06 ON -5.0
+/mix/07 OFF -oo +0 POST 0
+/mix/08 ON -5.0
+/mix/09 OFF -oo -100 IN/LC 0
+/mix/10 OFF -oo
+/mix/11 OFF -oo -100 IN/LC 0
+/mix/12 OFF -oo
+/mix/13 OFF -oo -100 IN/LC 0
+/mix/14 OFF -oo
+/mix/15 OFF -oo -100 IN/LC 0
+/mix/16 OFF -oo
+/grp %00000010 %000000
+/headamp/009 -12.0 OFF

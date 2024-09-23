@@ -1,0 +1,9 @@
+#2.1# "HD Far" 8388611 65280 0 0 1                                                                                                
+/config/userrout/in/05 45
+/config/userrout/in/06 46
+/config/userrout/in/07 47
+/config/userrout/in/08 48
+/ch/09/config "HDGameFar1" 5 RD 5
+/ch/10/config "HDGameFar1" 5 RD 6
+/ch/11/config "HDGameFar2" 5 WH 7
+/ch/12/config "HDGameFar2" 5 WH 8

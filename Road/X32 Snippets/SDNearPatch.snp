@@ -1,0 +1,9 @@
+#2.1# "SD Near" 8388611 65280 0 0 1                                                                                                
+/config/userrout/in/13 57
+/config/userrout/in/14 58
+/config/userrout/in/15 59
+/config/userrout/in/16 60
+/ch/13/config "SDGameNear3" 5 GN 13
+/ch/14/config "SDGameNear3" 5 GN 14
+/ch/15/config "SDGameNear4" 5 BL 15
+/ch/16/config "SDGameNear4" 5 BL 16

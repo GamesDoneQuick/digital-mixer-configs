@@ -1,0 +1,9 @@
+#2.1# "HD Near" 8388611 65280 0 0 1                                                                                                
+/config/userrout/in/13 61
+/config/userrout/in/14 62
+/config/userrout/in/15 63
+/config/userrout/in/16 64
+/ch/13/config "HDGameNear3" 5 GN 13
+/ch/14/config "HDGameNear3" 5 GN 14
+/ch/15/config "HDGameNear4" 5 BL 15
+/ch/16/config "HDGameNear4" 5 BL 16
