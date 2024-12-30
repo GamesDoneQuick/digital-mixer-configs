@@ -140,161 +140,129 @@
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "2": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "3": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "4": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "5": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "6": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "7": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "8": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "9": {
       "on": true,
       "lvl": -5,
       "pon": false,
-      "ind": true,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "10": {
       "on": true,
       "lvl": 0,
       "pon": false,
-      "ind": true,
       "mode": "PRE",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "11": {
       "on": false,
       "lvl": -144,
       "pon": false,
-      "ind": false,
       "mode": "PRE",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "12": {
       "on": true,
       "lvl": 0,
       "pon": false,
-      "ind": false,
       "mode": "POST",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "13": {
       "on": false,
       "lvl": -144,
       "pon": false,
-      "ind": false,
       "mode": "PRE",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "14": {
       "on": false,
       "lvl": -144,
       "pon": false,
-      "ind": false,
       "mode": "PRE",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "15": {
       "on": true,
       "lvl": 0,
       "pon": false,
-      "ind": false,
       "mode": "GRP",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     },
     "16": {
       "on": false,
       "lvl": -144,
       "pon": false,
-      "ind": false,
       "mode": "GRP",
       "plink": false,
-      "pan": 0,
-      "wid": 100
+      "pan": 0
     }
   },
   "postins": {
