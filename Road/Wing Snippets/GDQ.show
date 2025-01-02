@@ -1,13 +1,15 @@
 {
   "type": "showfile.1",
-  "creator_fw": "2.0-0-g6617206f:release",
+  "creator_fw": "3.0.5-0-g0c2b9d4a:release",
   "creator_sn": "S200300132BV2",
-  "creator_model": "ngc-full",
+  "creator_model": "wing",
   "creator_version": "SX45-XU2",
   "creator_name": "GDQ-WING",
-  "created": "2024-06-29 23:05:15",
+  "created": "2025-01-01 23:12:31",
+  "active_show": "I:/GDQ.show",
+  "active_scene": "I:/GDQonsite.snap",
   "scenes": {
-    "count": 9,
+    "count": 12,
     "1": {
       "name": "Near Game SD",
       "skip": false,
@@ -97,6 +99,36 @@
       "tag": "#9",
       "midi_tx": "",
       "file": "UnFull Stage.snip"
+    },
+    "10": {
+      "name": "DiscordRouteReset",
+      "skip": false,
+      "link": false,
+      "type": "SNIP",
+      "info": "10 PARS",
+      "tag": "#10",
+      "midi_tx": "",
+      "file": "DiscordRouteReset.snip"
+    },
+    "11": {
+      "name": "Full Game SD",
+      "skip": false,
+      "link": false,
+      "type": "SNIP",
+      "info": "10 PARS",
+      "tag": "#11",
+      "midi_tx": "",
+      "file": "Full Game SD.snip"
+    },
+    "12": {
+      "name": "Full Game HD",
+      "skip": false,
+      "link": false,
+      "type": "SNIP",
+      "info": "10 PARS",
+      "tag": "#12",
+      "midi_tx": "",
+      "file": "Full Game HD.snip"
     }
   }
 }

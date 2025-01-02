@@ -1,5 +1,7 @@
 {
   "files.associations": {
-    "*.snap": "json"
+    "*.snap": "json",
+    "*.snip": "json",
+    "*.show": "json"
   }
 }
