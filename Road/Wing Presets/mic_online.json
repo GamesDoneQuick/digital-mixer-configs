@@ -108,7 +108,7 @@
     "src": "SELF",
     "tap": "IN"
   },
-  "preins": { "on": false, "ins": "NONE" },
+  "preins": { "on": false },
   "main": {
     "1": { "on": false, "lvl": 0 },
     "2": { "on": false, "lvl": 0 },
