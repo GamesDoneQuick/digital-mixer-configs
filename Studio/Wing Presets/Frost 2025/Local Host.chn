@@ -1,1 +1,392 @@
-{"type":"chpreset.9","creator_fw":"VERSION_FULL","creator_sn":"NO_SERIAL","creator_model":"WING-EDIT","creator_version":"3.1","creator_name":"Wing-Edit","created":"2000-255-255 255:255:255","source_channel":15,"info_text":"Local Host 1","scopes_content":" ++++++++++++++","scopes_main":"++++","scopes_send":"++++++++++++++++++++++++","target_fx":[0,0],"ch_data":{"in":{"set":{"srcauto":false,"altsrc":false,"inv":false,"trim":0,"bal":0,"dlymode":"M","dly":0.100000001,"dlyon":false,"$g":0.5,"$vph":1},"conn":{"grp":"C","in":5,"altgrp":"OFF","altin":1}},"flt":{"lc":true,"lcf":100.2374573,"hc":false,"hcf":10090.66504,"tf":false,"mdl":"TILT","tilt":0},"clink":true,"col":5,"name":"Local Host 1","icon":107,"led":true,"mute":true,"fdr":-144,"pan":0,"wid":100,"solosafe":false,"mon":"A","proc":"GEDI","ptap":"4","peq":{"on":false,"1g":0,"1f":99.68543243,"1q":1.411322355,"2g":0,"2f":999.2504883,"2q":1.411322355,"3g":0,"3f":10016.52734,"3q":1.411322355},"gate":{"on":true,"mdl":"DS902","f":6012.554688,"range":4.5,"mode":"HF"},"gatesc":{"type":"OFF","f":1002.37439,"q":1.411322355,"src":"SELF","tap":"IN"},"eq":{"on":true,"mdl":"STD","mix":100,"lg":0,"lf":491.6488037,"lq":1.411322355,"leq":"SHV","1g":0,"1f":200,"1q":1.411322355,"2g":-5.300000191,"2f":650.923584,"2q":1.033161998,"3g":0,"3f":1499.78833,"3q":1.411322355,"4g":0,"4f":2628.935547,"4q":1.411322355,"hg":6.5,"hf":4674.982422,"hq":1.29419291,"heq":"SHV"},"dyn":{"on":true,"mdl":"COMP","mix":100,"gain":6,"thr":-34,"ratio":3,"knee":1,"det":"RMS","att":0,"hld":7,"rel":76.05535126,"env":"LOG","auto":false},"dynxo":{"depth":3.5,"type":"HI12","f":1002.37439},"dynsc":{"type":"BP","f":1528.844971,"q":1.961595416,"src":"SELF","tap":"IN"},"preins":{"on":false,"ins":"NONE"},"main":{"1":{"on":false,"lvl":0,"pre":false},"2":{"on":false,"lvl":0,"pre":false},"3":{"on":false,"lvl":0,"pre":false},"4":{"on":false,"lvl":0,"pre":false}},"send":{"1":{"on":true,"lvl":0,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"2":{"on":true,"lvl":-0.009784698,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"3":{"on":true,"lvl":0.029315948,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"4":{"on":true,"lvl":-0.009784698,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"5":{"on":true,"lvl":0,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"6":{"on":true,"lvl":0.029315948,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"7":{"on":true,"lvl":-144,"pon":false,"ind":false,"mode":"GRP","plink":false,"pan":0},"8":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"GRP","plink":false,"pan":0},"9":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"10":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"11":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"12":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"POST","plink":false,"pan":0},"13":{"on":true,"lvl":0,"pon":false,"ind":false,"mode":"POST","plink":false,"pan":0},"14":{"on":true,"lvl":-144,"pon":false,"ind":false,"mode":"GRP","plink":false,"pan":0},"15":{"on":true,"lvl":-144,"pon":false,"ind":false,"mode":"GRP","plink":false,"pan":0},"16":{"on":true,"lvl":-144,"pon":false,"ind":false,"mode":"GRP","plink":false,"pan":0},"MX1":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"MX2":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"MX3":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"MX4":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"MX5":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"MX6":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0},"MX7":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"GRP","plink":false,"pan":0},"MX8":{"on":false,"lvl":-144,"pon":false,"ind":false,"mode":"PRE","plink":false,"pan":0}},"tapwid":100,"postins":{"on":false,"mode":"FX","ins":"NONE","w":0},"tags":"#D1,mic,onsite"}}
+{
+    "type": "chpreset.9",
+    "creator_fw": "VERSION_FULL",
+    "creator_sn": "NO_SERIAL",
+    "creator_model": "WING-EDIT",
+    "creator_version": "3.1",
+    "creator_name": "Wing-Edit",
+    "created": "2000-255-255 255:255:255",
+    "source_channel": 15,
+    "info_text": "Local Host 1",
+    "scopes_content": " ++++++++++++++",
+    "scopes_main": "++++",
+    "scopes_send": "++++++++++++++++++++++++",
+    "target_fx": [
+        0,
+        0
+    ],
+    "ch_data": {
+        "in": {
+            "set": {
+                "srcauto": false,
+                "altsrc": false,
+                "inv": false,
+                "trim": 0,
+                "bal": 0,
+                "dlymode": "M",
+                "dly": 0.100000001,
+                "dlyon": false,
+                "$g": 0.5,
+                "$vph": 1
+            },
+            "conn": {
+                "grp": "C",
+                "in": 5,
+                "altgrp": "OFF",
+                "altin": 1
+            }
+        },
+        "flt": {
+            "lc": true,
+            "lcf": 100.2374573,
+            "hc": false,
+            "hcf": 10090.66504,
+            "tf": false,
+            "mdl": "TILT",
+            "tilt": 0
+        },
+        "clink": true,
+        "col": 5,
+        "name": "Local Host 1",
+        "icon": 107,
+        "led": true,
+        "mute": true,
+        "fdr": -144,
+        "pan": 0,
+        "wid": 100,
+        "solosafe": false,
+        "mon": "A",
+        "proc": "GEDI",
+        "ptap": "4",
+        "peq": {
+            "on": false,
+            "1g": 0,
+            "1f": 99.68543243,
+            "1q": 1.411322355,
+            "2g": 0,
+            "2f": 999.2504883,
+            "2q": 1.411322355,
+            "3g": 0,
+            "3f": 10016.52734,
+            "3q": 1.411322355
+        },
+        "gate": {
+            "on": true,
+            "mdl": "DS902",
+            "f": 6012.554688,
+            "range": 4.5,
+            "mode": "HF"
+        },
+        "gatesc": {
+            "type": "OFF",
+            "f": 1002.37439,
+            "q": 1.411322355,
+            "src": "SELF",
+            "tap": "IN"
+        },
+        "eq": {
+            "on": true,
+            "mdl": "STD",
+            "mix": 100,
+            "lg": 0,
+            "lf": 491.6488037,
+            "lq": 1.411322355,
+            "leq": "SHV",
+            "1g": 0,
+            "1f": 200,
+            "1q": 1.411322355,
+            "2g": -5.300000191,
+            "2f": 650.923584,
+            "2q": 1.033161998,
+            "3g": 0,
+            "3f": 1499.78833,
+            "3q": 1.411322355,
+            "4g": 0,
+            "4f": 2628.935547,
+            "4q": 1.411322355,
+            "hg": 6.5,
+            "hf": 4674.982422,
+            "hq": 1.29419291,
+            "heq": "SHV"
+        },
+        "dyn": {
+            "on": true,
+            "mdl": "COMP",
+            "mix": 100,
+            "gain": 6,
+            "thr": -34,
+            "ratio": 3,
+            "knee": 1,
+            "det": "RMS",
+            "att": 0,
+            "hld": 7,
+            "rel": 76.05535126,
+            "env": "LOG",
+            "auto": false
+        },
+        "dynxo": {
+            "depth": 3.5,
+            "type": "HI12",
+            "f": 1002.37439
+        },
+        "dynsc": {
+            "type": "BP",
+            "f": 1528.844971,
+            "q": 1.961595416,
+            "src": "SELF",
+            "tap": "IN"
+        },
+        "preins": {
+            "on": false,
+            "ins": "NONE"
+        },
+        "main": {
+            "1": {
+                "on": false,
+                "lvl": 0,
+                "pre": false
+            },
+            "2": {
+                "on": false,
+                "lvl": 0,
+                "pre": false
+            },
+            "3": {
+                "on": false,
+                "lvl": 0,
+                "pre": false
+            },
+            "4": {
+                "on": false,
+                "lvl": 0,
+                "pre": false
+            }
+        },
+        "send": {
+            "1": {
+                "on": true,
+                "lvl": 0,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "2": {
+                "on": true,
+                "lvl": -0.009784698,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "3": {
+                "on": true,
+                "lvl": 0.029315948,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "4": {
+                "on": true,
+                "lvl": -0.009784698,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "5": {
+                "on": true,
+                "lvl": 0,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "6": {
+                "on": true,
+                "lvl": 0.029315948,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "7": {
+                "on": true,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "GRP",
+                "plink": false,
+                "pan": 0
+            },
+            "8": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "GRP",
+                "plink": false,
+                "pan": 0
+            },
+            "9": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "10": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "11": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "12": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "POST",
+                "plink": false,
+                "pan": 0
+            },
+            "13": {
+                "on": true,
+                "lvl": 0,
+                "pon": false,
+                "ind": false,
+                "mode": "POST",
+                "plink": false,
+                "pan": 0
+            },
+            "14": {
+                "on": true,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "GRP",
+                "plink": false,
+                "pan": 0
+            },
+            "15": {
+                "on": true,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "GRP",
+                "plink": false,
+                "pan": 0
+            },
+            "16": {
+                "on": true,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "GRP",
+                "plink": false,
+                "pan": 0
+            },
+            "MX1": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "MX2": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "MX3": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "MX4": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "MX5": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "MX6": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            },
+            "MX7": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "GRP",
+                "plink": false,
+                "pan": 0
+            },
+            "MX8": {
+                "on": false,
+                "lvl": -144,
+                "pon": false,
+                "ind": false,
+                "mode": "PRE",
+                "plink": false,
+                "pan": 0
+            }
+        },
+        "tapwid": 100,
+        "postins": {
+            "on": false,
+            "mode": "FX",
+            "ins": "NONE",
+            "w": 0
+        },
+        "tags": "#D1,mic,onsite"
+    }
+}
