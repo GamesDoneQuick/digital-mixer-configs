@@ -263,15 +263,6 @@
             "plink": false,
             "pan": 0
         },
-        "15": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
-            "ind": false,
-            "mode": "GRP",
-            "plink": false,
-            "pan": 0
-        },
         "16": {
             "on": false,
             "lvl": -144,
