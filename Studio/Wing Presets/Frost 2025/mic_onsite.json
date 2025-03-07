@@ -235,8 +235,8 @@
             "pan": 0
         },
         "12": {
-            "on": true,
-            "lvl": 0,
+            "on": false,
+            "lvl": -144,
             "pon": false,
             "ind": false,
             "mode": "POST",
