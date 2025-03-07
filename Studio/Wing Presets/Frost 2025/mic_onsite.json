@@ -23,7 +23,7 @@
     "icon": 107,
     "led": true,
     "mute": true,
-    "fdr": -144,
+    "fdr": 0,
     "pan": 0,
     "wid": 100,
     "solosafe": false,
