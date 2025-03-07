@@ -275,16 +275,6 @@
       "pan": 0,
       "wid": 100
     },
-    "15": {
-      "on": false,
-      "lvl": -144,
-      "pon": false,
-      "ind": false,
-      "mode": "PRE",
-      "plink": false,
-      "pan": 0,
-      "wid": 100
-    },
     "16": {
       "on": false,
       "lvl": -144,
