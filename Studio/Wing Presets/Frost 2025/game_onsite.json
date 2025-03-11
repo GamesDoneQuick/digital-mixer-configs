@@ -19,7 +19,6 @@
         "mdl": "TILT",
         "tilt": 0
     },
-    "clink": true,
     "icon": 614,
     "led": true,
     "mute": true,
@@ -279,5 +278,5 @@
         "ins": "NONE",
         "w": 0
     },
-    "tags": "game,onsite"
+    "tags": "game,onsite,#D1"
 }
