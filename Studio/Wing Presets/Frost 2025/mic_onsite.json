@@ -19,7 +19,6 @@
         "mdl": "TILT",
         "tilt": 0
     },
-    "clink": true,
     "icon": 107,
     "led": true,
     "mute": true,
@@ -244,11 +243,11 @@
             "pan": 0
         },
         "13": {
-            "on": false,
-            "lvl": -144,
-            "pon": false,
+            "on": true,
+            "lvl": 0,
+            "pon": true,
             "ind": false,
-            "mode": "POST",
+            "mode": "PRE",
             "plink": false,
             "pan": 0
         },
@@ -277,5 +276,5 @@
         "ins": "NONE",
         "w": 0
     },
-    "tags": "mic,onsite"
+    "tags": "mic,onsite,#D1"
 }
